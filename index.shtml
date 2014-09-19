@@ -22,7 +22,63 @@
 	<!--#include virtual="inc/slider.inc" -->
 
 	<div id="content-wrapper">
+		<div class="video-text-content">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>how dash can change your life</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="space100"></div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="video">
+						<img src="images/content/video.png" alt="video">
+					</div>
+				</div>
+			</div>
+			<div class="space100"></div>
+		</div>
 		
+		<div class="image-text-content container">
+			<div class="space100"></div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>other dash benefits</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="space100"></div>
+			<div class="row">
+				<div class="col-md-4 feature-text">
+					<img src="images/icons/mobile.png" alt="mobile">
+					<h4>Lorem ipsum dolor sit amet consect</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					<button class="cta-btn">Learn More</button>
+				</div>
+				<div class="col-md-4 feature-text">
+					<img src="images/icons/clock.png" alt="clock">
+					<h4>Lorem ipsum dolor sit amet consect</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					<button class="cta-btn">Learn More</button>
+				</div>
+				<div class="col-md-4 feature-text">
+					<img src="images/icons/luggage.png" alt="luggage">
+					<h4>Lorem ipsum dolor sit amet consect</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					<button class="cta-btn">Learn More</button>
+				</div>
+			</div>
+			<div class="space100"></div>
+		</div>
 	</div>
 
 	<div class="space100"></div>

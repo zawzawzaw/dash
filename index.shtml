@@ -37,7 +37,8 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="video">
-						<img src="images/content/video.png" alt="video">
+						<!-- <img src="images/content/video.png" alt="video"> -->
+						<iframe width="534" height="338" src="//www.youtube.com/embed/OuAob-sOP_o?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -59,25 +60,25 @@
 			<div class="space100"></div>
 			<div class="row">
 				<div class="col-md-4 feature-text">
-					<img src="images/icons/mobile.png" alt="mobile">
+					<img src="images/icons/mobile.png" class="img-responsive" alt="mobile">
 					<h4>Lorem ipsum dolor sit amet consect</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 					<button class="cta-btn">Learn More</button>
 				</div>
 				<div class="col-md-4 feature-text">
-					<img src="images/icons/clock.png" alt="clock">
+					<img src="images/icons/clock.png" class="img-responsive" alt="clock">
 					<h4>Lorem ipsum dolor sit amet consect</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 					<button class="cta-btn">Learn More</button>
 				</div>
 				<div class="col-md-4 feature-text">
-					<img src="images/icons/luggage.png" alt="luggage">
+					<img src="images/icons/luggage.png" class="img-responsive" alt="luggage">
 					<h4>Lorem ipsum dolor sit amet consect</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 					<button class="cta-btn">Learn More</button>
 				</div>
 			</div>
-			<div class="space100"></div>
+			<div class="space50"></div>
 		</div>
 	</div>
 

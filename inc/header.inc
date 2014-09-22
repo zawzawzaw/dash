@@ -2,23 +2,28 @@
 	<div id="header-wrapper" class="container-fluid">
 		<header id="main-header" class="container">
 			<div class="row">
-				<div class="col-md-2">
-					<a href="home.shtml"><img src="images/logo/main-logo.png" alt="dash logo"></a>
-				</div>
-				<div class="col-md-6 col-md-offset-1">
+				<div class="col-md-9 col-sm-12 col-xs-12">
+					<a href="index.shtml" class="site-logo"><img src="images/logo/main-logo.png" alt="dash logo"></a>
+
 					<div id="menu-wrapper">
-						<nav>
+						<nav id="nav-main">
 							<ul class="main-menu">
-								<li><a href="#">Pay Business</a></li>
-								<li><a href="#">Pay Friends</a></li>
+								<li><a href="pay-business.shtml">Pay Business</a></li>
+								<li><a href="pay-friends.shtml">Pay Friends</a></li>
 								<li><a href="#">Dash Easy</a></li>
 								<li><a href="#">FAQS</a></li>
 								<li><a href="#">Contact us</a></li>
 							</ul>
 						</nav>
+						<div id="nav-trigger">
+						    <span>Menu</span>
+						</div>
 					</div>		
 				</div>
-				<div class="col-md-3">
+				<div class="col-sm-12 col-xs-12 visible-xs visible-sm">
+					<nav id="nav-mobile"></nav>
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons">
 					<a href="#" class="cta-btn login">LOG IN</a>
 					<a href="#" class="cta-btn apply">APPLY NOW</a>
 				</div>

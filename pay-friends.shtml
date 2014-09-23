@@ -21,7 +21,7 @@
 
 	<div id="content-wrapper" class="pay-friends">
 		<div class="banner container">
-			<div class="space100"></div>
+			<!-- <div class="space100"></div> -->
 			<div class="row">
 				<div class="col-md-12">
 					<h2>how to pay friends</h2>
@@ -52,19 +52,20 @@
 				 	</div>
 				</div>
 				<div class="col-md-6">
-					<div class="img-friends"></div>
+					<!-- <div class="img-friends"></div> -->
+					<img src="images/content/banner-2.png" class="img-responsive" alt="banner-2">
 				</div>
 			</div>
 		</div>
-		<div class="space50"></div>
-		<div class="space30"></div>
 		<div class="image-text-content container">
 			<div class="row"> 
 				<div class="col-md-6">
 					<h3>Promotions</h3>
 					<div class="promo">
-						<h5>FitBit Flex promotion </h5>
-						<p>Details to be confirm</p>
+						<div>
+							<h5>FitBit Flex promotion </h5>
+							<p>Details to be confirm</p>
+						</div>
 					</div>
 				</div>
 

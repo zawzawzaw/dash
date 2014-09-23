@@ -21,7 +21,7 @@
 
 	<div id="content-wrapper" class="pay-business">
 		<div class="banner container">
-			<div class="space100"></div>
+			<!-- <div class="space100"></div> -->
 			<div class="row">
 				<div class="col-md-12">
 					<h2>how to pay business</h2>
@@ -52,12 +52,13 @@
 				 	</div>
 				</div>
 				<div class="col-md-6">
-					<div class="img"></div>
+					<!-- <div class="img"></div> -->
+					<img src="images/content/banner-1.png" class="img-responsive" alt="banner-1">
 				</div>
 			</div>
 		</div>
-		<div class="space50"></div>
-		<div class="space30"></div>
+		<!-- <div class="space50"></div>
+		<div class="space30"></div> -->
 		<div class="image-text-content container">
 			<div class="row"> 
 				<div class="col-md-12">
@@ -70,36 +71,123 @@
 				</div>
 			</div>
 
-			<div class="space50"></div>
-			<div class="space30"></div>
+			<!-- <div class="space50"></div>
+			<div class="space30"></div> -->
 
 			<div class="row">
 				<div class="col-md-4">
 					<h4>SHOPPING</h4>
-					<ul class="logos">
+					<!-- <ul class="logos">
 						<li><a href="#"><i class="seveneleven"></i></a></li>
 						<li><a href="#"><i class="watsons"></i></a></li>
 						<li><a href="#"><i class="topshop"></i></a></li>
 						<li><a href="#"><i class="topman"></i></a></li>
 						<li><a href="#"><i class="addidas"></i></a></li>
-					</ul>
+					</ul> -->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="seveneleven"></i></a>		
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="watsons"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="topshop"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="topman"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="addidas"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4">
 					<h4>DINING</h4>
-					<ul class="logos">
-						<li><a href="#"><i class="pizzahut"></i></a></li>
-						<li><a href="#"><i class="kfc"></i></a></li>
-						<li><a href="#"><i class="spinelli"></i></a></li>
-						<li><a href="#"><i class="koi"></i></a></li>
-					</ul>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="pizzahut"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="kfc"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="spinelli"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="koi"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-md-4">
 					<h4>TRANSPORT</h4>
-					<ul class="logos">
-						<li><a href="#"><i class="comfort"></i></li>
-						<li><a href="#"><i class="smrt"></i></li>
-						<li><a href="#"><i class="primetaxi"></i></li>
-					</ul>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="comfort"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="smrt"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="logos">
+								<div class="logos-cell">
+									<a href="#"><i class="primetaxi"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="space50"></div>

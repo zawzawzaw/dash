@@ -16,7 +16,7 @@
 							</ul>
 						</nav>
 						<div id="nav-trigger">
-						    <span>Menu</span>
+						    <span><div class="box-shadow-menu"></div></span>
 						</div>
 					</div>		
 				</div>
@@ -25,7 +25,7 @@
 				</div>
 				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons">
 					<a href="#" class="cta-btn login">LOG IN</a>
-					<a href="#" class="cta-btn apply">APPLY NOW</a>
+					<a href="#" class="cta-btn-3 apply">APPLY NOW</a>
 				</div>
 			</div>
 		</header>

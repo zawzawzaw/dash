@@ -11,6 +11,4 @@ $(document).ready(function(){
             $(this).addClass("open");
         }
     });
-
-    
 });

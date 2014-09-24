@@ -80,6 +80,14 @@
 
 	<div class="space100"></div>
 
+	<script src="https://www.gstatic.com/swiffy/v7.0/runtime.js"></script>
+	<script type="text/javascript" src="js/plugins/jquery.dash_home_slider_animation.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('.animation-container').dash_home_slider_animation({});
+		});
+	</script>
+
 	<!--#include virtual="inc/footer.inc" -->
 
 </body>

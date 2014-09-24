@@ -1,3 +1,29 @@
+<style type="text/css">
+	.carousel-inner .img{
+		width: 100%;
+		height: 670px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 10;
+	}
+	.carousel-inner{
+		height: 728px;
+	}
+	.carousel-inner .container{
+		position: relative;
+		z-index: 20;
+	}
+	#page-wrapper #slider-wrapper div.item{
+		padding-top: 0px;
+		height: 728px;
+	}
+	#page-wrapper #slider-wrapper .carousel-caption{
+		padding-top: 90px;
+	}
+	
+</style>
+
 <div id="slider-wrapper">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -9,8 +35,15 @@
 		</ol>
 
 		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
+		<div class="carousel-inner animation-container">
 			<div class="item slide-1 active">
+
+				<div class="img">
+		  		<div class="animation-panel">
+		  			<div class="animation-animation" id="animation-01"></div>
+		  		</div>
+		  	</div>
+
 				<div class="container">
 					<div class="row">
 						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
@@ -20,14 +53,17 @@
 							<p>Download Dash now and get $5 free instantly.</p>
 
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
-					  	</div> 
-					  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<img src="images/content/slider-1.png" class="img-responsive" alt="slider 1">
+				  	</div> 
+				  	<div class="col-md-7 col-sm-12 col-xs-12">
+				  		
+					 		<!-- <img src="images/content/slider-1.png" class="img-responsive" alt="slider 1"> -->
 					 	</div>
-					  	<!-- <div class="img"></div> -->
-					  	
-				  	</div>
+				  	
 			  	</div>
+		  	</div>
+
+		  	
+
 			</div>
 			<div class="item slide-2">
 				<div class="container">
@@ -37,12 +73,19 @@
 							<h3>For the first time ever, you no longer have to fumble around for your cash or card when paying at your favourite retail stores and eateries. Simply whip out your smartphone and fire up your Dash app to make an instant and secure payment!</h3>
 
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
-					  	</div> 
-					  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<img src="images/content/slider-2.png" class="img-responsive" alt="slider 2">
+					  </div> 
+				  	<div class="col-md-7 col-sm-12 col-xs-12">
+					 		<!-- <img src="images/content/slider-2.png" class="img-responsive" alt="slider 2"> -->
 					 	</div>					  	
-				  	</div>
 			  	</div>
+		  	</div>
+
+		  	<div class="img">
+		  		<div class="animation-panel">
+		  			<div class="animation-animation" id="animation-02"></div>
+		  		</div>
+		  	</div>
+
 			</div>
 			<div class="item slide-3">
 				<div class="container">
@@ -52,12 +95,19 @@
 							<h3>Owe your friend some money from lunch? Don’t bother queueing up at the ATM to withdraw the cash; open your Dash app to transfer the amount instantly and securely to your friend with just one swipe!</h3>
 
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
-					  	</div> 
-					  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<img src="images/content/slider-3.png" class="img-responsive" alt="slider 3">
+				  	</div> 
+				  	<div class="col-md-7 col-sm-12 col-xs-12">
+					 		<!-- <img src="images/content/slider-3.png" class="img-responsive" alt="slider 3"> -->
 					 	</div>					  	
-				  	</div>
 			  	</div>
+		  	</div>
+
+		  	<div class="img">
+		  		<div class="animation-panel">
+		  			<div class="animation-animation" id="animation-03"></div>
+		  		</div>
+		  	</div>
+
 			</div>
 			<div class="item slide-4">
 				<div class="container">
@@ -72,13 +122,30 @@
 							</ul>
 
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
-					  	</div> 
-					  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<img src="images/content/slider-4.png" class="img-responsive" alt="slider 4">
+				  	</div> 
+				  	<div class="col-md-7 col-sm-12 col-xs-12">
+					 		<!-- <img src="images/content/slider-4.png" class="img-responsive" alt="slider 4"> -->
 					 	</div>					  	
-				  	</div>
 			  	</div>
+		  	</div>
+
+		  	<div class="img">
+		  		<div class="animation-panel">
+		  			<div class="animation-animation" id="animation-04"></div>
+		  		</div>
+		  	</div>
+
 			</div>
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	$(function() {
+	    $('.carousel').each(function(){
+	        $(this).carousel({
+	            interval: false
+	        });
+	    });
+	});​
+</script>

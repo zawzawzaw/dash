@@ -472,6 +472,9 @@ body, html{
         text-align: center;
         margin-top: 20px;
       }
+      .login {
+        margin-right: 10px;
+      }
     }
 
 
@@ -797,18 +800,28 @@ p {
 
 .box-shadow-menu {
   position: relative;
-}
-.box-shadow-menu:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1em;
-  height: 0.14em;
-  background: @light-blue;
-  box-shadow: 
-    0 0.25em 0 0 @light-blue,
-    0 0.5em 0 0 @light-blue;
+  width: 17px;
+  height: 10px;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1em;
+    height: 0.14em;
+    background: @light-blue;
+    box-shadow: 
+      0 0.25em 0 0 @light-blue,
+      0 0.5em 0 0 @light-blue;
+  }
+  &:hover {
+    &:before {
+      background: @dark-blue;
+      box-shadow: 
+        0 0.25em 0 0 @dark-blue,
+        0 0.5em 0 0 @dark-blue;
+    }
+  }
 }
 
 //   _        _ __   _____  _   _ _____ 
@@ -857,7 +870,7 @@ div.home {
     hr {
       display: block;
       text-align: center;
-      border: 2px solid #003347;
+      border: 2px solid @dark-blue;
       width: 174px;
       margin: 15px auto;
     }
@@ -1012,7 +1025,7 @@ div.home {
 
 // PAY BUSINESS
 
-div.pay-business, div.pay-friends {
+div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad {
   @media all and (max-width: 992px) {
     h2 {
       font-size: 57px;
@@ -1023,7 +1036,7 @@ div.pay-business, div.pay-friends {
   hr {
     display: block;
     text-align: center;
-    border: 2px solid #003347;
+    border: 2px solid @dark-blue;
     width: 174px;
     margin: 15px auto;
     margin-bottom: 30px;
@@ -1066,6 +1079,11 @@ div.pay-business, div.pay-friends {
           font-size: 16px;
           line-height: 19px;
         }
+      }
+
+      h5 {
+        text-align: center;
+        color: @dark-blue;
       }
 
       ul {
@@ -1374,6 +1392,130 @@ div.pay-business, div.pay-friends {
   }
 }
 
+div.pay-business {
+  .banner-text {
+    h5 {
+      text-align: left!important;
+    }
+  }
+}
+
+
+div.dash-easy, div.dash-advance, div.dash-abroad {
+  .banner-text {
+    h4 {
+      margin-bottom: 50px;
+    }
+    h5 {
+      margin: 10px 0px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    p {
+      text-align: center;
+    }
+    p.title-text {
+      color: #555;
+      text-align: left;
+    }
+
+    @media all and (max-width: 992px) {
+      h4 {
+        font-size: 14px!important;
+        line-height: 18px!important;
+      }
+    }
+  }
+
+  @media all and (max-width: 992px) {
+    img.banner {
+      margin-bottom: 20px;  
+    }
+  }
+
+  .image-text-content {
+    h3 {
+      font-size: 24px;
+      margin-bottom: 29px;
+      @media all and (max-width: 992px) {
+        font-size: 17px!important;
+        line-height: 20px!important;
+      }
+    }
+    ul {
+      li {
+        margin-bottom: 25px;
+        @media all and (max-width: 992px) {
+          font-size: 14px;
+          line-height: 21px;
+        }
+        a {
+          color: @greyish;
+          margin-top: 10px;
+        }
+        i {
+          background-color: @light-blue;
+          padding: 5px 7px;
+          color: @white;
+          .round(50px);
+          width: 20px;
+          height: 20px;
+          font-size: 12px;
+          margin-right: 5px;
+          display: inline-block;
+        }
+        span {
+          display: inline-block;
+          /* float: right; */
+          width: 90%;
+          vertical-align: top;
+          line-height: 21px;
+        }
+      }
+    }
+    .vertical-line {
+      margin: 0px;
+    }
+    .apply-now {
+      margin: 30px auto 70px auto;
+      display: block;
+    }
+
+    .links {
+      text-align: center;
+      display: block;
+      margin-bottom: 95px;
+      .each-link {
+        margin: 0 25px;
+        color: @dark-blue;
+        @media all and (max-width: 992px) {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+      .seperator {
+        color: @dark-blue;
+      }
+    }
+    .mobile-links {
+      text-align: center;
+      display: block;
+      margin-bottom: 95px;
+      div {
+        margin-bottom: 10px;
+      }
+      .each-link {
+        margin: 25px;
+        color: @dark-blue;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}
+
 //   _____ ___   ___ _____ _____ ____  
 //  |  ___/ _ \ / _ \_   _| ____|  _ \ 
 //  | |_ | | | | | | || | |  _| | |_) |
@@ -1434,9 +1576,12 @@ div#footer-wrapper {
   }
   .search {
     position: relative;
+    @media all and (max-width: 992px) {
+      left: 40px;
+    }
     .searchInput{
         position: absolute;
-        left: 29px;
+        left: -11px;
         top: 0px;
         margin-right: -175px;
         width: 175px;
@@ -1455,7 +1600,7 @@ div#footer-wrapper {
     }
     .searchBtn{
         position: absolute;
-        left:0px;
+        left: -40px;
         top:0px;
         background: url('../images/icons/magnifying-glass.png') center no-repeat @white;
         width: 13px;
@@ -1481,5 +1626,41 @@ div#copyright-wrapper{
     p {
       margin-top: 4px;
     }
+  }
+}
+
+
+/* JAI */
+
+.carousel-inner .img{
+  width: 100%;
+  height: 670px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+.carousel-inner{
+  height: 728px;
+  @media all and (max-width: 992px) {
+    height: auto;
+  }
+}
+.carousel-inner .container{
+  position: relative;
+  z-index: 20;
+}
+#page-wrapper #slider-wrapper div.item{
+  padding-top: 0px;
+  height: 728px;
+  @media all and (max-width: 992px) {
+    padding-top: 60px;
+    height: auto;
+  }
+}
+#page-wrapper #slider-wrapper .carousel-caption{
+  padding-top: 90px;
+  @media all and (max-width: 992px) {
+    padding-top: 30px;
   }
 }

@@ -1,29 +1,3 @@
-<style type="text/css">
-	.carousel-inner .img{
-		width: 100%;
-		height: 670px;
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		z-index: 10;
-	}
-	.carousel-inner{
-		height: 728px;
-	}
-	.carousel-inner .container{
-		position: relative;
-		z-index: 20;
-	}
-	#page-wrapper #slider-wrapper div.item{
-		padding-top: 0px;
-		height: 728px;
-	}
-	#page-wrapper #slider-wrapper .carousel-caption{
-		padding-top: 90px;
-	}
-	
-</style>
-
 <div id="slider-wrapper">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
@@ -38,7 +12,7 @@
 		<div class="carousel-inner animation-container">
 			<div class="item slide-1 active">
 
-				<div class="img">
+				<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation" id="animation-01"></div>
 		  		</div>
@@ -56,7 +30,7 @@
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
 				  		
-					 		<!-- <img src="images/content/slider-1.png" class="img-responsive" alt="slider 1"> -->
+					 		<img src="images/content/slider-1.png" class="img-responsive visible-xs visible-sm" alt="slider 1">
 					 	</div>
 				  	
 			  	</div>
@@ -75,12 +49,12 @@
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
 					  </div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<!-- <img src="images/content/slider-2.png" class="img-responsive" alt="slider 2"> -->
+					 		<img src="images/content/slider-2.png" class="img-responsive visible-xs visible-sm" alt="slider 2">
 					 	</div>					  	
 			  	</div>
 		  	</div>
 
-		  	<div class="img">
+		  	<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation" id="animation-02"></div>
 		  		</div>
@@ -97,12 +71,12 @@
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<!-- <img src="images/content/slider-3.png" class="img-responsive" alt="slider 3"> -->
+					 		<img src="images/content/slider-3.png" class="img-responsive visible-xs visible-sm" alt="slider 3">
 					 	</div>					  	
 			  	</div>
 		  	</div>
 
-		  	<div class="img">
+		  	<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation" id="animation-03"></div>
 		  		</div>
@@ -124,12 +98,12 @@
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<!-- <img src="images/content/slider-4.png" class="img-responsive" alt="slider 4"> -->
+					 		<img src="images/content/slider-4.png" class="img-responsive visible-xs visible-sm" alt="slider 4">
 					 	</div>					  	
 			  	</div>
 		  	</div>
 
-		  	<div class="img">
+		  	<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation" id="animation-04"></div>
 		  		</div>
@@ -139,13 +113,3 @@
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript">
-	$(function() {
-	    $('.carousel').each(function(){
-	        $(this).carousel({
-	            interval: false
-	        });
-	    });
-	});​
-</script>

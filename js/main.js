@@ -1,5 +1,9 @@
 $(document).ready(function(){
-	console.log('hi')
+	console.log('hi');
+
+    $('.carousel').carousel({
+      interval: 20000
+    });
 
 	$("#nav-mobile").html($("#nav-main").html());
     $("#nav-trigger span").click(function(){

@@ -10,9 +10,9 @@
 							<ul class="main-menu">
 								<li><a href="pay-business.shtml">Pay Business</a></li>
 								<li><a href="pay-friends.shtml">Pay Friends</a></li>
-								<li><a href="#">Dash Easy</a></li>
-								<li><a href="#">FAQS</a></li>
-								<li><a href="#">Contact us</a></li>
+								<li><a href="dash-easy.shtml">Dash Easy</a></li>
+								<li><a href="faqs.shtml">FAQS</a></li>
+								<li><a href="contact-us.shtml">Contact us</a></li>
 							</ul>
 						</nav>
 						<div id="nav-trigger">
@@ -24,8 +24,8 @@
 					<nav id="nav-mobile"></nav>
 				</div>
 				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons">
-					<a href="#" class="cta-btn login">LOG IN</a>
-					<a href="#" class="cta-btn-3 apply">APPLY NOW</a>
+					<a href="login.shtml" class="cta-btn login">LOG IN</a>
+					<a href="applynow.shtml" class="cta-btn-3 apply">APPLY NOW</a>
 				</div>
 			</div>
 		</header>

@@ -1,0 +1,126 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>
+<!--> 
+<html class=""> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Dash</title>
+	<meta name="description" content="Hong Leong Group">
+	<meta name="keywords" content="Hong Leong Group">
+	
+	<!--#include virtual="inc/head.inc" -->
+</head>
+<body>
+	
+	<!--#include virtual="inc/header.inc" -->
+
+	<div id="content-wrapper" class="dash-advance">
+		<div class="banner container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>DASH ADVANCE</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="banner-text">
+				  		<h3>WHAT IS DASH ADVANCE?</h3>
+						<h4>Need cash quickly? Dash Advance lets you apply for a personal loan entirely through your mobile phone. No fuss, no muss.</h4>
+
+						<p class="title-text">In addition, you’ll enjoy:</p>
+
+						<div class="row">
+							<div class="col-md-5">
+								<img src="images/icons/small-mobile.png" alt="small mobile">
+								<h5>Clock</h5>
+								<p>Approval in principle in less than 60 seconds</p>
+
+							</div>
+							<div class="col-md-5">
+								<img src="images/icons/small-mobile.png" alt="small mobile">
+								<h5>Cash</h5>
+								<p>An advance of up to 4x your monthly salary</p>
+								<p>Interest rates as low as 4.98% p.a.</p>
+							</div>
+						</div>
+				 	</div>
+				</div>
+				<div class="col-md-6">
+					<!-- <div class="img-friends"></div> -->
+					<img src="images/content/banner-3.png" class="img-responsive banner" alt="banner-3">
+				</div>
+			</div>
+		</div>
+		<div class="image-text-content container">
+		<!-- 	<div class="row"> 
+				<div class="col-md-12">
+					<h2>What you get</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<h3>Dash Easy Savings Account</h3>
+					<ul>
+						<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
+						<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
+						<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
+						<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-1"><div class="vertical-line hidden-xs hidden-sm"></div></div>
+						<div class="col-md-11">
+							<h3>Dash App to Pay Friends & Businesses</h3>
+							<ul>
+								<li><i class="fa fa-chevron-right"></i><span>Use Dash to make instant and secure payments at retail stores, F&B outlets and taxis …
+									<br><a href="#">Learn more</a></span></li>
+								<li><i class="fa fa-chevron-right"></i><span>… or transfer money to your friends <br><a href="#">Learn more</a></span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Ran out of mobile cash in your Dash App? Top up your Dash App account straight from your Dash Easy savings account</span></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div> -->
+			<div class="row">
+				<div class="col-md-12">
+					<button class="cta-btn-2 apply-now">Apply Now</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="links hidden-xs hidden-sm">
+						<a href="#" class="each-link">Are You Eligible?</a><span class="seperator">|</span><a href="#" class="each-link">Fees & Rates</a><span class="seperator">|</span><a href="#" class="each-link">Frequently Asked Questions</a>
+					</div>
+					<div class="row mobile-links visible-xs visible-sm">
+						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Are You Eligible?</a></div>
+						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Fees & Rates</a></div>
+						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Frequently Asked Questions</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--#include virtual="inc/footer.inc" -->
+
+</body>
+</html>

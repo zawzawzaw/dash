@@ -12,6 +12,14 @@
 	<title>Dash</title>
 	<meta name="description" content="Hong Leong Group">
 	<meta name="keywords" content="Hong Leong Group">
+
+	<script type="text/javascript" src="js/vendors/swfobject.js"></script>
+	<script type="text/javascript">
+		swfobject.registerObject("myId", "9.0.0", "js/vendors/expressInstall.swf");
+		swfobject.registerObject("myId2", "9.0.0", "js/vendors/expressInstall.swf");
+		swfobject.registerObject("myId3", "9.0.0", "js/vendors/expressInstall.swf");
+		swfobject.registerObject("myId4", "9.0.0", "js/vendors/expressInstall.swf");
+	</script>
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -87,6 +95,8 @@
 			//$('.animation-container').dash_home_slider_animation({});
 		});
 	</script>
+
+	
 
 	<!--#include virtual="inc/footer.inc" -->
 

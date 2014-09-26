@@ -11,54 +11,20 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner animation-container">
 			<div class="item slide-1 active">
-
-				<div class="img hidden-xs hidden-sm">
+				<div class="img" style="z-index:10">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
 
-
-		  				<div id="flashContent">
-								<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728" id="animation_01" align="middle">
-									<param name="movie" value="swf/animation_01.swf" />
-									<param name="quality" value="high" />
-									<param name="bgcolor" value="#f8f8f8" />
-									<param name="play" value="true" />
-									<param name="loop" value="true" />
-									<param name="wmode" value="window" />
-									<param name="scale" value="showall" />
-									<param name="menu" value="true" />
-									<param name="devicefont" value="false" />
-									<param name="salign" value="" />
-									<param name="allowScriptAccess" value="sameDomain" />
-									<!--[if !IE]>-->
-									<object type="application/x-shockwave-flash" data="swf/animation_01.swf" width="1360" height="728">
-										<param name="movie" value="swf/animation_01.swf" />
-										<param name="quality" value="high" />
-										<param name="bgcolor" value="#f8f8f8" />
-										<param name="play" value="true" />
-										<param name="loop" value="true" />
-										<param name="wmode" value="window" />
-										<param name="scale" value="showall" />
-										<param name="menu" value="true" />
-										<param name="devicefont" value="false" />
-										<param name="salign" value="" />
-										<param name="allowScriptAccess" value="sameDomain" />
-									<!--<![endif]-->
-										<a href="http://www.adobe.com/go/getflash">
-											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-										</a>
-									<!--[if !IE]>-->
-									</object>
-									<!--<![endif]-->
-								</object>
+		  				<div id="myId_01">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
 							</div>
-
 
 		  			</div>
 		  		</div>
 		  	</div>
 
-				<div class="container">
+				<div class="container" style="z-index:20">
 					<div class="row">
 						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
 							<h1>WHAT IS DASH?</h1>
@@ -99,40 +65,9 @@
 		  			<div class="animation-animation">
 
 
-		  				<div id="flashContent">
-								<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728" id="animation_02" align="middle">
-									<param name="movie" value="swf/animation_02.swf" />
-									<param name="quality" value="high" />
-									<param name="bgcolor" value="#f8f8f8" />
-									<param name="play" value="true" />
-									<param name="loop" value="true" />
-									<param name="wmode" value="window" />
-									<param name="scale" value="showall" />
-									<param name="menu" value="true" />
-									<param name="devicefont" value="false" />
-									<param name="salign" value="" />
-									<param name="allowScriptAccess" value="sameDomain" />
-									<!--[if !IE]>-->
-									<object type="application/x-shockwave-flash" data="swf/animation_02.swf" width="1360" height="728">
-										<param name="movie" value="swf/animation_02.swf" />
-										<param name="quality" value="high" />
-										<param name="bgcolor" value="#f8f8f8" />
-										<param name="play" value="true" />
-										<param name="loop" value="true" />
-										<param name="wmode" value="window" />
-										<param name="scale" value="showall" />
-										<param name="menu" value="true" />
-										<param name="devicefont" value="false" />
-										<param name="salign" value="" />
-										<param name="allowScriptAccess" value="sameDomain" />
-									<!--<![endif]-->
-										<a href="http://www.adobe.com/go/getflash">
-											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-										</a>
-									<!--[if !IE]>-->
-									</object>
-									<!--<![endif]-->
-								</object>
+		  				<div id="myId_02">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
 							</div>
 
 
@@ -161,40 +96,9 @@
 		  			<div class="animation-animation">
 
 
-		  				<div id="flashContent">
-								<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728" id="animation_03" align="middle">
-									<param name="movie" value="swf/animation_03.swf" />
-									<param name="quality" value="high" />
-									<param name="bgcolor" value="#ffffff" />
-									<param name="play" value="true" />
-									<param name="loop" value="true" />
-									<param name="wmode" value="window" />
-									<param name="scale" value="showall" />
-									<param name="menu" value="true" />
-									<param name="devicefont" value="false" />
-									<param name="salign" value="" />
-									<param name="allowScriptAccess" value="sameDomain" />
-									<!--[if !IE]>-->
-									<object type="application/x-shockwave-flash" data="swf/animation_03.swf" width="1360" height="728">
-										<param name="movie" value="swf/animation_03.swf" />
-										<param name="quality" value="high" />
-										<param name="bgcolor" value="#ffffff" />
-										<param name="play" value="true" />
-										<param name="loop" value="true" />
-										<param name="wmode" value="window" />
-										<param name="scale" value="showall" />
-										<param name="menu" value="true" />
-										<param name="devicefont" value="false" />
-										<param name="salign" value="" />
-										<param name="allowScriptAccess" value="sameDomain" />
-									<!--<![endif]-->
-										<a href="http://www.adobe.com/go/getflash">
-											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-										</a>
-									<!--[if !IE]>-->
-									</object>
-									<!--<![endif]-->
-								</object>
+		  				<div id="myId_03">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
 							</div>
 
 
@@ -228,40 +132,9 @@
 		  			<div class="animation-animation">
 
 
-		  				<div id="flashContent">
-								<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728" id="animation_04" align="middle">
-									<param name="movie" value="swf/animation_04.swf" />
-									<param name="quality" value="high" />
-									<param name="bgcolor" value="#f8f8f8" />
-									<param name="play" value="true" />
-									<param name="loop" value="true" />
-									<param name="wmode" value="window" />
-									<param name="scale" value="showall" />
-									<param name="menu" value="true" />
-									<param name="devicefont" value="false" />
-									<param name="salign" value="" />
-									<param name="allowScriptAccess" value="sameDomain" />
-									<!--[if !IE]>-->
-									<object type="application/x-shockwave-flash" data="swf/animation_04.swf" width="1360" height="728">
-										<param name="movie" value="swf/animation_04.swf" />
-										<param name="quality" value="high" />
-										<param name="bgcolor" value="#f8f8f8" />
-										<param name="play" value="true" />
-										<param name="loop" value="true" />
-										<param name="wmode" value="window" />
-										<param name="scale" value="showall" />
-										<param name="menu" value="true" />
-										<param name="devicefont" value="false" />
-										<param name="salign" value="" />
-										<param name="allowScriptAccess" value="sameDomain" />
-									<!--<![endif]-->
-										<a href="http://www.adobe.com/go/getflash">
-											<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-										</a>
-									<!--[if !IE]>-->
-									</object>
-									<!--<![endif]-->
-								</object>
+		  				<div id="myId_04">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
 							</div>
 
 

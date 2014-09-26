@@ -10,18 +10,39 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="Dash">
+	<meta name="keywords" content="Dash">
+
+	
+	
+	<!--#include virtual="inc/head.inc" -->
 
 	<script type="text/javascript" src="js/vendors/swfobject.js"></script>
 	<script type="text/javascript">
+		/*
 		swfobject.registerObject("myId", "9.0.0", "js/vendors/expressInstall.swf");
 		swfobject.registerObject("myId2", "9.0.0", "js/vendors/expressInstall.swf");
 		swfobject.registerObject("myId3", "9.0.0", "js/vendors/expressInstall.swf");
 		swfobject.registerObject("myId4", "9.0.0", "js/vendors/expressInstall.swf");
+		*/
+
+		
+		var flashvars = {},
+				params = {wmode:"transparent"},
+				attributes = {};
+				
+		swfobject.embedSWF("swf/animation_01.swf", "myId_01", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_02.swf", "myId_02", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_03.swf", "myId_03", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_04.swf", "myId_04", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+
+		
+		//swfobject.embedSWF("test.swf", "myId", "300", "120", "9.0.0", "js/vendors/expressInstall.swf");
+		
+
+
 	</script>
-	
-	<!--#include virtual="inc/head.inc" -->
+
 </head>
 <body>
 	

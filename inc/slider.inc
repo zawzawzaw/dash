@@ -1,4 +1,5 @@
 <style type="text/css">
+/*
 	.carousel-inner .img{
 		width: 100%;
 		height: 670px;
@@ -21,6 +22,15 @@
 	#page-wrapper #slider-wrapper .carousel-caption{
 		padding-top: 90px;
 	}
+
+	.carousel-inner .item{
+		position: relative;
+	}
+
+	#page-wrapper #slider-wrapper .carousel-caption{
+		
+	}
+	*/
 	
 </style>
 
@@ -38,29 +48,20 @@
 		<div class="carousel-inner animation-container">
 			<div class="item slide-1 active">
 
-				<div class="img">
+				<div class="img" style="z-index:10">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
 
-		  				<object id="myId" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728">
-								<param name="movie" value="swf/animation_01.swf" />
-		        		<!--[if !IE]>-->
-								<object type="application/x-shockwave-flash" data="swf/animation_01.swf" width="1360" height="728">
-								<!--<![endif]-->
-								<div>
-									<h1>Alternative content</h1>
-									<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-								</div>
-								<!--[if !IE]>-->
-								</object>
-								<!--<![endif]-->
-							</object>
+		  				<div id="myId_01">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+							</div>
 
 		  			</div>
 		  		</div>
 		  	</div>
 
-				<div class="container">
+				<div class="container" style="z-index:20">
 					<div class="row">
 						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
 							<h1>WHAT IS DASH?</h1>
@@ -101,19 +102,10 @@
 		  			<div class="animation-animation">
 
 
-		  				<object id="myId2" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728">
-								<param name="movie" value="swf/animation_02.swf" />
-		        		<!--[if !IE]>-->
-								<object type="application/x-shockwave-flash" data="swf/animation_02.swf" width="1360" height="728">
-								<!--<![endif]-->
-								<div>
-									<h1>Alternative content</h1>
-									<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-								</div>
-								<!--[if !IE]>-->
-								</object>
-								<!--<![endif]-->
-							</object>
+		  				<div id="myId_02">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+							</div>
 
 
 		  			</div>
@@ -141,19 +133,10 @@
 		  			<div class="animation-animation">
 
 
-		  				<object id="myId3" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728">
-								<param name="movie" value="swf/animation_03.swf" />
-		        		<!--[if !IE]>-->
-								<object type="application/x-shockwave-flash" data="swf/animation_03.swf" width="1360" height="728">
-								<!--<![endif]-->
-								<div>
-									<h1>Alternative content</h1>
-									<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-								</div>
-								<!--[if !IE]>-->
-								</object>
-								<!--<![endif]-->
-							</object>
+		  				<div id="myId_03">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+							</div>
 
 
 		  			</div>
@@ -186,19 +169,10 @@
 		  			<div class="animation-animation">
 
 
-		  				<object id="myId4" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1360" height="728">
-								<param name="movie" value="swf/animation_04.swf" />
-		        		<!--[if !IE]>-->
-								<object type="application/x-shockwave-flash" data="swf/animation_04.swf" width="1360" height="728">
-								<!--<![endif]-->
-								<div>
-									<h1>Alternative content</h1>
-									<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-								</div>
-								<!--[if !IE]>-->
-								</object>
-								<!--<![endif]-->
-							</object>
+		  				<div id="myId_04">
+								<h1>Alternative content</h1>
+								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
+							</div>
 
 
 		  			</div>

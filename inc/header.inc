@@ -23,7 +23,7 @@
 				<div class="col-sm-12 col-xs-12 visible-xs visible-sm">
 					<nav id="nav-mobile"></nav>
 				</div>
-				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons">
+				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons hidden-xs hidden-sm">
 					<a href="#login-alert" class="cta-btn login">LOG IN</a>
 					<a href="applynow.shtml" class="cta-btn-3 apply">APPLY NOW</a>
 				</div>

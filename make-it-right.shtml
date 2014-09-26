@@ -20,10 +20,116 @@
 	<!--#include virtual="inc/header.inc" -->
 
 	<div id="content-wrapper" class="make-it-right">
-		<div class="container">
+		<div class="banner container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>MAKE IT RIGHT</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+
+			<div class="banner-content">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="banner-text">
+					  		<h3>ACCESSING MOBILE CASH SAFELY</h3>
+
+							<p>Paying with mobile cash means you won't need to hold cash and coins in your hands – money whizzes over from mobile to mobile in a swipe. But what you can hold on to is our pledge to keep money in your Dash Easy mCash Account safe.</p>
+
+							<h5>6-digit mCash PIN</h5>
+							<p>A 6-digit PIN of your choice protects the mobile cash in your phone. You can change it easily by tapping on "Forgot PIN" in the Dash App's login screen, or giving us a call at 1800-GET-DASH (1800-438-3274).</p>
+							
+							<p>You would've set a further authentication of security question and answer upon your first login to the App. The answer to the security question you've chosen will be required before a new PIN is generated.</p>
+
+							<h5>Payment Confirmation & Notification</h5>
+							<p>For any transaction with Dash mCash, a confirmation screen with the 
+							amount and recipient details will pop up for your review. Only after 
+							you've tapped "OK" to proceed will the transaction be authorised 
+							and completed.</p>
+
+							<p>Plus, should your mobile cash payments result in exceeding your mCash spend limits, we'll automatically drop you an email.</p>
+					 	</div>
+					</div>
+					<div class="col-md-6">
+						<!-- <div class="img"></div> -->
+						<img src="images/content/banner-placeholder.png" class="img-responsive" alt="banner-placeholder">
+					</div>
+				</div>
+			</div>
+
+			<div class="banner-content">
+				<div class="row">
+					<div class="col-md-6">
+						<!-- <div class="img"></div> -->
+						<img src="images/content/banner-placeholder.png" class="img-responsive" alt="banner-placeholder">
+					</div>
+					<div class="col-md-6">
+						<div class="banner-text">
+					  		<h3>HELP! IT LOOKS LIKE THERE'S AN ERROR WITH MY DASH MCASH PAYMENT</h3>
+
+							<p>We pride ourselves on getting things right. This doesn't mean we're perfect, but if we make mistakes, we'll fix them.</p>
+
+							<h5>What could go wrong?</h5>
+							
+							<ul>
+								<li><i class="fa fa-chevron-right"></i><span>You've paid a Business with Dash mCash and the successful transaction is seen in your transaction history. However, the cashier did not receive your payment and requests for a cash payment.</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>You've tried to pay a Business with Dash mCash and you do not see a successful transaction in your transaction history. You pay the cashier with cash instead.</span></li>
+							</ul>
+
+							<h5>What should you do next</h5>
+							<p>Fret not – drop us your details here or call us at 1800-GET-DASH (1800-438-3274) and provide us with your name, email address, ID (NRIC/Passport Number), Cash Receipt, mobile number and Dash mCash transaction details.</p>
+
+							<h5>What we'll do to right the wrong</h5>
+							<p>This is likely to happen in a rare occurrence of a system error. We will run some internal checks to verify your claim and refunds will be made immediately or after an investigation.</p>
+					 	</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="banner-content">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="banner-text">
+					  		<h3>BANKING THROUGH DASH APP SECURELY</h3>
+
+					  		<h5>Two-Factor Authentication (2FA)</h5>
+
+							<p>Money from your Dash Easy Savings Account is safeguarded with firstly, your Dash Banking ID and Password, and secondly, a One-Time Password sent to your mobile number to ensure we are giving you and only you rightful access to your accounts.</p>
+
+							<h5>Security Token Card</h5>
+
+							<p>This state-of-the-art token card enables you to access secured features of the Dash App and also login to dash.com.sg to perform Dash banking safely. Use it to:</p>
+
+							<ul>
+								<li><i class="fa fa-chevron-right"></i><span>Top-up mCash from Dash Easy Savings Account</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Pay bills on-the-go</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Add a payee</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Increase transfer amounts</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Update your personal information</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Change your Online Banking password</span></li>
+							</ul>
+
+							<p>If you don't have a Standard Chartered security token card, get your Dash Easy ATM-Security Token Card here. It's an update to your Dash Easy ATM Card, so you'll only need to carry one handy piece of plastic for ATM/CDM transactions and NETS payments, as well as bank-on-the-go.</p>
+
+							<h5>What we'll do to right the wrong</h5>
+							<p>We'll notify you on all transactions made with your Dash Easy Savings Account. You can choose to receive timely alerts via SMS or email – daily, weekly or monthly.</p>
+					 	</div>
+					</div>
+					<div class="col-md-6">
+						<!-- <div class="img"></div> -->
+						<img src="images/content/banner-placeholder.png" class="img-responsive" alt="banner-placeholder">
+					</div>
+				</div>
+			</div>
 
 		</div>
 	</div>
+	<div class="space100"></div>
+	<div class="space100"></div>
 
 
 

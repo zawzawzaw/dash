@@ -36,17 +36,18 @@
 					<div class="banner-text">
 				  		<h3>WHAT IS DASH EASY?</h3>
 						<h4>Offered by Standard Chartered Bank (Singapore) Limited, Dash Easy is a savings account that supplements your Dash app and lets you earn a higher interest so you get more bang for your buck. After signing up for a Dash App, you’ll receive a $5 Welcome Bonus immediately in your Dash Easy account!</h4>
-
+						
 						<div class="row">
-							<div class="col-md-5">
-								<img src="images/icons/small-mobile.png" alt="small mobile">
-								<h5>High Interest</h5>
+							<div class="col-md-5 icon-container">
+								<img src="images/icons/percentage.png" alt="small mobile">
 								<p>Enjoy greater savings of up to 2% interest per year!</p>
 
 							</div>
-							<div class="col-md-5">
-								<img src="images/icons/small-mobile.png" alt="small mobile">
-								<h5>mCash Account</h5>
+							<div class="col-md-2 arrow-container">
+								<img src="images/icons/double-arrow.png" alt="double arrows">
+							</div>
+							<div class="col-md-5 icon-container">
+								<img src="images/icons/small-mobile-2.png" alt="small mobile">
 								<p>Make an instant and secure payment to shop and cab!</p>
 							</div>
 						</div>

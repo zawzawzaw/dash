@@ -7,6 +7,7 @@ $(document).ready(function(){
     });
 
 	$("#nav-mobile").html($("#nav-main").html());
+    $('#nav-mobile').children('ul').append('<li><a href="#login-alert" class="login">Log In</a></li><li><a href="#">Apply Now</a></li>');
     $("#nav-trigger span").click(function(){
         console.log('hi')
         if ($("#nav-mobile ul").hasClass("expanded")) {

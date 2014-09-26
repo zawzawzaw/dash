@@ -11,7 +11,7 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner animation-container">
 			<div class="item slide-1 active">
-				<div class="img" style="z-index:10">
+				<div class="img hidden-xs hidden-sm" style="z-index:10">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
 
@@ -48,7 +48,7 @@
 			<div class="item slide-2">
 				<div class="container">
 					<div class="row">
-						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
+						<div class="carousel-caption col-md-6 col-sm-12 col-xs-12">
 							<h1>SHOP WITH DASH</h1>
 							<h3>For the first time ever, you no longer have to fumble around for your cash or card when paying at your favourite retail stores and eateries. Simply whip out your smartphone and fire up your Dash app to make an instant and secure payment!</h3>
 

@@ -10,7 +10,7 @@
 							<ul class="main-menu">
 								<li><a href="pay-business.shtml">Pay Business</a></li>
 								<li><a href="pay-friends.shtml">Pay Friends</a></li>
-								<li><a href="dash-easy.shtml">Dash Easy</a></li>
+								<li><a href="save-money.shtml">Save Money</a></li>
 								<li><a href="http://faq.dash.com.sg/">FAQS</a></li>
 								<li><a href="https://contact.dash.com.sg/">Contact us</a></li>
 							</ul>
@@ -24,7 +24,7 @@
 					<nav id="nav-mobile"></nav>
 				</div>
 				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons">
-					<a href="login.shtml" class="cta-btn login">LOG IN</a>
+					<a href="#login-alert" class="cta-btn login">LOG IN</a>
 					<a href="applynow.shtml" class="cta-btn-3 apply">APPLY NOW</a>
 				</div>
 			</div>

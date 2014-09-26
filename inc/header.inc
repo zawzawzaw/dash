@@ -11,8 +11,8 @@
 								<li><a href="pay-business.shtml">Pay Business</a></li>
 								<li><a href="pay-friends.shtml">Pay Friends</a></li>
 								<li><a href="dash-easy.shtml">Dash Easy</a></li>
-								<li><a href="faqs.shtml">FAQS</a></li>
-								<li><a href="contact-us.shtml">Contact us</a></li>
+								<li><a href="http://faq.dash.com.sg/">FAQS</a></li>
+								<li><a href="https://contact.dash.com.sg/">Contact us</a></li>
 							</ul>
 						</nav>
 						<div id="nav-trigger">

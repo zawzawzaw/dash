@@ -20,11 +20,169 @@
 	<!--#include virtual="inc/header.inc" -->
 
 	<div id="content-wrapper" class="terms">
-		<div class="container">
+		<div class="banner container">
 
-		</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>TERMS & CONDITIONS</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content">
+							<div class="text-content-cell">
+								<p>Dash Mobile App & Website Terms and Conditions</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<h3>SingTel's Terms & Conditions</h3>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content">
+							<div class="text-content-cell">
+								<p>Dash Payment Service Terms and Conditions</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content">
+							<div class="text-content-cell">
+								<p>mCash Terms and Conditions</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>mWallet Terms and Conditions</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>Dash Easy S$5 Welcome Bonus Terms and Conditions</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Standard Chartered's Terms & Conditions</h3>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>Banking Agreement for All Types of Accounts, Personal Loan & Overdraft</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>E Banking Terms and Conditions</p></div></div>						
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>Dash Advance Personal Loan Product Terms and Conditions</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>Terms and Conditions of Credit Limit Review</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>Dash Easy Savings Account Hashtag-for-interest Promotion Terms and Conditions</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="each-term">
+				<div class="row">
+					<div class="col-md-10">
+						<div class="text-content"><div class="text-content-cell"><p>Dash Easy Savings Account S$50 CashBack Promotion Terms and Conditions</p></div></div>
+					</div>
+					<div class="col-md-2">
+						<button class="cta-btn-2 learn-more">View in PDF</button>
+					</div>
+				</div>
+			</div>
+
+		</div><!-- container -->
+
 	</div>
-
+	<div class="space100"></div>
+	<div class="space100"></div>
 
 
 	<!--#include virtual="inc/footer.inc" -->

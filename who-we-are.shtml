@@ -20,7 +20,78 @@
 	<!--#include virtual="inc/header.inc" -->
 
 	<div id="content-wrapper" class="who-we-are">
-		<div class="container">
+		<div class="banner container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>WHO WE ARE</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<!-- <div class="row">
+						<div class="col-md-offset-2 col-md-7"> -->
+							<p class="banner-title">Dash is an easy way to manage your money through your mobile phone. With Dash, you don’t have to visit a bank, deal with troublesome paperwork or even go to an ATM. Dash is hassle-free money management at your fingertips.</p>		
+						<!-- </div>
+					</div> -->
+				</div>
+			</div>
+
+			<div class="banner-content first-banner-content">
+				<div class="row">
+					<div class="col-md-5 col-md-offset-1">
+						<div class="banner-text">
+							<h3>DASH EASY</h3>
+							<p>Dash Easy is a mobile wallet that makes everyday transactions convenient. Pay friends, cab drivers, or shopkeepers … all through your phone!</p>
+
+							<button class="cta-btn-2 learn-more">Learn More</button>
+					 	</div>
+					</div>
+					<div class="col-md-6">
+						<!-- <div class="img"></div> -->
+						<img src="images/content/banner-6.png" class="img-responsive" alt="banner-6">
+					</div>
+				</div>
+			</div>
+
+			<div class="banner-content">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-2">
+						<!-- <div class="img"></div> -->
+						<img src="images/content/banner-4.png" class="img-responsive" alt="banner-4">
+					</div>
+					<div class="col-md-4">
+						<div class="banner-text">
+							<h3>DASH ADVANCE</h3>
+							<p>Dash Advance is a personal loan facility, which you can apply for through your phone. Simply upload photos of supporting documents and receive approval in principle in under 60 seconds.</p>
+
+							<button class="cta-btn-2 learn-more">Learn More</button>
+					 	</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="banner-content last-banner-content">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<div class="banner-text">
+							<h3>DASH ABROAD</h3>
+							<p>Dash Abroad is a travel insurance plan, which allows you to pick and choose coverage options that best match your needs.</p>
+
+							<button class="cta-btn-2 learn-more">Learn More</button>
+					 	</div>
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<!-- <div class="img"></div> -->
+						<img src="images/content/banner-5.png" class="img-responsive" alt="banner-5">
+					</div>
+				</div>
+			</div>
 
 		</div>
 	</div>

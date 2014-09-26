@@ -581,7 +581,7 @@ body, html{
             }
             span {
               display: inline-block;
-              width: 88%;
+              width: 87%;
               vertical-align: top;
               margin-left: 10px;
               margin-top: 2px;
@@ -594,8 +594,8 @@ body, html{
             line-height: 59px;
           }
           h3 {
-            font-size: 18px;
-            line-height: 23px;
+            font-size: 16px;
+            line-height: 21px;
           }
           p {
             font-size: 13px;
@@ -604,15 +604,27 @@ body, html{
           button {
             padding: 12px 16px;
           }
+          ul {
+            li {
+              i {
+                font-size: 16px;
+                line-height: 21px;
+              }
+              span {
+                font-size: 16px;
+                line-height: 21px;
+              }
+            }
+          }
         }
 
       }
     }
 
     #content-wrapper{
-      padding-bottom: 157px;    /* height of footer */
+      padding-bottom: 64px;    /* height of footer */
       @media all and (max-width: 992px) {
-        padding-bottom: 335px;
+        padding-bottom: 300px;
       }
     }
 
@@ -905,6 +917,29 @@ div.home {
         }
       }
 
+      .download-app-links {
+        text-align: center;
+        margin: 110px 0px;
+      }
+
+      .app-store {
+        background: url(../images/content/app-store.png) no-repeat center;
+        display: inline-block;
+        width: 184px;
+        height: 54px;
+        margin-right: 20px;
+        @media all and (max-width: 992px) {
+          margin: 10px 0px;
+        }
+      }
+
+      .google-play {
+        background: url(../images/content/google-play.png) no-repeat center;
+        display: inline-block;
+        width: 158px;
+        height: 54px;
+      }
+
       @media all and (max-width: 992px) {
         .video {
           margin: 0px auto;
@@ -1002,6 +1037,13 @@ div.home {
           margin: 0 auto;
           display: block;
         }
+        .vertical-line {
+          width: 2px;
+          background-color: @grey;
+          height: 400px;
+          display: block;
+          margin: 15px auto;
+        }
 
         @media all and (max-width: 992px) {
           h2 {
@@ -1025,8 +1067,10 @@ div.home {
 
 // PAY BUSINESS
 
-div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad {
+div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad, div.who-we-are, div.terms {
+  padding-bottom: 120px!important;
   @media all and (max-width: 992px) {
+    padding-bottom: 320px!important;
     h2 {
       font-size: 57px;
       line-height: 60px;
@@ -1054,6 +1098,16 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
       h2 {
         margin-top: 25px;
       }
+    }
+
+    .banner-title {
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      width: 692px;
+      .avenirnextltpro-demi;
     }
 
     .banner-text {
@@ -1119,6 +1173,7 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
 
       p {
         margin-bottom: 30px;
+        line-height: 23px;
         @media all and (max-width: 992px) {
           font-size: 13px;
           line-height: 16px;
@@ -1398,6 +1453,46 @@ div.pay-business {
       text-align: left!important;
     }
   }
+}
+
+div.who-we-are {
+  .first-banner-content {
+    margin-top: 55px;  
+    padding-bottom: 50px;
+  }
+  .banner-content {
+    border-bottom: 1px solid #e1e1e1;
+  }
+  .last-banner-content {
+    margin-bottom: 100px;
+    border-bottom: none; 
+  }
+}
+
+div.terms {
+  .each-term {
+    padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    .text-content {
+      display: table;
+      height: 54px;
+      .text-content-cell {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .col-md-2 {
+      text-align: right;
+    }
+  }
+  h3 {
+    margin-top: 80px;
+    margin-bottom: 25px;
+    color: @light-blue;
+    text-transform: uppercase;
+  }
+  
 }
 
 

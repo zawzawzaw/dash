@@ -55,26 +55,48 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 feature-text">
+				<!-- <div class="col-md-4 feature-text">
 					<img src="images/icons/mobile.png" class="img-responsive" alt="mobile">
 					<h4>Lorem ipsum dolor sit amet consect</h4>
 					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 					<button class="cta-btn-2">Learn More</button>
-				</div>
-				<div class="col-md-4 feature-text">
+				</div> -->
+				<div class="col-md-4 col-md-offset-1 feature-text">
 					<img src="images/icons/clock.png" class="img-responsive" alt="clock">
-					<h4>Lorem ipsum dolor sit amet consect</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+					<h4>GET A LOAN IN LESS THAN 15 MINUTES</h4>
+					<p>Need a personal loan, fast? <br> Apply for Dash Advance on your mobile <br> to borrow up to 4 times your monthly <br> income, and get approval-in-principle <br> in 60 seconds</p>
 					<button class="cta-btn-2">Learn More</button>
+				</div>
+				<div class="col-md-2">
+					<div class="vertical-line hidden-xs hidden-sm"></div>
 				</div>
 				<div class="col-md-4 feature-text">
 					<img src="images/icons/luggage.png" class="img-responsive" alt="luggage">
-					<h4>Lorem ipsum dolor sit amet consect</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean Dash Easy soci natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					<h4>CREATE YOUR OWN TRAVEL INSURANCE PLAN</h4>
+					<p>Customise your travel insurance plan <br> with Dash Abroad where you can select <br> only the essentials you need. Why pay for <br> unnessary coverage when you can <br> spend more on shopping instead?</p>
 					<button class="cta-btn-2">Learn More</button>
 				</div>
 			</div>
 			<div class="space50 hidden-sm hidden-xs"></div>
+		</div>
+
+		<div class="video-text-content">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>DOWNLOAD THE APP ON</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 download-app-links">
+					<a href="https://itunes.apple.com/us/app/dash-singapore/id787113587?ls=1&mt=8" class="app-store"></a>
+					<a href="https://play.google.com/store/apps/details?id=com.scb.dash.android" class="google-play"></a>
+				</div>
+			</div>
 		</div>
 	</div>
 

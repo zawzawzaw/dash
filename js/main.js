@@ -28,6 +28,14 @@ $(document).ready(function(){
         closeBtn : false 
     });
 
+    $('a.watch').fancybox({
+        padding: 20,
+        width: 300,
+        height: 300,
+        autoDimensions: false,
+        closeBtn : false 
+    });
+
     $(window).scroll(function() {
     if ($(this).scrollTop() > 1){  
         $('#header-wrapper').addClass("sticky");

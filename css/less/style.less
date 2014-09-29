@@ -1581,6 +1581,9 @@ div.terms {
 div.make-it-right {
   .banner {
     border: none;
+    .banner-content {
+      margin: 20px 0;
+    }
   }
   .banner-text {
     margin-top: 0px!important;
@@ -1651,17 +1654,35 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
     }
 
     .arrow-container {
+      float: left;
+      width: 20%;
       height: 100px;
       padding-top: 30px;
+      
+      @media all and (max-width: 992px) {
+        img {
+          margin: 0px auto!important;
+        }
+        float: none;
+        width: 100%;
+      }
     }
 
     .icon-container {
+      float: left;
+      width: 33%;
+
       img {
         height: 86px;
         margin-bottom: 30px;
       }
       p {
         margin-bottom: 0px;
+      }
+
+      @media all and (max-width: 992px) {
+        float: none;
+        width: 100%;
       }
     }
 
@@ -1673,11 +1694,11 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
     }
   }
 
-  @media all and (max-width: 992px) {
+  /*@media all and (max-width: 992px) {*/
     img.banner {
       margin-bottom: 20px;  
     }
-  }
+  /*}*/
 
   .image-text-content {
     h3 {
@@ -1757,6 +1778,32 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
         line-height: 21px;
       }
     }
+  }
+}
+
+div.dash-advance {
+  .banner-text {
+    .arrow-container {
+      img {
+        margin: 0px!important;
+        @media all and (max-width: 992px) {
+          margin: 0px auto!important;
+        }
+      }
+      
+    }
+  }
+  @media all and (max-width: 992px) {
+    img.banner {
+      margin: 40px auto;
+      margin-bottom: 0px!important;  
+    }
+  }
+}
+
+div.dash-easy {
+  div.banner {
+    padding-bottom: 30px;
   }
 }
 

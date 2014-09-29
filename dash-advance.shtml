@@ -32,31 +32,52 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<div class="banner-text">
 				  		<h3>WHAT IS DASH ADVANCE?</h3>
 						<h4>Need cash quickly? Dash Advance lets you apply for a personal loan entirely through your mobile phone. No fuss, no muss.</h4>
 
 						<p class="title-text">In addition, you’ll enjoy:</p>
 
-						<div class="row">
-							<div class="col-md-4 icon-container">
-								<img src="images/icons/dial.png" alt="small mobile">
-								<p>Approval in principle in less than 60 seconds</p>
-
+						<div class="row hidden-xs hidden-sm">
+							<div class="col-md-12">
+								<div class="icon-container">
+									<img src="images/icons/dial.png" alt="small mobile">
+									<p>Approval in principle in less than 60 seconds</p>
+								</div>
+								<div class="arrow-container">
+									<img src="images/icons/double-arrow.png" alt="double arrows">
+								</div>
+								<div class="icon-container">
+									<img src="images/icons/cash-2.png" alt="small mobile">
+									<p>An advance of up to 4x your monthly salary</p>
+									<p>Interest rates as low as 4.98% p.a.</p>
+								</div>
 							</div>
-							<div class="col-md-3 arrow-container">
-								<img src="images/icons/double-arrow.png" alt="double arrows">
+						</div>
+						<div class="row visible-xs visible-sm">
+							<div class="col-xs-12 col-sm-12">
+								<div class="icon-container">
+									<img src="images/icons/dial.png" class="" alt="small mobile">
+									<p>Approval in principle in less than 60 seconds</p>
+								</div>
 							</div>
-							<div class="col-md-5 icon-container">
-								<img src="images/icons/cash-2.png" alt="small mobile">
-								<p>An advance of up to 4x your monthly salary</p>
-								<p>Interest rates as low as 4.98% p.a.</p>
+							<div class="col-xs-12 col-sm-12">
+								<div class="arrow-container">
+									<img src="images/icons/double-arrow.png" class="" alt="double arrows">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<div class="icon-container">
+									<img src="images/icons/cash-2.png" alt="small mobile">
+									<p>An advance of up to 4x your monthly salary</p>
+									<p>Interest rates as low as 4.98% p.a.</p>
+								</div>
 							</div>
 						</div>
 				 	</div>
 				</div>
-				<div class="col-md-6 col-md-offset-1">
+				<div class="col-md-5 col-md-offset-1">
 					<!-- <div class="img-friends"></div> -->
 					<img src="images/content/banner-8.png" class="img-responsive banner" alt="banner-8">
 				</div>

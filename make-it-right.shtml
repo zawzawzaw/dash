@@ -34,7 +34,7 @@
 
 			<div class="banner-content">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-11">
 						<div class="banner-text">
 					  		<h3>ACCESSING MOBILE CASH SAFELY</h3>
 
@@ -54,20 +54,18 @@
 							<p>Plus, should your mobile cash payments result in exceeding your mCash spend limits, we'll automatically drop you an email.</p>
 					 	</div>
 					</div>
-					<div class="col-md-6">
-						<!-- <div class="img"></div> -->
+					<!-- <div class="col-md-6">
 						<img src="images/content/banner-placeholder.png" class="img-responsive" alt="banner-placeholder">
-					</div>
+					</div> -->
 				</div>
 			</div>
 
 			<div class="banner-content">
 				<div class="row">
-					<div class="col-md-6">
-						<!-- <div class="img"></div> -->
+					<!-- <div class="col-md-6">
 						<img src="images/content/banner-placeholder.png" class="img-responsive" alt="banner-placeholder">
-					</div>
-					<div class="col-md-6">
+					</div> -->
+					<div class="col-md-11">
 						<div class="banner-text">
 					  		<h3>HELP! IT LOOKS LIKE THERE'S AN ERROR WITH MY DASH MCASH PAYMENT</h3>
 
@@ -92,7 +90,7 @@
 
 			<div class="banner-content">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-11">
 						<div class="banner-text">
 					  		<h3>BANKING THROUGH DASH APP SECURELY</h3>
 
@@ -119,10 +117,9 @@
 							<p>We'll notify you on all transactions made with your Dash Easy Savings Account. You can choose to receive timely alerts via SMS or email – daily, weekly or monthly.</p>
 					 	</div>
 					</div>
-					<div class="col-md-6">
-						<!-- <div class="img"></div> -->
+					<!-- <div class="col-md-6">
 						<img src="images/content/banner-placeholder.png" class="img-responsive" alt="banner-placeholder">
-					</div>
+					</div> -->
 				</div>
 			</div>
 

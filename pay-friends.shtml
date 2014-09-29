@@ -48,7 +48,7 @@
 						<p>Love how easy it is? Click on the button below to apply</p>
 
 						<button class="cta-btn-2 apply-now">Apply Now</button>
-						<button class="cta-btn watch-video">Watch Video</button>
+						<a href="#video" class="watch"><button class="cta-btn watch-video">Watch Video</button></a>
 				 	</div>
 				</div>
 				<div class="col-md-6">
@@ -89,6 +89,12 @@
 			</div>
 		</div>
 		<div class="space100"></div>
+	</div>
+
+	<div style="display:none">
+		<div id="video">
+			<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
 
 	<!--#include virtual="inc/footer.inc" -->

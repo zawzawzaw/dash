@@ -39,18 +39,39 @@
 
 						<p class="title-text">In addition, you’ll enjoy:</p>
 
-						<div class="row">
-							<div class="col-md-5 icon-container">
-								<img src="images/icons/cash.png" alt="small mobile">
-								<p>Premiums that start as low as $20</p>
+						<div class="row hidden-xs hidden-sm">
+							<div class="col-md-12">
+								<div class="icon-container">
+									<img src="images/icons/cash.png" alt="small mobile">
+									<p>Premiums that start as low as $20</p>
+								</div>
+								<div class="arrow-container">
+									<img src="images/icons/double-arrow.png" alt="double arrows">
+								</div>
+								<div class="icon-container">
+									<img src="images/icons/shield.png" alt="small mobile">
+									<p>Flexibility to pick and choose coverage options that best match your needs</p>
+								</div>
+							</div>
+						</div>
 
+						<div class="row visible-xs visible-sm">
+							<div class="col-xs-12 col-sm-12">
+								<div class="icon-container">
+									<img src="images/icons/cash.png" alt="small mobile">
+									<p>Premiums that start as low as $20</p>
+								</div>
 							</div>
-							<div class="col-md-2 arrow-container">
-								<img src="images/icons/double-arrow.png" alt="double arrows">
+							<div class="col-xs-12 col-sm-12">
+								<div class="arrow-container">
+									<img src="images/icons/double-arrow.png" class="" alt="double arrows">
+								</div>
 							</div>
-							<div class="col-md-5 icon-container">
-								<img src="images/icons/shield.png" alt="small mobile">
-								<p>Flexibility to pick and choose coverage options that best match your needs</p>
+							<div class="col-xs-12 col-sm-12">
+								<div class="icon-container">
+									<img src="images/icons/shield.png" alt="small mobile">
+									<p>Flexibility to pick and choose coverage options that best match your needs</p>
+								</div>
 							</div>
 						</div>
 				 	</div>

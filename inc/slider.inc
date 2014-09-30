@@ -35,7 +35,6 @@
 							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
-				  		
 					 		<img src="images/content/slider-1.png" class="img-responsive visible-xs visible-sm" alt="slider 1">
 					 	</div>
 				  	

@@ -32,7 +32,7 @@
 
 							<p>Download Dash now and get $5 free instantly.</p>
 
-							<button class="cta-btn-2 apply-now">APPLY NOW</button>
+							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
 				  		

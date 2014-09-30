@@ -47,7 +47,7 @@
 
 						<p>Love how easy it is? Click on the button below to apply</p>
 
-						<button class="cta-btn-2 apply-now">Apply Now</button>
+						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
 						<a href="#video" class="watch"><button class="cta-btn watch-video">Watch Video</button></a>
 				 	</div>
 				</div>

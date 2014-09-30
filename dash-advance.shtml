@@ -122,7 +122,7 @@
 			</div> -->
 			<div class="row">
 				<div class="col-md-12">
-					<button class="cta-btn-2 apply-now">Apply Now</button>
+					<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
 				</div>
 			</div>
 			<div class="row">

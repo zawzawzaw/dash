@@ -25,7 +25,7 @@
 				</div>
 				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons hidden-xs hidden-sm">
 					<a href="#login-alert" class="cta-btn login">LOG IN</a>
-					<a href="applynow.shtml" class="cta-btn-3 apply">APPLY NOW</a>
+					<a href="https://apply.dash.com.sg/easy2/" target="_blank" class="cta-btn-3 apply">APPLY NOW</a>
 				</div>
 			</div>
 		</header>

@@ -1975,7 +1975,8 @@ div#copyright-wrapper{
 
   #slider-wrapper{
     background: #f8f8f8;
-    height: 580px;
+    //height: 580px;
+    height: 420px;
     overflow: hidden;
   }
 
@@ -1985,6 +1986,7 @@ div#copyright-wrapper{
     .carousel-caption {
       //padding-top: 40px;
       padding-top: 70px;
+      padding-bottom: 0px;
 
       h1 {
         font-size: 80px;
@@ -2007,7 +2009,17 @@ div#copyright-wrapper{
 
   .animation-panel{
     overflow: visible;
-    margin-left: -30px;
+    //margin-left: -30px;
+    margin-left: 100px;
+    .animation-animation{
+      .transform-origin(50%,100%);
+      .scale(0.7);
+      margin-top: -200px;
+    }
+  }
+
+  .carousel-indicators{
+    bottom: 215px;
   }
 
 } // end of media query

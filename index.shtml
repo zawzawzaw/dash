@@ -31,10 +31,10 @@
 				params = {wmode:"transparent"},
 				attributes = {};
 				
-		swfobject.embedSWF("swf/animation_01.swf", "myId_01", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
-		swfobject.embedSWF("swf/animation_02.swf", "myId_02", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
-		swfobject.embedSWF("swf/animation_03.swf", "myId_03", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
-		swfobject.embedSWF("swf/animation_04.swf", "myId_04", "1360", "728", "9.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_01.swf", "myId_01", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_02.swf", "myId_02", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_03.swf", "myId_03", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+		swfobject.embedSWF("swf/animation_04.swf", "myId_04", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
 
 		
 		//swfobject.embedSWF("test.swf", "myId", "300", "120", "9.0.0", "js/vendors/expressInstall.swf");

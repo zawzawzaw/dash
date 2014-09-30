@@ -98,7 +98,7 @@
 					<h3>Dash Easy Savings Account</h3>
 					<ul>
 						<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
+						<!-- <li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li> -->
 						<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
 						<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
 					</ul>

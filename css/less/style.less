@@ -687,7 +687,7 @@ body, html{
       @media all and (max-width: 992px) {
         /*padding-bottom: 300px;*/
         padding-bottom: 242px;
-        padding-top: 100px;
+        /*padding-top: 100px;*/
       }
     }
 
@@ -1009,6 +1009,17 @@ div.home {
         @media all and (max-width: 992px) {
           margin: 10px 0px;
         }
+      }
+
+      .app-store-mobile {
+        margin: 25px auto;
+        display: block!important;
+      }
+
+      .google-play-mobile {
+        margin: 0 auto;
+        display: block!important;
+        margin-bottom: 50px;
       }
 
       .google-play {
@@ -1511,6 +1522,8 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
     }
 
     .full-merchant-list {
+      display: block;
+      text-align: center;
       font-size: 14px;
       text-transform: uppercase;
       color: @light-blue;
@@ -1541,6 +1554,23 @@ div.pay-business {
     h5 {
       text-align: left!important;
     }
+  }
+  .image-text-content {
+    .all-logos {
+      .row {
+        .divider {
+          min-height: 88px;
+          border-right: 1px solid @grey;
+        }
+      }
+    }
+  }
+}
+
+div.pay-friends {
+  .video {
+    text-align: center;
+    margin: 20px auto;
   }
 }
 
@@ -1813,6 +1843,12 @@ div.dash-easy {
   }
 }
 
+div.dash-abroad {
+  .banner-text {
+    margin-bottom: 20px;
+  }
+}
+
 //   _____ ___   ___ _____ _____ ____  
 //  |  ___/ _ \ / _ \_   _| ____|  _ \ 
 //  | |_ | | | | | | || | |  _| | |_) |
@@ -1951,7 +1987,7 @@ div#copyright-wrapper{
   padding-top: 0px;
   height: 728px;
   @media all and (max-width: 992px) {
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     height: auto;
   }
 }

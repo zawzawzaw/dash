@@ -39,25 +39,47 @@
 
 						<p class="title-text">In addition, you’ll enjoy:</p>
 
-						<div class="row">
-							<div class="col-md-5">
-								<img src="images/icons/small-mobile.png" alt="small mobile">
-								<h5>Clock</h5>
-								<p>Approval in principle in less than 60 seconds</p>
-
+						<div class="row hidden-xs hidden-sm">
+							<div class="col-md-12">
+								<div class="icon-container">
+									<img src="images/icons/dial.png" alt="small mobile">
+									<p>Approval in principle in less than 60 seconds</p>
+								</div>
+								<div class="arrow-container">
+									<img src="images/icons/double-arrow.png" alt="double arrows">
+								</div>
+								<div class="icon-container">
+									<img src="images/icons/cash-2.png" alt="small mobile">
+									<p>An advance of up to 4x your monthly salary</p>
+									<p>Interest rates as low as 4.98% p.a.</p>
+								</div>
 							</div>
-							<div class="col-md-5">
-								<img src="images/icons/small-mobile.png" alt="small mobile">
-								<h5>Cash</h5>
-								<p>An advance of up to 4x your monthly salary</p>
-								<p>Interest rates as low as 4.98% p.a.</p>
+						</div>
+						<div class="row visible-xs visible-sm">
+							<div class="col-xs-12 col-sm-12">
+								<div class="icon-container">
+									<img src="images/icons/dial.png" class="" alt="small mobile">
+									<p>Approval in principle in less than 60 seconds</p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<div class="arrow-container">
+									<img src="images/icons/double-arrow.png" class="" alt="double arrows">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<div class="icon-container">
+									<img src="images/icons/cash-2.png" alt="small mobile">
+									<p>An advance of up to 4x your monthly salary</p>
+									<p>Interest rates as low as 4.98% p.a.</p>
+								</div>
 							</div>
 						</div>
 				 	</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-5 col-md-offset-1">
 					<!-- <div class="img-friends"></div> -->
-					<img src="images/content/banner-3.png" class="img-responsive banner" alt="banner-3">
+					<img src="images/content/banner-8.png" class="img-responsive banner" alt="banner-8">
 				</div>
 			</div>
 		</div>
@@ -100,7 +122,7 @@
 			</div> -->
 			<div class="row">
 				<div class="col-md-12">
-					<button class="cta-btn-2 apply-now">Apply Now</button>
+					<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
 				</div>
 			</div>
 			<div class="row">

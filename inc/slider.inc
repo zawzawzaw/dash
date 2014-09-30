@@ -32,7 +32,7 @@
 
 							<p>Download Dash now and get $5 free instantly.</p>
 
-							<button class="cta-btn-2 apply-now">APPLY NOW</button>
+							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
 					 		<img src="images/content/slider-1.png" class="img-responsive visible-xs visible-sm" alt="slider 1">
@@ -47,7 +47,7 @@
 			<div class="item slide-2">
 				<div class="container">
 					<div class="row">
-						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
+						<div class="carousel-caption col-md-6 col-sm-12 col-xs-12">
 							<h1>SHOP WITH DASH</h1>
 							<h3>For the first time ever, you no longer have to fumble around for your cash or card when paying at your favourite retail stores and eateries. Simply whip out your smartphone and fire up your Dash app to make an instant and secure payment!</h3>
 

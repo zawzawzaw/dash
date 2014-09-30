@@ -12,22 +12,15 @@
 	<title>Dash</title>
 	<meta name="description" content="Hong Leong Group">
 	<meta name="keywords" content="Hong Leong Group">
-	
-	<!--#include virtual="inc/head.inc" -->
 </head>
 <body>
 	
-	<!--#include virtual="inc/header.inc" -->
+	<div id="login-alert" style="display:none;">
+		<h5>Login to Dash Banking</h5>
+		<p>You will now be directed to the internet banking platform of Standard Chartered Bank (Singapore) Limited.</p>
 
-	<div id="content-wrapper" class="login">
-		<div class="container">
-
-		</div>
+		<p class="btn t33"><a href="https://ibank.standardchartered.com.sg/nfs/login.htm?channelcode=ST">Proceed</a></p>
 	</div>
-
-
-
-	<!--#include virtual="inc/footer.inc" -->
 
 </body>
 </html>

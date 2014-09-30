@@ -377,14 +377,27 @@ body, html{
     min-height: 100%;
     position:relative;
     overflow: hidden;
-    
+
     #header-wrapper {
       border-bottom: 1px solid @grey;
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+      background: #FFF;
       #main-header {
           margin-top: 29px;
           margin-bottom: 12px;
       }
     }
+
+    .sticky {
+      height: auto!important;
+      #main-header {
+        margin-top: 10px!important;
+        .transition();
+      }
+      .transition();
+    }    
 
     .site-logo {
       float: left;
@@ -449,7 +462,6 @@ body, html{
           display: block; 
         }
       }
-
     }
 
     #nav-mobile {
@@ -486,6 +498,7 @@ body, html{
 
 
     #slider-wrapper {
+      margin-top: 76px;
       div.active {
         background-color: @light-grey;
 
@@ -517,6 +530,12 @@ body, html{
         }
         img {
           margin: 0 auto;
+        }
+      }
+
+      div.slide-2 {
+        h3 {
+          width: 80%;
         }
       }
 
@@ -623,14 +642,52 @@ body, html{
             }
           }
         }
+        @media all and (max-width: 1300px) {
+          h1 {
+            font-size: 80px;
+            line-height: 86px;
+          }
+          h3 {
+            font-size: 20px;
+            line-height: 26px;
+          }
+          p {
+            font-size: 19px;  
+            line-height: 16px;
+          }
+          button {
+            padding: 12px 16px;
+          }
+          ul {
+            li {
+              i {
+                font-size: 16px;
+                line-height: 21px;
+              }
+              span {
+                font-size: 16px;
+                line-height: 21px;
+              }
+            }
+          }
+        }
 
+
+      }
+
+      @media all and (max-width: 1300px) {
+        .animation-animation {
+          /*.scale(.8);*/
+        }
       }
     }
 
     #content-wrapper{
       padding-bottom: 64px;    /* height of footer */
       @media all and (max-width: 992px) {
-        padding-bottom: 300px;
+        /*padding-bottom: 300px;*/
+        padding-bottom: 242px;
+        padding-top: 100px;
       }
     }
 
@@ -839,6 +896,21 @@ p {
         0 0.25em 0 0 @dark-blue,
         0 0.5em 0 0 @dark-blue;
     }
+  }
+}
+
+#login-alert {
+  h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: @dark-blue;
+    line-height: 24px;
+  }
+  p {
+    margin: 10px 0;
+  }
+  a {
+    color: @white!important;
   }
 }
 
@@ -1073,7 +1145,7 @@ div.home {
 
 // PAY BUSINESS
 
-div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad, div.who-we-are, div.terms {
+div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad, div.who-we-are, div.terms, div.make-it-right {
   padding-bottom: 120px!important;
   @media all and (max-width: 992px) {
     padding-bottom: 320px!important;
@@ -1097,7 +1169,7 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
 
     h2 {
       color: @dark-blue;
-      margin-top: 100px;
+      margin-top: 150px;
     }
 
     @media all and (max-width: 992px) {
@@ -1177,6 +1249,16 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
         margin-right: 15px;
       }
 
+      .watch-video {
+        padding: 18px 15px;
+        background: url('../images/icons/play.png') no-repeat 0px 12px;
+        background-color: none;
+        border: none;
+        color: @light-blue;
+        padding-left: 40px;
+        .avenirnextltpro-demi;
+      }
+
       p {
         margin-bottom: 30px;
         line-height: 23px;
@@ -1200,6 +1282,7 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
 
     .img-responsive {
       margin-top: 45px;
+      border: none;
     }
 
     /*.img {
@@ -1501,6 +1584,60 @@ div.terms {
   
 }
 
+div.make-it-right {
+  .banner {
+    border: none;
+    .banner-content {
+      margin: 20px 0;
+    }
+  }
+  .banner-text {
+    margin-top: 0px!important;
+    h5 {
+      text-align: left!important;
+      .avenirnextltpro-demi;
+      padding-bottom: 5px;
+    }
+    p {
+      margin-bottom: 25px!important;
+    }
+    ul {
+      li {
+        margin-bottom: 25px;
+        @media all and (max-width: 992px) {
+          font-size: 14px;
+          line-height: 21px;
+        }
+        a {
+          color: @greyish;
+          margin-top: 10px;
+        }
+        i {
+          background-color: @light-blue;
+          padding: 5px 7px;
+          color: @white;
+          .round(50px);
+          width: 20px;
+          height: 20px;
+          font-size: 12px;
+          margin-right: 5px;
+          display: inline-block;
+        }
+        span {
+          display: inline-block;
+          /* float: right; */
+          width: 90%;
+          vertical-align: top;
+          line-height: 21px;
+        }
+        &:before {
+          display: none!important;
+        }
+      }
+    }
+  }
+}
+
 
 div.dash-easy, div.dash-advance, div.dash-abroad {
   .banner-text {
@@ -1522,6 +1659,39 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
       text-align: left;
     }
 
+    .arrow-container {
+      float: left;
+      width: 20%;
+      height: 100px;
+      padding-top: 30px;
+      
+      @media all and (max-width: 992px) {
+        img {
+          margin: 0px auto!important;
+        }
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .icon-container {
+      float: left;
+      width: 33%;
+
+      img {
+        /*height: 86px;*/
+        margin-bottom: 30px;
+      }
+      p {
+        margin-bottom: 0px;
+      }
+
+      @media all and (max-width: 992px) {
+        float: none;
+        width: 100%;
+      }
+    }
+
     @media all and (max-width: 992px) {
       h4 {
         font-size: 14px!important;
@@ -1530,11 +1700,11 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
     }
   }
 
-  @media all and (max-width: 992px) {
+  /*@media all and (max-width: 992px) {*/
     img.banner {
       margin-bottom: 20px;  
     }
-  }
+  /*}*/
 
   .image-text-content {
     h3 {
@@ -1614,6 +1784,32 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
         line-height: 21px;
       }
     }
+  }
+}
+
+div.dash-advance {
+  .banner-text {
+    .arrow-container {
+      img {
+        margin: 0px!important;
+        @media all and (max-width: 992px) {
+          margin: 0px auto!important;
+        }
+      }
+      
+    }
+  }
+  @media all and (max-width: 992px) {
+    img.banner {
+      margin: 40px auto;
+      margin-bottom: 0px!important;  
+    }
+  }
+}
+
+div.dash-easy {
+  div.banner {
+    padding-bottom: 30px;
   }
 }
 

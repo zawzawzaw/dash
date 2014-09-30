@@ -13,12 +13,13 @@
 				<div class="col-md-2">
 					<ul>
 						<li><a href="dash-abroad.shtml">Dash Abroad</a></li>
-						<li><a href="terms.shtml">Terms</a></li>
+						<li><a href="#login-alert" class="login">Dash Banking</a></li>
 					</ul>
 				</div>
 				<div class="col-md-2">
 					<ul>
 						<li><a href="make-it-right.shtml">Make it Right</a></li>
+						<li><a href="terms.shtml">Terms</a></li>
 					</ul>
 				</div>
 				<!-- <div class="col-md-2">
@@ -35,5 +36,13 @@
 	</div>
 	<div id="copyright-wrapper" class="container-fluid">
 		<p>&copy; 2014 Dash. Created by SingTel and Standard Chartered. All rights reserved.</p>
+	</div>
+	<div style="display:none">
+		<div id="login-alert">
+			<h5>Login to Dash Banking</h5>
+			<p>You will now be directed to the internet banking platform of Standard Chartered Bank (Singapore) Limited.</p>
+
+			<p class="cta-btn-2 t33"><a href="https://ibank.standardchartered.com.sg/nfs/login.htm?channelcode=ST">Proceed</a></p>
+		</div>
 	</div>
 </div><!-- page wrapper end -->

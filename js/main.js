@@ -38,10 +38,10 @@ $(document).ready(function(){
 
     $(window).scroll(function() {
     if ($(this).scrollTop() > 1){  
-        $('#header-wrapper').addClass("sticky");
+        // $('#header-wrapper').addClass("sticky");
       }
       else{
-        $('#header-wrapper').removeClass("sticky");
+        // $('#header-wrapper').removeClass("sticky");
       }
     });
 

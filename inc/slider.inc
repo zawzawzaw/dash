@@ -11,7 +11,7 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner animation-container">
 			<div class="item slide-1 active">
-				<div class="img" style="z-index:10">
+				<div class="img hidden-xs hidden-sm" style="z-index:10">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
 
@@ -35,7 +35,6 @@
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
-				  		
 					 		<img src="images/content/slider-1.png" class="img-responsive visible-xs visible-sm" alt="slider 1">
 					 	</div>
 				  	

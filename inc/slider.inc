@@ -115,7 +115,7 @@
 
 							<ul>
 								<li><i class="fa fa-chevron-right"></i><span>Top up Dash so you can perform your daily transactions (e.g. making payments at shops)</span></li>
-								<li><i class="fa fa-chevron-right"></i><span>Receive a FitBit Flex, worth $XXXX</span></li>
+								<!-- <li><i class="fa fa-chevron-right"></i><span>Receive a FitBit Flex, worth $XXXX</span></li> -->
 							</ul>
 
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>

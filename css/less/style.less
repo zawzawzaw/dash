@@ -264,8 +264,6 @@ strong {
 @greyish-2: #98aab3;
 @grey: #ECECEC;
 
-
-
 //   _____ ___  _   _ _____ ____
 //  |  ___/ _ \| \ | |_   _/ ___|
 //  | |_ | | | |  \| | | | \___ \
@@ -855,8 +853,26 @@ p {
   }
 }
 
+
+.cta-btn-4 {
+  border: none;
+  padding: 18px 21px;
+  background: #697a82;
+  color: @white;
+  margin: 30px 0;
+  text-transform: none;
+  .box-shadow (0px, 1px, 3px, #000000);
+  .gradient(#56656b, #849aa4);
+  &:hover {
+    .gradient(#4f5456, #7f98a3);
+  }
+  @media all and (max-width: 992px) {
+    padding: 8px 13px;
+  }
+}
+
 .animation-panel{
-  background: #F8F8F8;
+  background: @light-grey;
   position: relative;
   width: 100%;
   height: 100%;
@@ -1157,7 +1173,8 @@ div.home {
 // PAY BUSINESS
 
 div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad, div.who-we-are, div.terms, div.make-it-right {
-  padding-bottom: 120px!important;
+  padding-bottom: 164px!important;
+
   @media all and (max-width: 992px) {
     padding-bottom: 320px!important;
     h2 {
@@ -1670,6 +1687,9 @@ div.make-it-right {
 
 
 div.dash-easy, div.dash-advance, div.dash-abroad {
+  .banner {
+    border: none;
+  }
   .banner-text {
     h4 {
       margin-bottom: 50px;
@@ -1685,7 +1705,7 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
       text-align: center;
     }
     p.title-text {
-      color: #555;
+      color: @dark-grey;
       text-align: left;
     }
 
@@ -1732,11 +1752,24 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
 
   /*@media all and (max-width: 992px) {*/
     img.banner {
-      margin-bottom: 20px;  
+      /*margin-bottom: 20px;  */
     }
   /*}*/
 
   .image-text-content {
+    background-color: @light-grey;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    .container {
+      .grey-border {
+        width: 100%;
+        border: none;
+        border-top: 1px solid #ccc;
+      }
+      h2 {
+        padding-top: 70px;
+      }
+    }
     h3 {
       font-size: 24px;
       margin-bottom: 29px;
@@ -1745,16 +1778,31 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
         line-height: 20px!important;
       }
     }
+    .signup-text-button {
+      margin: 30px auto 70px auto;
+      text-align: center;
+      p.interested {
+        text-align: center;
+        display: inline-block;
+        margin-right: 25px;
+      }
+    }
+    
     ul {
       li {
         margin-bottom: 25px;
         @media all and (max-width: 992px) {
           font-size: 14px;
-          line-height: 21px;
+          line-height: 24px;
         }
         a {
           color: @greyish;
           margin-top: 10px;
+        }
+        a.click-here {
+          padding-left: 33px;
+          margin-top: 15px;
+          display: block;
         }
         i {
           background-color: @light-blue;
@@ -1764,7 +1812,7 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
           width: 20px;
           height: 20px;
           font-size: 12px;
-          margin-right: 5px;
+          margin-right: 10px;
           display: inline-block;
         }
         span {
@@ -1772,16 +1820,31 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
           /* float: right; */
           width: 90%;
           vertical-align: top;
-          line-height: 21px;
+          line-height: 24px;
+          b {
+            font-weight: bold!important;
+          }
+        }
+        span.link-to {
+          color: @light-blue;
         }
       }
+    }
+    h4.bottom-header {
+      text-transform: none;
+      border: none;
+      margin-top: 0px;
     }
     .vertical-line {
       margin: 0px;
     }
-    .apply-now {
-      margin: 30px auto 70px auto;
+    .center-btn {
+      text-align: center;
       display: block;
+    }
+    .apply-now {
+      display: inline-block;
+      text-align: center;
     }
 
     .links {
@@ -1814,10 +1877,130 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
         line-height: 21px;
       }
     }
+    h5.text-title {
+      color: @dark-blue;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+  }
+
+  .color-text-content {
+    background-color: @light-grey;
+  }
+
+  .text-content, .text-content-2 {
+    padding-bottom: 70px;
+    h2 {
+      padding-top: 70px;
+      color: @dark-blue;
+    }
+
+    .all-text {
+      margin-top: 50px;
+    }
+
+    .each-text {
+      margin-bottom: 30px;
+      h5 {
+        color: @dark-blue;
+        font-size: 20px;
+        font-weight: bold!important;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+    h3 {
+      color: @light-blue;
+      text-transform: uppercase;
+      margin-top: 40px;
+    }
+    h5.text-title {
+      color: @dark-blue;
+      margin-bottom: 5px;
+      font-size: 19px;
+      font-weight: bold;
+    }
+    h5.address-title {
+      color: @light-blue;
+    }
+
+    .each-address {
+      margin-bottom: 15px;
+    }
+    .all-title-text {
+      margin-top: 50px;
+    }
+    p.title-text {
+      margin-bottom: 30px;
+      text-align: center;
+      line-height: 24px;
+    }
+    .grey-border {
+      width: 100%;
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 24px auto;
+    }
+    p.note {
+      font-size: 13px;
+    }
+
+    .signup-text-button {
+      margin: 30px auto 70px auto;
+      text-align: center;
+      p.interested {
+        text-align: center;
+        display: inline-block;
+        margin-right: 25px;
+      }
+    }
+  }
+
+  .extra-text-content, .extra-text-content-2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    p {
+      text-align: left;
+      display: block;
+      margin: 0 auto;
+      .avenirnextltpro-regular;
+      font-size: 13px;
+      margin-bottom: 20px;
+      a {
+        color: @light-blue;
+        &:hover { 
+          color: @dark-grey;
+        }
+      }
+    }
+    p.title {
+      font-weight: bold;
+    }
+  }
+
+  .extra-text-content-2 {
+    background-color: @light-grey;
+    margin-top: -70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    a {
+      margin-top: -15px;
+      color: #08b8ef;
+      font-size: 13px;
+      text-align: left;
+      display: block;
+    }
   }
 }
 
 div.dash-advance {
+
+  padding-bottom: 92px!important;
+
   .banner-text {
     .arrow-container {
       img {
@@ -1847,6 +2030,7 @@ div.dash-abroad {
   .banner-text {
     margin-bottom: 20px;
   }
+
 }
 
 //   _____ ___   ___ _____ _____ ____  
@@ -2010,7 +2194,7 @@ div#copyright-wrapper{
   }
 
   #slider-wrapper{
-    background: #f8f8f8;
+    background: @light-grey;
     //height: 580px;
     height: 420px;
     overflow: hidden;

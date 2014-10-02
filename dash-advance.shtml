@@ -54,6 +54,9 @@
 									<p>Interest rates as low as 4.98% p.a.</p>
 								</div>
 							</div>
+							<div class="col-md-12">
+								<button class="cta-btn-4 apply-now">Get Dash Abroad</button>
+							</div>
 						</div>
 						<div class="row visible-xs visible-sm">
 							<div class="col-xs-12 col-sm-12">
@@ -83,10 +86,281 @@
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content container">
-		<!-- 	<div class="row"> 
+		<div class="image-text-content  container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>What you get</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<h3>AN ADVANCE OF</h3>
+						
+					</div>
+					<div class="col-md-7">
+						<ul>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>Up to 4X your monthly salary (maximum $200,000*) 
+									<br>If your annual income is $30,000 and above.
+								</span>
+							</li>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>Up to 2X your monthly salary 
+									<br>If your annual income is $30,000 and above.
+								</span>
+
+								<a href="#" class="click-here">Read the Dash Advance Terms and Conditions here</a>
+							</li>
+						</ul>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<h3>REPAYMENT PERIOD OF</h3>
+						
+					</div>
+					<div class="col-md-7">
+						<ul>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>1 to 5 years, it's your choice. We've built a calculator in our online 
+									<br>application form so you can decide for yourself what's best for you – 
+									<br>choose the loan amount and tenor you want and we'll tell you how 
+									<br>much you need to repay monthly.
+								</span>
+							</li>
+						</ul>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<h3>INTEREST RATES</h3>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>From as low as 4.98% p.a. (EIR 9.21% p.a.**) depending on your approved loan amount and tenor.
+								</span>
+
+								<a href="#" class="click-here">Rate Tables</a>
+							</li>
+						</ul>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+			</div>	
+		</div>
+
+		<div class="text-content container">
+			<div class="row"> 
 				<div class="col-md-12">
-					<h2>What you get</h2>
+					<h2>ARE THERE ANY FEES & CHARGES?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h3>You'll need to pay for</h3>
+					
+				</div>
+				<div class="col-md-5">
+					<h3>How much?</h3>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">First year's annual fee </h5>
+					<p>First year annual fee will be deducted from your approved loan amount</p>
+				</div>
+				<div class="col-md-5">
+					<p>$199</p>			
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h3>You'll need to pay only if you're late for payments</h3>
+					
+				</div>
+				<div class="col-md-5">
+					<h3>How much?</h3>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Subsequent annual fees until end of tenor</h5>
+					<p>If we do not receive your payment by the due date for any month in the past 12 months</p>
+				</div>
+				<div class="col-md-5">
+					<p>$50 per year</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Revised EIR</h5>
+					<p>Applies if payment is not received by payment due date twice within 6 consecutive months</p>
+				</div>
+				<div class="col-md-5">
+					<p>4% p.a. will be added to the original EIR on your entire Dash Advance outstanding balance. Revised EIR will be reinstated to original EIR if payment due is made in full by the payment due date for 6 consecutive months.</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Late payment charges</h5>
+					<p>If we do not receive minimum payment by the due date</p>
+				</div>
+				<div class="col-md-5">
+					<p>$60 will be charged if minimum payment is not received by the due date. If instalment amount is not received by the due date, and a balance is carried forward from the relevant statement, finance charges will be calculated on a daily basis at the EIR of 24.455% p.a. (minimum)</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h3>You'll need to pay only if you make changes</h3>
+					
+				</div>
+				<div class="col-md-5">
+					<h3>How much?</h3>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Early redemption fee</h5>
+					<p>If you repay in full before your repayment period</p>
+				</div>
+				<div class="col-md-5">
+					<p>$250 or 3% of outstanding principal, whichever is higher</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Tenor change fee</h5>
+					<p>If you change your repayment period</p>
+				</div>
+				<div class="col-md-5">
+					<p>$50 per change</p>			
+				</div>
+			</div>
+		</div>
+		<div class="image-text-content container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>ARE YOU ELIGIBLE FOR DASH ADVANCE?</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h5 class="text-title">Nationality and Minimum Annual Income</h5>
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span>Singapore Citizen and Singapore Permanent Resident with minimum annual income of S$20,000.</span></li>
+							<li><i class="fa fa-chevron-right"></i><span>Foreigner (with Employment Pass) with minimum annual income of S$60,000.</span><a href="#" class="click-here">Show More</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h5 class="text-title">Age Requirement</h5>
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span>Between 21 to 65 years old.</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h5 class="text-title">Mobile Phone Carrier</h5>
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span>You can sign up for Dash Advance regardless of your telco relationship, all SingTel, Starhub and M1 mobile customers are welcome.</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<h5 class="text-title">Supporting Documents</h5>
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span>Sign up on your mobile phone in just 15 mins. You can take photos of your <a href="#">documents required</a> for easy uploading.</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-content container">
+			<div class="row"> 
+				<div class="col-md-12">
+					<h2>IF YOU HAVE ANY OF THE FOLLOWING PRODUCTS WITH STANDARD CHARTERED, PLEASE NOTE:</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -95,52 +369,109 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
-					<h3>Dash Easy Savings Account</h3>
-					<ul>
-						<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-1"><div class="vertical-line hidden-xs hidden-sm"></div></div>
-						<div class="col-md-11">
-							<h3>Dash App to Pay Friends & Businesses</h3>
-							<ul>
-								<li><i class="fa fa-chevron-right"></i><span>Use Dash to make instant and secure payments at retail stores, F&B outlets and taxis …
-									<br><a href="#">Learn more</a></span></li>
-								<li><i class="fa fa-chevron-right"></i><span>… or transfer money to your friends <br><a href="#">Learn more</a></span></li>
-								<li><i class="fa fa-chevron-right"></i><span>Ran out of mobile cash in your Dash App? Top up your Dash App account straight from your Dash Easy savings account</span></li>
-							</ul>
-						</div>
-					</div>
+				<div class="col-md-5 col-md-offset-1">
+					<h3>Your Standard Chartered Product Type</h3>
 					
 				</div>
-			</div> -->
+				<div class="col-md-5">
+					<h3>How your Standard Chartered Credit Card Account will be affected</h3>			
+				</div>
+			</div>
 			<div class="row">
-				<div class="col-md-12">
-					<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Credit Card with $500 limit</h5>
+				</div>
+				<div class="col-md-5">
+					<p>If you earn a salary that ranges between $20,000 and $29,999, your existing credit card account will be closed upon approval of your Dash Advance Personal Loan</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Any Credit Card other than the above</h5>
+				</div>
+				<div class="col-md-5">
+					<p>Your available credit card limit may be used for your Dash Advance Personal Loan</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<h5 class="text-title">Personal Credit</h5>
+				</div>
+				<div class="col-md-5">
+					<p>Your line of credit may be converted into a Dash Advance Personal Loan</p>			
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr class="grey-border">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="links hidden-xs hidden-sm">
-						<a href="#" class="each-link">Are You Eligible?</a><span class="seperator">|</span><a href="#" class="each-link">Fees & Rates</a><span class="seperator">|</span><a href="#" class="each-link">Frequently Asked Questions</a>
-					</div>
-					<div class="row mobile-links visible-xs visible-sm">
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Are You Eligible?</a></div>
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Fees & Rates</a></div>
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Frequently Asked Questions</a></div>
+					<div class="signup-text-button">
+						<p class="interested">Need an advance? </p>
+						<a href="https://apply.dash.com.sg/easy2/" target="_blank">
+							<button class="cta-btn-2 apply-now">Sign Up Now</button>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div class="extra-text-content-2 container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<p class="title">Banking products are provided by Standard Chartered Bank (Singapore) Limited (the “Bank”).</p>
+
+						<p>Please refer to our Dash Advance Product Terms, Customer Terms, Personal Loan/Personal Line of Credit/Overdraft Terms, Current/Savings Account and Time Deposit Terms for the complete features, Terms and Conditions of Dash Advance.</p>
+
+						<p>* Get a loan of up to 4x your monthly income (subject to a maximum loan amount of $200,000) upon approval if your annual income is $30,000 and above.</p>
+
+						<p>** Interest rate applies for approved loan amount of $75,000 and above, the EIR is calculated taking into consideration the first year annual fee of $199 and is based on average loan amount of $100,000 and loan tenor of 5 years. Approved loans with applied interest rate of 4.98% p.a. are not eligible for the Dash Advance Personal Loan Promotion.</p>
+
+						<p># Approval In-Principle Service ("Service") allows you to obtain approval in principle ("AIP") for an online personal loan application. An AIP is a conditional approval that is subject to receipt of complete supporting documents within 30 days and further review by the Bank. The Service is only available from Mon-Sat between 8am-10pm and on Sun and PH between 2-10pm. This Service is available if you apply for the credit facility in your sole name, and you are not an existing principal credit cardholder or personal loan customer of the Bank. If you are an existing principal credit cardholder of the Bank, you are eligible for this Service only if your employment or income details have changed and you submit supporting documents as part of your application. </p>
+
+						<a href="">Standard Chartered Approval In-Principle Service Terms and Conditions apply.</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="row">
+			<div class="col-md-12">
+				<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="links hidden-xs hidden-sm">
+					<a href="#" class="each-link">Are You Eligible?</a><span class="seperator">|</span><a href="#" class="each-link">Fees & Rates</a><span class="seperator">|</span><a href="#" class="each-link">Frequently Asked Questions</a>
+				</div>
+				<div class="row mobile-links visible-xs visible-sm">
+					<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Are You Eligible?</a></div>
+					<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Fees & Rates</a></div>
+					<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Frequently Asked Questions</a></div>
+				</div>
+			</div>
+		</div> -->
 	</div>
 
-
+	
 
 	<!--#include virtual="inc/footer.inc" -->
 

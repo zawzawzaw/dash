@@ -52,6 +52,9 @@
 									<p>Make an instant and secure payment to shop and cab!</p>
 								</div>
 							</div>
+							<div class="col-md-12">
+								<button class="cta-btn-4 apply-now">Get Dash Easy</button>
+							</div>
 						</div>
 						
 						<div class="row visible-xs visible-sm">
@@ -82,10 +85,71 @@
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content container">
+		<div class="image-text-content container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>What you get</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Dash Easy Savings Account</h3>
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
+							<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
+							<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
+							<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-1"><div class="vertical-line hidden-xs hidden-sm"></div></div>
+							<div class="col-md-11">
+								<h3>Dash App to Pay Friends & Businesses</h3>
+								<ul>
+									<li><i class="fa fa-chevron-right"></i><span>Use Dash to make instant and secure payments at retail stores, F&B outlets and taxis …<br><a href="#">Learn more</a></span></li>
+									<li><i class="fa fa-chevron-right"></i><span>… or transfer money to your friends <br><a href="#">Learn more</a></span></li>
+									<li><i class="fa fa-chevron-right"></i><span>Ran out of mobile cash in your Dash App? Top up your Dash App account straight from your Dash Easy savings account</span></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="signup-text-button">
+							<p class="interested">I'm Interested </p>
+							<a href="https://apply.dash.com.sg/easy2/" target="_blank">
+								<button class="cta-btn-2 apply-now">Sign Up Now</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="row">
+					<div class="col-md-12">
+						<div class="links hidden-xs hidden-sm">
+							<a href="#" class="each-link">Are You Eligible?</a><span class="seperator">|</span><a href="#" class="each-link">Fees & Rates</a><span class="seperator">|</span><a href="#" class="each-link">Frequently Asked Questions</a>
+						</div>
+						<div class="row mobile-links visible-xs visible-sm">
+							<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Are You Eligible?</a></div>
+							<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Fees & Rates</a></div>
+							<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Frequently Asked Questions</a></div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+		<div class="text-content container">
 			<div class="row"> 
 				<div class="col-md-12">
-					<h2>What you get</h2>
+					<h2>ARE YOU ELIGIBLE FOR DASH EASY?</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -93,46 +157,191 @@
 					<hr>
 				</div>
 			</div>
+
 			<div class="row">
-				<div class="col-md-12">
-					<h3>Dash Easy Savings Account</h3>
-					<ul>
-						<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
-					</ul>
+				<div class="col-md-10 col-md-offset-1 all-text">
+					<div class="each-text">
+						<h5>Nationality and Age</h5>
+						<p>You need to be a Singapore Citizen, Singapore Permanent Resident, or Foreigner with an Employment Pass, 
+						and aged 18 years and up.</p>
+					</div>
+
+					<div class="each-text">
+						<h5>Mobile Service Provider</h5>
+						<p>You can sign up for Dash regardless of your telco relationship, all SingTel, StarHub and M1 mobile customers are welcome.</p>
+					</div>
+
+					<div class="each-text">
+						<h5>Supporting Documents</h5>
+						<p>Sign up on your mobile phone in just a few mins. You can take photos of your documents required for easy uploading.</p>
+					</div>
+
+					<div class="each-text">
+						<h5>For SingTel and Standard Chartered (Current or Savings Account) customers</h5>
+						<p>Your sign-up will be completed online.</p>
+					</div>
+
+					<div class="each-text">
+						<h5>For all other customers and foreigners</h5>
+						<p>After completing the online form, we will need to make a final verification. Please visit us at any of these locations within 7 days:</p>
+					</div>
+
+					<div class="each-address">
+						<h5 class="address-title">SingTel shop (Comcentre) </h5>
+						<p>31 Exeter Road, Singapore 239732</p>
+					</div>
+
+					<div class="each-address">
+						<h5 class="address-title">Standard Chartered branch (Plaza Singapura) </h5>
+						<p>68 Orchard Road #04-53 Plaza Singapura, Singapore 238839</p>
+					</div>						
 				</div>
-				<!-- <div class="col-md-6">
-					<div class="row">
-						<div class="col-md-1"><div class="vertical-line hidden-xs hidden-sm"></div></div>
-						<div class="col-md-11">
-							<h3>Dash App to Pay Friends & Businesses</h3>
-							<ul>
-								<li><i class="fa fa-chevron-right"></i><span>Use Dash to make instant and secure payments at retail stores, F&B outlets and taxis …<br><a href="#">Learn more</a></span></li>
-								<li><i class="fa fa-chevron-right"></i><span>… or transfer money to your friends <br><a href="#">Learn more</a></span></li>
-								<li><i class="fa fa-chevron-right"></i><span>Ran out of mobile cash in your Dash App? Top up your Dash App account straight from your Dash Easy savings account</span></li>
-							</ul>
-						</div>
-					</div>
-					
-				</div> -->
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
+		</div>
+		<div class="text-content color-text-content container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>ARE THERE ANY FEES & CHARGES?</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 all-title-text">
+						<p class="title-text">There are no fees & charges for signing up for or using Dash Easy.</p>
+
+						<p class="title-text">You can use your Dash mCash Account to pay friends and businesses at no charge. 
+						And transferring money between your Dash mCash Account and 
+						Dash Easy Savings Account is also free.</p>
+
+						<p class="title-text">As for your Dash Easy Savings Account, there are no fees and charges:</p>
+
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<h3>SERVICE</h3>
+					</div>
+					<div class="col-md-2">
+						<h3>CHARGES</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<p>Minimum initial deposit</p>
+					</div>
+					<div class="col-md-2">
+						<p>$0</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<p>Minimum average daily balance</p>
+					</div>
+					<div class="col-md-2">
+						<p>$0</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<p>Fall-below fee</p>
+					</div>
+					<div class="col-md-2">
+						<p>$0</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<p>Early account closure fee (within 6 months)</p>
+					</div>
+					<div class="col-md-2">
+						<p>$0</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<p>Over-the-counter transactions <br>(limited to ATM PIN reset, Dash Banking password reset and account closure)</p>
+					</div>
+					<div class="col-md-2">
+						<p>$0</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-1">
+						<p class="note">Note: If your Dash Easy Savings Account has a S$0 balance for 6 consecutive months, Dash Easy will be closed automatically. This means you can no longer top-up your Dash mCash Account, or pay friends with a swipe.</p>
+					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="extra-text-content container">
 			<div class="row">
-				<div class="col-md-12">
-					<div class="links hidden-xs hidden-sm">
-						<a href="#" class="each-link">Are You Eligible?</a><span class="seperator">|</span><a href="#" class="each-link">Fees & Rates</a><span class="seperator">|</span><a href="#" class="each-link">Frequently Asked Questions</a>
-					</div>
-					<div class="row mobile-links visible-xs visible-sm">
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Are You Eligible?</a></div>
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Fees & Rates</a></div>
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Frequently Asked Questions</a></div>
-					</div>
+				<div class="col-md-10 col-md-offset-1">
+					<p class="title">Payments services are provided by Telecom Equipment Pte Ltd (“SingTel”) and banking products are provided by Standard Chartered Bank (Singapore) 
+					Limited (the “Bank”).</p>
+
+					<p>Dash mCash is governed by SingTel’s Dash Payment Service Terms, mCash Terms and mWallet Terms. Dash Easy Savings Account is governed by the Bank’s Customer Terms, Current/Cheque/Savings Account and Time Deposit Terms and Dash Easy Savings Account Product Terms. Click here to view the terms 
+					and conditions.</p>
+					 
+					<p>#Dash Easy Savings Account Hashtag-for-Interest Promotion Terms and Conditions apply. Click here for full Terms and Conditions.</p>
+					 
+					<p>*Dash Easy S$5 Welcome Bonus Terms and Conditions apply. Click here for full Terms and Conditions.</p>
+					 
+					<p>^Your Dash mCash Account is open instantly while your Dash Easy Savings Account will be open in 3 working days upon full submission of your application subject to the Bank's approval.</p>
+					 
+					<p class="title">Deposit Insurance Scheme</p>
+
+					<p>Singapore dollar deposits of non-bank depositors are insured by the Singapore Deposit Insurance Corporation, for up to $50,000 in aggregate per depositor 
+					per Scheme member by law. Foreign currency deposits, dual currency investments, structured deposits and other investment products are not insured.</p>
+					 
+					<p>Consumer advisory – Telecom Equipment Pte Ltd, the holder of the mCash stored value facility, does not require the approval of the Monetary Authority of Singapore. Consumers (users) are advised to read the terms and conditions carefully.</p>
 				</div>
 			</div>
 		</div>

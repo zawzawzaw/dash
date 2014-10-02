@@ -53,6 +53,9 @@
 									<p>Flexibility to pick and choose coverage options that best match your needs</p>
 								</div>
 							</div>
+							<div class="col-md-12">
+								<button class="cta-btn-4 apply-now">Get Dash Abroad</button>
+							</div>
 						</div>
 
 						<div class="row visible-xs visible-sm">
@@ -82,58 +85,124 @@
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content container">
-		<!-- 	<div class="row"> 
-				<div class="col-md-12">
-					<h2>What you get</h2>
+		<div class="image-text-content container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>What you get</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<h3>BASIC PLAN OF ESSENTIALS</h3>
+						
+					</div>
+					<div class="col-md-7">
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span>As low as $20 per trip</span></li>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>
+									<b>Includes coverage for:</b>
+									<br>Overseas Medical Expenses of up to $50,000
+									<br>Accidental Death & Disablement of up to $100,000
+									<br>Emergency Medical Evacuation of up to $100,000
+								</span>
+
+								<a href="#" class="click-here">Click here for what's covered and what's not</a>
+							</li>
+						</ul>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<h3>ADD BENEFITS YOU NEED</h3>
+						
+					</div>
+					<div class="col-md-7">
+						<ul>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>
+									<b>Sports Equipment & Oversized Baggage</b>
+									<br>Covers loss of golf equipment, ski, snowboard, snorkel, musical 
+									<br>instruments, bicycles, strollers and prams due to robbery, theft or 
+									<br>burglary (max $500 per article or a pair or a set of article)
+								</span>
+							</li>
+							<li><i class="fa fa-chevron-right"></i>
+								<span class="head-text">
+									<b>Digital Device Protection</b>
+									<br>Covers loss of mCash or mobile wallet as a result of loss of mobile phone 
+									<br>due to robbery, theft or burglary and/or loss of or damage
+									<br>to mobile phone due to robbery, theft or burglary.
+								</span>
+							</li>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>
+									<b>Family Services</b>
+									<br>Covers child guard, pet care, parent care and home guard.
+								</span>
+							</li>
+							<li><i class="fa fa-chevron-right"></i>
+								<span>
+									<b>Overseas Hospital Cash Benefit (minimum 2 Days confinement)</b>
+									<br>Pays $100 per day of confinement in an Overseas Hospital.
+								</span>
+							</li>
+						</ul>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-md-offset-1">
+						<h3>find out more</h3>
+					</div>
+					<div class="col-md-7">
+						<ul>
+							<li><i class="fa fa-chevron-right"></i><span class="link-to">Where can I travel and when am I covered?</span></li>
+							<li><i class="fa fa-chevron-right"></i><span class="link-to">Do I qualify for Dash Abroad?</span></li>
+							<li><i class="fa fa-chevron-right"></i><span class="link-to">Can I buy this plan for my spouse and children?</span></li>
+							<li><i class="fa fa-chevron-right"></i><span class="link-to">How do I make a claim?</span></li>
+							<li><i class="fa fa-chevron-right"></i><span class="link-to">How do I contact your customer servicing officers?</span></li>
+							<li><i class="fa fa-chevron-right"></i><span class="link-to">Other FAQs</span></li>
+						</ul>				
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="bottom-header">Dash Abroad Travel Insurance is presented by <br> Standard Chartered and underwritten by ACE</h4>
+						<a href="https://apply.dash.com.sg/easy2/" target="_blank" class="center-btn"><button class="cta-btn-2 apply-now">Sign Up Now</button></a>
+					</div>
 				</div>
 			</div>
+		</div>
+		<div class="container extra-text-content">
 			<div class="row">
-				<div class="col-md-12">
-					<hr>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<h3>Dash Easy Savings Account</h3>
-					<ul>
-						<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
-						<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
-					</ul>
-				</div>
-				<div class="col-md-6">
-					<div class="row">
-						<div class="col-md-1"><div class="vertical-line hidden-xs hidden-sm"></div></div>
-						<div class="col-md-11">
-							<h3>Dash App to Pay Friends & Businesses</h3>
-							<ul>
-								<li><i class="fa fa-chevron-right"></i><span>Use Dash to make instant and secure payments at retail stores, F&B outlets and taxis …
-									<br><a href="#">Learn more</a></span></li>
-								<li><i class="fa fa-chevron-right"></i><span>… or transfer money to your friends <br><a href="#">Learn more</a></span></li>
-								<li><i class="fa fa-chevron-right"></i><span>Ran out of mobile cash in your Dash App? Top up your Dash App account straight from your Dash Easy savings account</span></li>
-							</ul>
-						</div>
-					</div>
-					
-				</div>
-			</div> -->
-			<div class="row">
-				<div class="col-md-12">
-					<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="links hidden-xs hidden-sm">
-						<a href="#" class="each-link">Are You Eligible?</a><span class="seperator">|</span><a href="#" class="each-link">Fees & Rates</a><span class="seperator">|</span><a href="#" class="each-link">Frequently Asked Questions</a>
-					</div>
-					<div class="row mobile-links visible-xs visible-sm">
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Are You Eligible?</a></div>
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Fees & Rates</a></div>
-						<div class="col-sm-12 col-xs-12"><a href="#" class="each-link">Frequently Asked Questions</a></div>
-					</div>
+				<div class="col-md-10 col-md-offset-1">
+					<p>Dash Abroad Travel Insurance is presented by Standard Chartered Bank (Singapore) Limited ("SCBSL") and underwritten by ACE Insurance Limited. This is not a contract of insurance nor is it intended to provide any insurance or financial advice. SCBSL shall not be liable in any manner whatsoever regarding your application or the contract of insurance. Full details of the <a href="#">terms, conditions and exclusion</a> of this insurance are provided for in the policy documentation. Please read <a href="#">ACE Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
 				</div>
 			</div>
 		</div>

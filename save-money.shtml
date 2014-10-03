@@ -53,7 +53,7 @@
 								</div>
 							</div>
 							<div class="col-md-12">
-								<button class="cta-btn-4 apply-now">Get Dash Easy</button>
+								<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-4 apply-now">Get Dash Easy</button></a>
 							</div>
 						</div>
 						
@@ -98,7 +98,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<h3>Dash Easy Savings Account</h3>
 						<ul>
 							<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
@@ -107,7 +107,7 @@
 							<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
 						</ul>
 					</div>
-					<div class="col-md-6">
+					<!-- <div class="col-md-6">
 						<div class="row">
 							<div class="col-md-1"><div class="vertical-line hidden-xs hidden-sm"></div></div>
 							<div class="col-md-11">
@@ -120,7 +120,7 @@
 							</div>
 						</div>
 						
-					</div>
+					</div> -->
 				</div>
 				<div class="row">
 					<div class="col-md-12">
@@ -327,12 +327,12 @@
 					<p class="title">Payments services are provided by Telecom Equipment Pte Ltd (“SingTel”) and banking products are provided by Standard Chartered Bank (Singapore) 
 					Limited (the “Bank”).</p>
 
-					<p>Dash mCash is governed by SingTel’s Dash Payment Service Terms, mCash Terms and mWallet Terms. Dash Easy Savings Account is governed by the Bank’s Customer Terms, Current/Cheque/Savings Account and Time Deposit Terms and Dash Easy Savings Account Product Terms. Click here to view the terms 
+					<p>Dash mCash is governed by SingTel’s Dash Payment Service Terms, mCash Terms and mWallet Terms. Dash Easy Savings Account is governed by the Bank’s Customer Terms, Current/Cheque/Savings Account and Time Deposit Terms and Dash Easy Savings Account Product Terms. <a href="terms.shtml">Click here</a> to view the terms 
 					and conditions.</p>
 					 
-					<p>#Dash Easy Savings Account Hashtag-for-Interest Promotion Terms and Conditions apply. Click here for full Terms and Conditions.</p>
+					<p>#Dash Easy Savings Account Hashtag-for-Interest Promotion Terms and Conditions apply. <a href="terms.shtml">Click here</a> for full Terms and Conditions.</p>
 					 
-					<p>*Dash Easy S$5 Welcome Bonus Terms and Conditions apply. Click here for full Terms and Conditions.</p>
+					<p>*Dash Easy S$5 Welcome Bonus Terms and Conditions apply. <a href="terms.shtml">Click here</a> for full Terms and Conditions.</p>
 					 
 					<p>^Your Dash mCash Account is open instantly while your Dash Easy Savings Account will be open in 3 working days upon full submission of your application subject to the Bank's approval.</p>
 					 

@@ -55,7 +55,7 @@
 								</div>
 							</div>
 							<div class="col-md-12">
-								<button class="cta-btn-4 apply-now">Get Dash Abroad</button>
+								<a href="https://apply.dash.com.sg/advance/" target="_blank"><button class="cta-btn-4 apply-now">Get Dash Advance</button></a>
 							</div>
 						</div>
 						<div class="row visible-xs visible-sm">
@@ -120,7 +120,7 @@
 									<br>If your annual income is $30,000 and above.
 								</span>
 
-								<a href="#" class="click-here">Read the Dash Advance Terms and Conditions here</a>
+								<a href="http://www.dash.com.sg/assets/pdf/dash-advance-tncs.pdf" target="_blank" class="click-here">Read the Dash Advance Terms and Conditions here</a>
 							</li>
 						</ul>				
 					</div>
@@ -162,7 +162,7 @@
 								<span>From as low as 4.98% p.a. (EIR 9.21% p.a.**) depending on your approved loan amount and tenor.
 								</span>
 
-								<a href="#" class="click-here">Rate Tables</a>
+								<a href="http://faq.dash.com.sg/app/answersc/detail/a_id/832" target="_blank" class="click-here">Rate Tables</a>
 							</li>
 						</ul>				
 					</div>
@@ -327,7 +327,12 @@
 						<h5 class="text-title">Nationality and Minimum Annual Income</h5>
 						<ul>
 							<li><i class="fa fa-chevron-right"></i><span>Singapore Citizen and Singapore Permanent Resident with minimum annual income of S$20,000.</span></li>
-							<li><i class="fa fa-chevron-right"></i><span>Foreigner (with Employment Pass) with minimum annual income of S$60,000.</span><a href="#" class="click-here">Show More</a></li>
+							<li><i class="fa fa-chevron-right"></i><span>Foreigner (with Employment Pass) with minimum annual income of S$60,000.</span>
+								<ul>
+									<li><i class="fa fa-chevron-right"></i><span>Foreigners must hold P1, P2 or Q type Singapore Employment Passes</span></li>
+									<li><i class="fa fa-chevron-right"></i><span>Q Pass holders must have minimum 1-year validity remaining on their passes</span></li>
+								</ul>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -351,7 +356,7 @@
 					<div class="col-md-10 col-md-offset-1">
 						<h5 class="text-title">Supporting Documents</h5>
 						<ul>
-							<li><i class="fa fa-chevron-right"></i><span>Sign up on your mobile phone in just 15 mins. You can take photos of your <a href="#">documents required</a> for easy uploading.</span></li>
+							<li><i class="fa fa-chevron-right"></i><span>Sign up on your mobile phone in just 15 mins. You can take photos of your <a href="http://faq.dash.com.sg/app/answersc/detail/a_id/796/kw/documents" target="_blank">documents required</a> for easy uploading.</span></li>
 						</ul>
 					</div>
 				</div>
@@ -425,7 +430,7 @@
 				<div class="col-md-12">
 					<div class="signup-text-button">
 						<p class="interested">Need an advance? </p>
-						<a href="https://apply.dash.com.sg/easy2/" target="_blank">
+						<a href="https://apply.dash.com.sg/advance/" target="_blank">
 							<button class="cta-btn-2 apply-now">Sign Up Now</button>
 						</a>
 					</div>
@@ -446,7 +451,7 @@
 
 						<p># Approval In-Principle Service ("Service") allows you to obtain approval in principle ("AIP") for an online personal loan application. An AIP is a conditional approval that is subject to receipt of complete supporting documents within 30 days and further review by the Bank. The Service is only available from Mon-Sat between 8am-10pm and on Sun and PH between 2-10pm. This Service is available if you apply for the credit facility in your sole name, and you are not an existing principal credit cardholder or personal loan customer of the Bank. If you are an existing principal credit cardholder of the Bank, you are eligible for this Service only if your employment or income details have changed and you submit supporting documents as part of your application. </p>
 
-						<a href="">Standard Chartered Approval In-Principle Service Terms and Conditions apply.</a>
+						<a href="https://www.sc.com/sg/approval-in-principle.html" target="_blank">Standard Chartered Approval In-Principle Service Terms and Conditions apply.</a>
 					</div>
 				</div>
 			</div>

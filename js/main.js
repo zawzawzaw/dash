@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	console.log('hi');
-
     $('.carousel').carousel({
         interval: 9000,
         pause: "false"
@@ -43,6 +41,32 @@ $(document).ready(function(){
       else{
         // $('#header-wrapper').removeClass("sticky");
       }
+    });
+
+    $(window).on('resize', function(){
+        if ($(this).width() <= 480) { 
+            var marginRight = $(this).width()-580 + 'px';
+            // console.log('margin', '0px '+ marginRight +' 0px 0px')
+            $('.video').css({ 'margin': '0px', 'left': marginRight })
+        }
+        else if ($(this).width() <= 580) { 
+            var marginRight = $(this).width()-580 + 'px';
+            // console.log('margin', '0px '+ marginRight +' 0px 0px')
+            $('.video').css({ 'margin': '0px', 'left': marginRight })
+        }
+        else if ($(this).width() <= 680) { 
+            var marginRight = $(this).width()-680 + 'px';
+            // console.log('margin', '0px '+ marginRight +' 0px 0px')
+            $('.video').css({ 'margin': '0px', 'left': marginRight })
+        }
+        else if ($(this).width() <= 780) { 
+            var marginRight = $(this).width()-780 + 'px';
+            // console.log('margin', '0px '+ marginRight +' 0px 0px')
+            $('.video').css({ 'margin': '0px', 'left': marginRight })
+        }
+        else if ($(this).width() >= 780) {
+            $('.video').css({ 'margin' : '80px auto', 'left': '0px;' });
+        }
     });
 
     

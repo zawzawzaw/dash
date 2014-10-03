@@ -54,7 +54,7 @@
 								</div>
 							</div>
 							<div class="col-md-12">
-								<button class="cta-btn-4 apply-now">Get Dash Abroad</button>
+								<a href="https://dashsg.acetravelinsurance.com/" target="_blank"><button class="cta-btn-4 apply-now">Get Dash Abroad</button></a>
 							</div>
 						</div>
 
@@ -118,7 +118,7 @@
 									<br>Emergency Medical Evacuation of up to $100,000
 								</span>
 
-								<a href="#" class="click-here">Click here for what's covered and what's not</a>
+								<a href="http://www.dash.com.sg/assets/pdf/dash_abroad_infographic.pdf" target="_blank" class="click-here">Click here for what's covered and what's not</a>
 							</li>
 						</ul>				
 					</div>
@@ -166,7 +166,7 @@
 						</ul>				
 					</div>
 				</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
 					</div>
@@ -185,7 +185,7 @@
 							<li><i class="fa fa-chevron-right"></i><span class="link-to">Other FAQs</span></li>
 						</ul>				
 					</div>
-				</div>
+				</div> -->
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
@@ -194,7 +194,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h4 class="bottom-header">Dash Abroad Travel Insurance is presented by <br> Standard Chartered and underwritten by ACE</h4>
-						<a href="https://apply.dash.com.sg/easy2/" target="_blank" class="center-btn"><button class="cta-btn-2 apply-now">Sign Up Now</button></a>
+						<a href="https://dashsg.acetravelinsurance.com/" target="_blank" class="center-btn"><button class="cta-btn-2 apply-now">Sign Up Now</button></a>
 					</div>
 				</div>
 			</div>

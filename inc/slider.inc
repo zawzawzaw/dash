@@ -14,7 +14,7 @@
 				<div class="img hidden-xs hidden-sm" style="z-index:10">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
-
+		  				<div class="temp-bg"></div>
 		  				<div id="myId_01">
 								<h1>Alternative content</h1>
 								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
@@ -62,6 +62,7 @@
 		  	<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
+		  				<div class="temp-bg"></div>
 
 
 		  				<div id="myId_02">
@@ -93,6 +94,7 @@
 		  	<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
+		  				<div class="temp-bg"></div>
 
 
 		  				<div id="myId_03">
@@ -129,6 +131,7 @@
 		  	<div class="img hidden-xs hidden-sm">
 		  		<div class="animation-panel">
 		  			<div class="animation-animation">
+		  				<div class="temp-bg"></div>
 
 
 		  				<div id="myId_04">

@@ -28,7 +28,8 @@
 
 		
 		var flashvars = {},
-				params = {wmode:"transparent"},
+				//params = {wmode:"transparent"},
+				params = {bgcolor:"#F8F8F8"},
 				attributes = {};
 				
 		swfobject.embedSWF("swf/animation_01.swf", "myId_01", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
@@ -42,6 +43,26 @@
 
 
 	</script>
+
+	<style type="text/css">
+		.animation-panel .animation-animation{
+			
+			-webkit-backface-visibility: hidden;
+			-webkit-transform-style: preserve-3d;
+			/*-webkit-transform: scale(1);
+			-webkit-transform: translateZ(0);
+			-webkit-transform: translate3d(0, 0, 0);
+			*/
+		}
+		.temp-bg{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			background: #F8F8F8;
+		}
+	</style>
 
 </head>
 <body>
@@ -139,6 +160,8 @@
 
 	<!-- <script src="https://www.gstatic.com/swiffy/v7.0/runtime.js"></script> -->
 	<!-- <script type="text/javascript" src="js/plugins/jquery.dash_home_slider_animation.js"></script> -->
+	<script type="text/javascript" src="js/vendors/gsap/TweenLite.min.js"></script>
+	<script type="text/javascript" src="js/vendors/gsap/plugins/CSSPlugin.min.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			//$('.animation-container').dash_home_slider_animation({});
@@ -146,8 +169,30 @@
 			$('.carousel-indicators').click(function(event) {
 				$('#carousel-example-generic').carousel('pause');
 			});
-
 			
+			/*
+			$('.carousel').carousel({
+	        interval: 9000,
+	        pause: "false"
+	    });
+			*/
+			
+
+
+			function temp_blink(){
+				var arr = $(".temp-bg");
+		    var el = null;
+		    for (var i = 0; i < arr.length; i++) {
+		    	el = arr[i];
+			    TweenLite.to(el,0,{opacity:1});
+			    TweenLite.to(el,0.2,{opacity:0,delay:0.7});
+		    }
+			}
+			$('.carousel').bind('slide.bs.carousel', function (e) {
+			  temp_blink();
+			});
+			temp_blink();
+
 		});
 	</script>
 

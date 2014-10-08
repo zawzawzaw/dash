@@ -16,9 +16,10 @@
 		  			<div class="animation-animation">
 		  				<div class="temp-bg"></div>
 		  				<div id="myId_01">
-								<h1>Alternative content</h1>
-								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-							</div>
+							<!-- <h1>Alternative content</h1>
+							<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p> -->
+							<img src="images/content/slider-1.png" class="no-flash-img img-responsive" alt="slider 1">
+						</div>
 
 		  			</div>
 		  		</div>
@@ -66,9 +67,10 @@
 
 
 		  				<div id="myId_02">
-								<h1>Alternative content</h1>
-								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-							</div>
+		  					<img src="images/content/slider-2.png" class="no-flash-img img-responsive" alt="slider 2">
+							<!-- <h1>Alternative content</h1>
+							<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p> -->
+						</div>
 
 
 		  			</div>
@@ -86,8 +88,8 @@
 							<button class="cta-btn-2 apply-now">APPLY NOW</button>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
-					 		<img src="images/content/slider-3.png" class="img-responsive visible-xs visible-sm" alt="slider 3">
-					 	</div>					  	
+				 		<img src="images/content/slider-3.png" class="img-responsive visible-xs visible-sm" alt="slider 3">
+				 	</div>					  	
 			  	</div>
 		  	</div>
 
@@ -98,9 +100,10 @@
 
 
 		  				<div id="myId_03">
-								<h1>Alternative content</h1>
-								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-							</div>
+		  					<img src="images/content/slider-3.png" class="no-flash-img img-responsive" alt="slider 3">
+							<!-- <h1>Alternative content</h1>
+							<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p> -->
+						</div>
 
 
 		  			</div>
@@ -135,9 +138,10 @@
 
 
 		  				<div id="myId_04">
-								<h1>Alternative content</h1>
-								<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p>
-							</div>
+		  					<img src="images/content/slider-4.png" class="no-flash-img img-responsive" alt="slider 4">
+							<!-- <h1>Alternative content</h1>
+							<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p> -->
+						</div>
 
 
 		  			</div>

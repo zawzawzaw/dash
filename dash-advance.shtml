@@ -80,7 +80,7 @@
 						</div>
 				 	</div>
 				</div>
-				<div class="col-md-5 col-md-offset-1">
+				<div class="col-md-3 col-md-offset-1">
 					<!-- <div class="img-friends"></div> -->
 					<img src="images/content/banner-8.png" class="img-responsive banner" alt="banner-8">
 				</div>
@@ -431,7 +431,7 @@
 					<div class="signup-text-button">
 						<p class="interested">Need an advance? </p>
 						<a href="https://apply.dash.com.sg/advance/" target="_blank">
-							<button class="cta-btn-2 apply-now">Sign Up Now</button>
+							<button class="cta-btn-2 apply-now">Get Dash Advance</button>
 						</a>
 					</div>
 				</div>

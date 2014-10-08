@@ -44,28 +44,38 @@ $(document).ready(function(){
     });
 
     $(window).on('resize', function(){
-        if ($(this).width() <= 480) { 
-            var marginRight = $(this).width()-580 + 'px';
-            // console.log('margin', '0px '+ marginRight +' 0px 0px')
-            $('.video').css({ 'margin': '0px', 'left': marginRight })
-        }
-        else if ($(this).width() <= 580) { 
-            var marginRight = $(this).width()-580 + 'px';
-            // console.log('margin', '0px '+ marginRight +' 0px 0px')
-            $('.video').css({ 'margin': '0px', 'left': marginRight })
-        }
-        else if ($(this).width() <= 680) { 
-            var marginRight = $(this).width()-680 + 'px';
-            // console.log('margin', '0px '+ marginRight +' 0px 0px')
-            $('.video').css({ 'margin': '0px', 'left': marginRight })
-        }
-        else if ($(this).width() <= 780) { 
-            var marginRight = $(this).width()-780 + 'px';
-            // console.log('margin', '0px '+ marginRight +' 0px 0px')
-            $('.video').css({ 'margin': '0px', 'left': marginRight })
-        }
-        else if ($(this).width() >= 780) {
-            $('.video').css({ 'margin' : '80px auto', 'left': '0px;' });
+        // if ($(this).width() <= 480) { 
+        //     var marginRight = $(this).width()-580 + 'px';
+        //     // console.log('margin', '0px '+ marginRight +' 0px 0px')
+        //     $('.video').css({ 'margin': '0px', 'left': marginRight })
+        // }
+        // else if ($(this).width() <= 580) { 
+        //     var marginRight = $(this).width()-580 + 'px';
+        //     // console.log('margin', '0px '+ marginRight +' 0px 0px')
+        //     $('.video').css({ 'margin': '0px', 'left': marginRight })
+        // }
+        // else if ($(this).width() <= 680) { 
+        //     var marginRight = $(this).width()-680 + 'px';
+        //     // console.log('margin', '0px '+ marginRight +' 0px 0px')
+        //     $('.video').css({ 'margin': '0px', 'left': marginRight })
+        // }
+        // else if ($(this).width() <= 780) { 
+        //     var marginRight = $(this).width()-780 + 'px';
+        //     // console.log('margin', '0px '+ marginRight +' 0px 0px')
+        //     $('.video').css({ 'margin': '0px', 'left': marginRight })
+        // }
+        // else if ($(this).width() >= 780) {
+        //     $('.video').css({ 'margin' : '80px auto', 'left': '0px;' });
+        // }
+
+        if ($(this).width() <= 780) { 
+            // var marginRight = $(this).width()-780 + 'px';
+            
+            $('.video').css({
+                '-ms-transform-origin': '11% 50%',
+                '-webkit-transform-origin': '11% 50%',
+                'transform-origin': '11% 50%'
+            });
         }
     });
 

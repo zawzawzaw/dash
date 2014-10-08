@@ -51,7 +51,7 @@
 						<!-- <a href="#video" class="watch"><button class="watch-video">Watch Video</button></a> -->
 				 	</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-5">
 					<!-- <div class="img"></div> -->
 					<img src="images/content/banner-1.png" class="img-responsive" alt="banner-1">
 				</div>
@@ -97,7 +97,10 @@
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="video">
+					<div class="video-mobile visible-sm visible-xs">
+						<iframe width="534" height="338" src="//www.youtube.com/embed/8p1iP28Dogo?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="video hidden-sm hidden-xs">
 						<iframe width="534" height="338" src="//www.youtube.com/embed/8p1iP28Dogo?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>

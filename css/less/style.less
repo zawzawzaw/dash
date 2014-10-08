@@ -887,6 +887,10 @@ p {
   left: 50%;
   margin-left: -680px;
 
+  .no-flash-img {
+    margin: 64px 488px!important;
+  }
+
 }
 
 .box-shadow-menu {
@@ -1007,6 +1011,8 @@ div.home {
         height: 360px;
         margin: 80px auto;
         position: relative;
+        .transform-origin(50%, 0px);
+
         iframe {
           margin: 0 auto;
           display: block;
@@ -1051,7 +1057,7 @@ div.home {
 
       @media all and (max-width: 992px) {
         .video {
-          margin: 0px auto;
+          margin: 30px auto;
           .scale(.5);
           /*left: -35%;*/
         }
@@ -1062,9 +1068,9 @@ div.home {
       and (min-device-width : 768px) 
       and (max-device-width : 1024px) {
         .video {
-          margin: 0px auto;
+          margin: 30px auto;
           .scale(.5);
-          /*left: -35%;*/
+          .transform-origin(50%, 50%);
         }
       }
 
@@ -1074,9 +1080,9 @@ div.home {
       and (max-device-width : 1024px) 
       and (orientation : landscape) {
         .video {
-          margin: 0px auto;
+          margin: 30px auto;
           .scale(0.7);
-          /*left: -35%;*/
+          .transform-origin(50%, 50%);
         }
       }
 
@@ -1086,9 +1092,9 @@ div.home {
       and (max-device-width : 1024px) 
       and (orientation : portrait) {
         .video {
-          margin: 0px auto;
+          margin: 30px auto;
           .scale(.5);
-          /*left: -35%;*/
+          .transform-origin(50%, 50%);
         }
       }
 
@@ -1098,7 +1104,9 @@ div.home {
       and (max-device-width : 480px) {
         .video {
           .scale(.4);
+          margin-top: 30px;
           left: -68%;
+          .transform-origin(50%, 50%);
         }
       }
 
@@ -1107,7 +1115,9 @@ div.home {
       and (max-width : 320px) {
         .video {
           .scale(.4);
+          margin-top: 30px;
           left: -68%;
+          .transform-origin(50%, 50%);
         }
       }
 
@@ -1202,7 +1212,8 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
     h2 {
       color: @dark-blue;
       /*margin-top: 150px;*/
-      margin-top: 115px;
+      /*margin-top: 115px;*/
+      margin-top: 100px;
     }
 
     @media all and (max-width: 992px) {
@@ -1319,6 +1330,12 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
       border: none;
     }
 
+    .col-md-4, .col-md-3 {
+      .img-responsive {
+        margin-top: 100px!important;
+      }
+    }
+
     /*.img {
       background: url(../images/content/banner-1.png) no-repeat 0px 0px;
       width: 100%;
@@ -1335,9 +1352,9 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
   }
 
   .image-text-content {
-    margin-top: 80px;
+    margin-top: 20px;
     @media all and (max-width: 992px) {
-      margin-top: 30px;
+      margin-top: 20px;
     }
 
     h2 {
@@ -1591,6 +1608,25 @@ div.pay-business {
 }
 
 div.pay-friends, div.pay-business {
+  .video-mobile {
+    text-align: center;
+    margin: 20px auto;
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
   .video {
     text-align: center;
     margin: 20px auto;
@@ -1623,7 +1659,7 @@ div.pay-friends, div.pay-business {
       span {
         display: inline-block;
         /* float: right; */
-        width: 90%;
+        /*width: 90%;*/
         vertical-align: top;
         line-height: 21px;
       }
@@ -2096,17 +2132,20 @@ div.dash-abroad {
 div#footer-wrapper {
   padding-top: 32px;
 
-
+  .col-lg-4 {
+    padding-right: 0;
+    margin-right: 0;
+  }
 
   .facebook {
     background: url(../images/icons/facebook.png) no-repeat;
     width: 24px;
     height: 24px;
     display: inline-block;
-    margin-top: 6px;
-    position: absolute;
+    /*margin-top: 6px;*/
+    /*position: absolute;
     top: -5px;
-    right: 55px;
+    right: 55px;*/
   }
 
   .twitter {
@@ -2114,10 +2153,10 @@ div#footer-wrapper {
     width: 24px;
     height: 24px;
     display: inline-block;
-    margin-top: 6px;
-    position: absolute;
+    /*margin-top: 6px;*/
+    /*position: absolute;
     top: -5px;
-    right: 25px;
+    right: 25px;*/
   }
 
   p {

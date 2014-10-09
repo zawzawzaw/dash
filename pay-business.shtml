@@ -40,9 +40,9 @@
 						<h5>With just 3 simple steps, you can use Dash to make an instant <br> and secure payment at retail stores, F&B outlets, and even taxis. <br> Bonus: Enjoy exclusive deals and offers every month when you <br> pay with Dash!</h5>
 
 						<ul class="friends">
-							<li>Slide coin to “Pay Businesses”</li>
-							<li>Select shop or cab</li>
-							<li>Enter amount, confirm, and pay</li>
+							<li><i class="no">1</i>Slide coin to “Pay Businesses”</li>
+							<li><i class="no">2</i>Select shop or cab</li>
+							<li><i class="no">3</i>Enter amount, confirm, and pay</li>
 						</ul>
 
 						<p>Love how easy it is? Click on the button below to apply</p>

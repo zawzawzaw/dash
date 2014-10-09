@@ -37,7 +37,8 @@
 				<div class="col-md-6">
 					<div class="banner-text">
 				  		<h3>Shop, Eat & Cab With Dash!</h3>
-						<h5>With just 3 simple steps, you can use Dash to make an instant <br> and secure payment at retail stores, F&B outlets, and even taxis. <br> Bonus: Enjoy exclusive deals and offers every month when you <br> pay with Dash!</h5>
+						<h4 class="hidden-md hidden-xs hidden-sm">With just 3 simple steps, you can use Dash to make an instant <br> and secure payment at retail stores, F&B outlets, and even taxis. <br> Bonus: Enjoy exclusive deals and offers every month when you <br> pay with Dash!</h4>
+						<h4 class="visible-md visible-xs visible-sm">With just 3 simple steps, you can use Dash to make an instant and secure payment at retail stores, F&B outlets, and even taxis. Bonus: Enjoy exclusive deals and offers every month when you pay with Dash!</h4>
 
 						<ul class="friends">
 							<li><i class="no">1</i>Slide coin to “Pay Businesses”</li>

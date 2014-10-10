@@ -26,16 +26,42 @@
 		swfobject.registerObject("myId4", "9.0.0", "js/vendors/expressInstall.swf");
 		*/
 
-		
+		function msieversion() {
+		        var ua = window.navigator.userAgent;
+		        var msie = ua.indexOf("MSIE ");
+
+		        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)){
+		        	return true;
+		        } else {
+		        	return false;
+		        }
+		            //alert(parseInt(ua.substring(msie + 5, ua.indexOf(".", msie))));
+
+		                         // If another browser, return 0
+		            //alert('otherbrowser');
+
+
+		   return false;
+		}
+
 		var flashvars = {},
-				//params = {wmode:"transparent"},
-				params = {bgcolor:"#F8F8F8"},
-				attributes = {};
-				
+					//params = {wmode:"transparent"},
+					params = {bgcolor:"#F8F8F8"},
+					attributes = {};
+
+		if(msieversion() == false){
+
+		} else {
+			params.wmode = "transparent";
+		}
+
 		swfobject.embedSWF("swf/animation_01.swf", "myId_01", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
 		swfobject.embedSWF("swf/animation_02.swf", "myId_02", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
 		swfobject.embedSWF("swf/animation_03.swf", "myId_03", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
 		swfobject.embedSWF("swf/animation_04.swf", "myId_04", "1360", "728", "10.0.0", "js/vendors/expressInstall.swf" , flashvars, params, attributes);
+
+		
+		
 
 		
 		//swfobject.embedSWF("test.swf", "myId", "300", "120", "9.0.0", "js/vendors/expressInstall.swf");
@@ -46,10 +72,13 @@
 
 	<style type="text/css">
 		.animation-panel .animation-animation{
-			
 			-webkit-backface-visibility: hidden;
 			-webkit-transform-style: preserve-3d;
-			/*-webkit-transform: scale(1);
+
+			/*
+			
+
+			-webkit-transform: scale(1);
 			-webkit-transform: translateZ(0);
 			-webkit-transform: translate3d(0, 0, 0);
 			*/
@@ -63,6 +92,9 @@
 			background: #F8F8F8;
 			z-index: 2000;
 		}
+
+
+
 	</style>
 
 </head>

@@ -1663,6 +1663,12 @@ div.pay-friends, div.pay-business {
         vertical-align: top;
         line-height: 21px;
       }
+      span.visible-md,span.visible-xs,span.visible-sm {
+        display: inline-block!important;
+      }
+      span.link-to {
+        width: 70%;
+      }
       &:before {
         display: none!important;
       }
@@ -1672,12 +1678,26 @@ div.pay-friends, div.pay-business {
 }
 
 div.who-we-are {
+  @media all and (max-width: 992px) {
+    .banner-title {
+      width: 100%!important;
+    }
+  }
   .first-banner-content {
     margin-top: 55px;  
     padding-bottom: 50px;
   }
   .banner-content {
     border-bottom: 1px solid #e1e1e1;
+    @media all and (max-width: 992px) {
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+      .banner-text {
+        padding: 30px 0px;
+      }
+    }
   }
   .last-banner-content {
     margin-bottom: 100px;
@@ -1899,7 +1919,7 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
         span {
           display: inline-block;
           /* float: right; */
-          width: 90%;
+          width: 85%;
           vertical-align: top;
           line-height: 24px;
           b {
@@ -2075,6 +2095,10 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
     padding-top: 70px;
     padding-bottom: 70px;
 
+    @media all and (max-width: 992px) {
+      padding-bottom: 270px;
+    }
+
     a {
       margin-top: -15px;
       color: #08b8ef;
@@ -2083,6 +2107,8 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
       display: block;
     }
   }
+
+
 }
 
 div.dash-advance {

@@ -224,10 +224,10 @@
 				</div>
 
 				<div class="row">
-					<div class="col-md-8 col-md-offset-1">
+					<div class="col-md-8 col-sm-5 col-xs-5 col-md-offset-1">
 						<h3>SERVICE</h3>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 col-sm-5 col-xs-5">
 						<h3>CHARGES</h3>
 					</div>
 				</div>

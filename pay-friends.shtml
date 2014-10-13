@@ -43,7 +43,7 @@
 						<ul>
 							<li><i class="no">1</i><span class="link-to">Slide coin to “Pay Friends”</span></li>
 							<li><i class="no">2</i><span class="link-to">Enter amount to pay</span></li>
-							<li><i class="no">3</i><span class="link-to">Swipe the coin to your friend or simply send it <br> through your phone’s address book</span></li>
+							<li><i class="no">3</i><span class="link-to hidden-md hidden-sm hidden-xs">Swipe the coin to your friend or simply send it <br> through your phone’s address book</span><span class="link-to visible-md visible-xs visible-sm">Swipe the coin to your friend or simply send it through your phone’s address book</span></li>
 						</ul>
 
 						<p>Love how easy it is? Click on the button below to apply now, and get $5 credit instantly!</p>

@@ -118,9 +118,17 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<div class="video">
-						<!-- <img src="images/content/iphone5.png" alt="iphone"> -->
-						<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
+					<div class="video-wrapper">
+						<!-- <div class="video">
+							<img src="images/content/iphone5.png" alt="iphone">
+							<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
+						</div> -->
+						<div class="video-mobile visible-sm visible-xs">
+							<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="video hidden-sm hidden-xs">
+							<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 			</div>

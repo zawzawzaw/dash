@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 
 	$("#nav-mobile").html($("#nav-main").html());
-    $('#nav-mobile').children('ul').append('<li><a href="#login-alert" class="login">Log In</a></li><li><a href="#">Apply Now</a></li>');
+    $('#nav-mobile').children('ul').append('<li><a href="https://my-mcash.dash.com.sg/index/login" class="login">Log In</a></li><li><a href="https://apply.dash.com.sg/easy2/">Apply Now</a></li>');
     $("#nav-trigger span").click(function(){
         console.log('hi')
         if ($("#nav-mobile ul").hasClass("expanded")) {
@@ -68,15 +68,15 @@ $(document).ready(function(){
         //     $('.video').css({ 'margin' : '80px auto', 'left': '0px;' });
         // }
 
-        if ($(this).width() <= 780) { 
-            // var marginRight = $(this).width()-780 + 'px';
+        // if ($(this).width() <= 780) { 
+        //     // var marginRight = $(this).width()-780 + 'px';
             
-            $('.video').css({
-                '-ms-transform-origin': '11% 50%',
-                '-webkit-transform-origin': '11% 50%',
-                'transform-origin': '11% 50%'
-            });
-        }
+        //     $('.video').css({
+        //         '-ms-transform-origin': '11% 50%',
+        //         '-webkit-transform-origin': '11% 50%',
+        //         'transform-origin': '11% 50%'
+        //     });
+        // }
     });
 
     

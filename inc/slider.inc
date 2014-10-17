@@ -52,7 +52,7 @@
 							<h1>SHOP WITH DASH</h1>
 							<h3>For the first time ever, you no longer have to fumble around for your cash or card when paying at your favourite retail stores and eateries. Simply whip out your smartphone and fire up your Dash app to make an instant and secure payment!</h3>
 
-							<button class="cta-btn-2 apply-now">APPLY NOW</button>
+							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 					  </div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
 					 		<img src="images/content/slider-2.png" class="img-responsive visible-xs visible-sm" alt="slider 2">
@@ -85,7 +85,7 @@
 							<h1>PAY FRIENDS THROUGH DASH</h1>
 							<h3>Owe your friend some money from lunch? Don’t bother queueing up at the ATM to withdraw the cash; open your Dash app to transfer the amount instantly and securely to your friend with just one swipe!</h3>
 
-							<button class="cta-btn-2 apply-now">APPLY NOW</button>
+							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
 				 		<img src="images/content/slider-3.png" class="img-responsive visible-xs visible-sm" alt="slider 3">
@@ -123,7 +123,7 @@
 								<!-- <li><i class="fa fa-chevron-right"></i><span>Receive a FitBit Flex, worth $XXXX</span></li> -->
 							</ul>
 
-							<button class="cta-btn-2 apply-now">APPLY NOW</button>
+							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
 				  	<div class="col-md-7 col-sm-12 col-xs-12">
 					 		<img src="images/content/slider-4.png" class="img-responsive visible-xs visible-sm" alt="slider 4">

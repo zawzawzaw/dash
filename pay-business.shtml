@@ -24,7 +24,7 @@
 			<!-- <div class="space100"></div> -->
 			<div class="row">
 				<div class="col-md-12">
-					<h2>how to pay business</h2>
+					<h2>Shop, Eat & Cab with Dash!</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -37,30 +37,32 @@
 				<div class="col-md-6">
 					<div class="banner-text">
 				  		<h3>Shop, Eat & Cab With Dash!</h3>
-						<h4 class="hidden-md hidden-xs hidden-sm">With just 3 simple steps, you can use Dash to make an instant <br> and secure payment at retail stores, F&B outlets, and even taxis. <br> Bonus: Enjoy exclusive deals and offers every month when you <br> pay with Dash!</h4>
-						<h4 class="visible-md visible-xs visible-sm">With just 3 simple steps, you can use Dash to make an instant and secure payment at retail stores, F&B outlets, and even taxis. Bonus: Enjoy exclusive deals and offers every month when you pay with Dash!</h4>
+						<h4 class="hidden-md hidden-xs hidden-sm">With just 3 simple steps, you can use Dash to make an instant <br> and secure payment at retail stores, F&B outlets, and even taxis.</h4>
+						<h4 class="visible-md visible-xs visible-sm">With just 3 simple steps, you can use Dash to make an instant and secure payment at retail stores, F&B outlets, and even taxis.</h4>
 
 						<ul class="friends">
 							<li><i class="no">1</i>Slide coin to “Pay Businesses”</li>
-							<li><i class="no">2</i>Select shop or cab</li>
+							<li><i class="no">2</i>Select shop or cab by entering unique code</li>
 							<li><i class="no">3</i>Enter amount, confirm, and pay</li>
 						</ul>
+
+						<a href="http://www.dash.com.sg/promo.html">Click here to see promotions</a><br><br>
 
 						<p>Love how easy it is? Click on the button below to apply</p>
 
 						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
-						<!-- <a href="#video" class="watch"><button class="watch-video">Watch Video</button></a> -->
 				 	</div>
 				</div>
 				<div class="col-md-5">
 					<!-- <div class="img"></div> -->
 					<img src="images/content/banner-1.png" class="img-responsive" alt="banner-1">
+					<a href="#video" class="watch"><button class="watch-video">Watch Video</button></a>
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content container">
+		<!--<div class="image-text-content container">
 			<div class="row"> 
-				<!-- <div class="col-md-6">
+				<div class="col-md-6">
 					<h3>Promotions</h3>
 					<div class="promo">
 						<div>
@@ -86,7 +88,7 @@
 						</div>
 					</div>
 					
-				</div> -->
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<h2>WATCH VIDEO</h2>
@@ -106,7 +108,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		<!-- <div class="space50"></div>
 		<div class="space30"></div> -->
 		<div class="image-text-content container">
@@ -233,7 +235,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-md-6">
 								<div class="logos">
 									<div class="logos-cell">
@@ -241,7 +243,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="row">
 							<div class="col-md-6"></div>
 						</div>

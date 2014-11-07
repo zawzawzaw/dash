@@ -29,9 +29,11 @@
 					<div class="row">
 						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
 							<h1>WHAT IS DASH?</h1>
-							<h3>A mobile wallet not only saves you the hassle of carrying “real” money but also makes everyday transactions a breeze – and that’s what Dash is about!</h3>
+							<h3 class="hidden-md hidden-xs hidden-sm">Dash lets you pay businesses and friends <br> through your mobile phone. Download Dash <br> from the Apple App Store or Google Play <br> to get $5 free instantly.</h3>
 
-							<p>Download Dash now and get $5 free instantly.</p>
+							<h3 class="visible-md visible-xs visible-sm">Dash lets you pay businesses and friends through your mobile phone. Download Dash from the Apple App Store or Google Play to get $5 free instantly.</h3>
+
+							<!-- <p>Download Dash now and get $5 free instantly.</p> -->
 
 							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
@@ -50,7 +52,8 @@
 					<div class="row">
 						<div class="carousel-caption col-md-6 col-sm-12 col-xs-12">
 							<h1>SHOP WITH DASH</h1>
-							<h3>For the first time ever, you no longer have to fumble around for your cash or card when paying at your favourite retail stores and eateries. Simply whip out your smartphone and fire up your Dash app to make an instant and secure payment!</h3>
+							<h3 class="hidden-md hidden-xs hidden-sm">Use Dash to pay at your favourite retail stores <br> and eateries. Simply fire up your Dash app <br> on your smartphone to make an instant and secure payment.</h3>
+							<h3 class="visible-md visible-xs visible-sm">Use Dash to pay at your favourite retail stores and eateries. Simply fire up your Dash app on your smartphone to make an instant and secure payment.</h3>
 
 							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 					  </div> 
@@ -83,7 +86,8 @@
 					<div class="row">
 						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
 							<h1>PAY FRIENDS THROUGH DASH</h1>
-							<h3>Owe your friend some money from lunch? Don’t bother queueing up at the ATM to withdraw the cash; open your Dash app to transfer the amount instantly and securely to your friend with just one swipe!</h3>
+							<h3 class="hidden-md hidden-xs hidden-sm">Owe your friend cash from lunch? <br> Don’t bother with withdrawing cash at the ATMs. <br>Transfer the amount to your friend’s mobile number in just one swipe with the Dash app.</h3>
+							<h3 class="visible-md visible-xs visible-sm">Owe your friend cash from lunch? Don’t bother with withdrawing cash at the ATMs. Transfer the amount to your friend’s mobile number in just one swipe with the Dash app.</h3>
 
 							<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">APPLY NOW</button></a>
 				  	</div> 
@@ -116,10 +120,12 @@
 					<div class="row">
 						<div class="carousel-caption col-md-5 col-sm-12 col-xs-12">
 							<h1>DASH EASY</h1>
-							<h3>Dash Easy is a savings account that supplements your Dash app and lets you earn a higher interest so you get more bang for your buck! Plus, you can use Dash Easy to:</h3>
+							<h3 class="hidden-md hidden-xs hidden-sm">Dash Easy is a mobile cash account offered <br> by SingTel linked seamlessly to a savings account <br> offered by Standard Chartered Bank (Singapore) Limited.</h3>
+							<h3 class="visible-md visible-xs visible-sm">Dash Easy is a mobile cash account offered by SingTel linked seamlessly to a savings account offered by Standard Chartered Bank (Singapore) Limited.</h3>
 
 							<ul>
-								<li><i class="fa fa-chevron-right"></i><span>Top up Dash so you can perform your daily transactions (e.g. making payments at shops)</span></li>
+								<li><i class="fa fa-chevron-right"></i><span>Apply now and login to your Dash app to immediately find a free $5 welcome bonus.</span></li>
+								<!-- <li><i class="fa fa-chevron-right"></i><span>Top up Dash so you can perform your daily transactions (e.g. making payments at shops)</span></li> -->
 								<!-- <li><i class="fa fa-chevron-right"></i><span>Receive a FitBit Flex, worth $XXXX</span></li> -->
 							</ul>
 

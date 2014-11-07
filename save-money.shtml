@@ -53,7 +53,7 @@
 								</div>
 							</div>
 							<div class="col-md-12">
-								<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-4 apply-now">Get Dash Easy</button></a>
+								<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
 							</div>
 						</div>
 						
@@ -102,7 +102,7 @@
 						<h3>Dash Easy Savings Account</h3>
 						<ul>
 							<li><i class="fa fa-chevron-right"></i><span>Unlock greater savings of up to 2% interest p.a.</span></li>
-							<li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li>
+							<!-- <li><i class="fa fa-chevron-right"></i><span>Get rewarded with gifts, including the FitBit Flex</span></li> -->
 							<li><i class="fa fa-chevron-right"></i><span>Dash Easy ATM Card for ATM transactions, cash deposits at CDMs and NETS payments</span></li>
 							<li><i class="fa fa-chevron-right"></i><span>Dash Banking with Dash Easy ATM Security Token Card</span></li>
 						</ul>
@@ -127,7 +127,7 @@
 						<div class="signup-text-button">
 							<p class="interested">I'm Interested </p>
 							<a href="https://apply.dash.com.sg/easy2/" target="_blank">
-								<button class="cta-btn-2 apply-now">Sign Up Now</button>
+								<button class="cta-btn-2 apply-now">Apply Now</button>
 							</a>
 						</div>
 					</div>
@@ -212,13 +212,11 @@
 				</div>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 all-title-text">
-						<p class="title-text">There are no fees & charges for signing up for or using Dash Easy.</p>
+						<p class="title-text">There are no fees and charges for signing up for Dash Easy or using it to pay business and friends.</p>
 
-						<p class="title-text">You can use your Dash mCash Account to pay friends and businesses at no charge. 
-						And transferring money between your Dash mCash Account and 
-						Dash Easy Savings Account is also free.</p>
+						<p class="title-text">There are no fees for you Dash Easy Savings Account as well.</p>
 
-						<p class="title-text">As for your Dash Easy Savings Account, there are no fees and charges:</p>
+						<!-- <p class="title-text">As for your Dash Easy Savings Account, there are no fees and charges:</p> -->
 
 					</div>
 				</div>

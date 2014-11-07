@@ -43,24 +43,28 @@
 						<ul>
 							<li><i class="no">1</i><span class="link-to">Slide coin to “Pay Friends”</span></li>
 							<li><i class="no">2</i><span class="link-to">Enter amount to pay</span></li>
-							<li><i class="no">3</i><span class="link-to hidden-md hidden-sm hidden-xs">Swipe the coin to your friend or simply send it <br> through your phone’s address book</span><span class="link-to visible-md visible-xs visible-sm">Swipe the coin to your friend or simply send it through your phone’s address book</span></li>
+							<li>
+								<i class="no">3</i>
+								<span class="link-to hidden-md hidden-sm hidden-xs">Swipe the coin to your friend or simply send it <br> through your phone’s address book</span>
+								<!-- <span class="link-to visible-md visible-xs visible-sm">Swipe the coin to your friend or simply send it through your phone’s address book</span> -->
+							</li>
 						</ul>
 
 						<p>Love how easy it is? Click on the button below to apply now, and get $5 credit instantly!</p>
 
 						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
-						<!-- <a href="#video" class="watch"><button class="cta-btn watch-video">Watch Video</button></a> -->
 				 	</div>
 				</div>
 				<div class="col-md-5">
 					<!-- <div class="img-friends"></div> -->
 					<img src="images/content/banner-2.png" class="img-responsive" alt="banner-2">
+					<a href="#video" class="watch"><button class="cta-btn watch-video">Watch Video</button></a>
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content container">
+		<!-- <div class="image-text-content container">
 			<div class="row"> 
-				<!-- <div class="col-md-6">
+				<div class="col-md-6">
 					<h3>Promotions</h3>
 					<div class="promo">
 						<div>
@@ -86,7 +90,7 @@
 						</div>
 					</div>
 					
-				</div> -->
+				</div>
 				<div class="row">
 					<div class="col-md-12">
 						<h2>WATCH VIDEO</h2>
@@ -106,7 +110,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="space100"></div>
 	</div>
 

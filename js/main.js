@@ -1,8 +1,39 @@
 $(document).ready(function(){
-    $('.carousel').carousel({
-        interval: 9000,
-        pause: "false"
-    });
+   
+    function getUrlParameter(sParam)
+    {
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) 
+        {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) 
+            {
+                return sParameterName[1];
+            }
+        }
+    }      
+
+    var banner = getUrlParameter('b');
+
+    if(banner) {
+
+
+        var banner = parseInt(banner);
+        
+        $('.carousel').carousel({
+            pause: true,
+            interval: false           
+        });
+
+        $('.carousel').carousel(banner);
+        
+     }else {
+        $('.carousel').carousel({
+            interval: 9000,
+            pause: "false"
+        });
+     }
 
 	$("#nav-mobile").html($("#nav-main").html());
     $('#nav-mobile').children('ul').append('<li><a href="https://my-mcash.dash.com.sg/index/login" class="login">Log In</a></li><li><a href="https://apply.dash.com.sg/easy2/">Apply Now</a></li>');

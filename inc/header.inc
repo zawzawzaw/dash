@@ -11,6 +11,7 @@
 								<li><a href="pay-business.shtml">Pay Business</a></li>
 								<li><a href="pay-friends.shtml">Pay Friends</a></li>
 								<li><a href="save-money.shtml">Save Money</a></li>
+								<li><a href="http://www.dash.com.sg/promo.html">Get Deals</a></li>
 								<li><a href="http://faq.dash.com.sg/">FAQS</a></li>
 								<li><a href="https://contact.dash.com.sg/">Contact us</a></li>
 							</ul>

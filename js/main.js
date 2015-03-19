@@ -63,7 +63,16 @@ $(document).ready(function(){
      }
 
 	$("#nav-mobile").html($("#nav-main").html());
-    $('#nav-mobile').children('ul').append('<li><a href="https://my-mcash.dash.com.sg/index/login" class="login">Log In</a></li><li><a href="https://apply.dash.com.sg/easy2/">Apply Now</a></li>');
+    //$('#nav-mobile').children('ul').append('<li><a href="https://my-mcash.dash.com.sg/index/login" class="login">Log In</a></li><li><a href="https://apply.dash.com.sg/easy2/">Apply Now</a></li>');
+    
+    var nav_mobile_str = [
+        '<li><a href="https://my-mcash.dash.com.sg/index/login">mCash</a></li>',
+        '<li><a href="#login-alert" class="login">Online Banking</a></li>',
+        '<li><a href="https://apply.dash.com.sg/easy2/">Apply Now</a></li>'
+    ].join('');
+    $('#nav-mobile').children('ul').append(nav_mobile_str);
+
+
     $("#nav-trigger span").click(function(){
         console.log('hi')
         if ($("#nav-mobile ul").hasClass("expanded")) {
@@ -90,6 +99,14 @@ $(document).ready(function(){
         height: 300,
         autoDimensions: false,
         closeBtn : false 
+    });
+
+    $('#nav-mobile a.login').click(function(event){
+        var mobile_menu = $("#nav-mobile .main-menu");
+        if(mobile_menu.hasClass('expanded')){
+            mobile_menu.hide(0);
+            mobile_menu.removeClass('expanded')
+        }
     });
 
     $(window).on('resize', function(){

@@ -787,6 +787,7 @@ body, html{
           display: inline-block;
           margin-left: 20px;
           vertical-align: middle;
+          width: 20px;
         }
         .watch-video {
           background: url('../images/icons/play.png') no-repeat left center;
@@ -1609,12 +1610,18 @@ div.home {
 
 }
 
+
+
+
 // PAY BUSINESS
 
 div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abroad, div.who-we-are, div.terms, div.make-it-right {
   padding-bottom: 164px!important;
 
   .banner-content {
+
+
+
     /*padding-top: 162px;*/
     @media all and (max-width: 992px) {
       padding-top: 103px;
@@ -1638,6 +1645,40 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
     margin-bottom: 30px;
   }
 
+  a.watch {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    width: 20px;
+  }
+  .watch-video {
+    background: url('../images/icons/play.png') no-repeat left center;
+    background-color: none;
+    border: none;
+    color: @light-blue;
+    /*padding-left: 40px;*/
+    .avenirnextltpro-demi;
+    display: block;
+    height: 60px;
+    /*margin-top: 10px;*/
+    vertical-align: middle;
+    display: block;
+    width: 190px;
+    &:hover {
+      background: url('../images/icons/play-2.png') no-repeat left center;
+      color: @dark-blue;
+    }
+  }
+  @media all and (max-width: 992px) {
+    .watch-video {
+      background: url('../images/icons/play.png') no-repeat left center;
+      &:hover {
+        background: url('../images/icons/play-2.png') no-repeat left center;
+      }
+    }
+  }
+
+  /*
   .watch-video {
     padding: 18px 15px;
     background: url('../images/icons/play.png') no-repeat 0px 10px;
@@ -1646,7 +1687,7 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
     color: @light-blue;
     padding-left: 40px;
     .avenirnextltpro-demi;
-    /*margin-left: 38%;*/
+    //margin-left: 38%;
     margin: 0 auto;
     display: inline-block;
     height: 44px;
@@ -1659,6 +1700,7 @@ div.pay-business, div.pay-friends, div.dash-easy, div.dash-advance, div.dash-abr
       color: @dark-blue;
     }
   }
+  */
 
   button.apply-now {
     padding: 20px 25px;
@@ -2864,7 +2906,7 @@ div.dash-easy, div.dash-advance, div.dash-abroad {
     padding-bottom: 70px;
 
     @media all and (max-width: 992px) {
-      /*padding-bottom: 270px;*/
+      padding-bottom: 270px;
     }
 
     a {
@@ -3227,4 +3269,48 @@ div#copyright-wrapper{
 }
 
 
+// DASH WHO WE ARE
+div.who-we-are{
 
+  .banner .banner-title{
+    .avenirnextltpro-regular;
+    text-align: left;
+  }
+}
+
+// DASH ADVANCED MOBILE
+@media all and (max-width: 992px) {
+  div.dash-advance{
+    .image-text-content .feature-text br{
+      display: none;
+    }
+    .great-gifts p br{
+      display: inline !important;
+    }
+    #promo-tnc li br{
+      display: none;
+    }
+    .fee-and-charges{
+      p br{
+        display: none;
+      }
+      h3 br{
+        display: none;
+      }
+    }
+    .eligible{
+      li br{
+        display: none;
+      }
+    }
+    .please-note{
+      p br{
+        display: none;
+      }
+    }
+    .extra-text-content-2{
+      padding-bottom: 30px;
+    }
+
+  }
+}

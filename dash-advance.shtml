@@ -468,7 +468,7 @@
 			</div>
 		</div>
 
-		<div class="text-content container">
+		<div class="text-content container fee-and-charges">
 			<div class="row"> 
 				<div class="col-md-12">
 					<h2>ARE THERE ANY FEES & CHARGES?</h2>
@@ -480,7 +480,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-5 col-md-offset-1">
 					<h3>You'll need to pay for</h3>
 					
@@ -489,17 +489,22 @@
 					<h3>How much?</h3>			
 				</div>
 			</div>
-			<div class="row">
+
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-10 col-md-offset-1">
 					<hr class="grey-border">
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
+					<h3 class="hidden-md hidden-lg">You'll need to pay for &amp; how much?</h3>
+					<div class="space10 hidden-md hidden-lg"></div>
 					<h5 class="text-title">First year's annual fee </h5>
 					<p>First year annual fee will be deducted from your approved <br> loan amount</p>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>$199</p>			
 				</div>
 			</div>
@@ -509,7 +514,12 @@
 					<hr class="grey-border">
 				</div>
 			</div>
-			<div class="row">
+
+
+
+
+
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-5 col-md-offset-1">
 					<h3>You'll need to pay only if you're late <br> for payments</h3>
 					
@@ -518,17 +528,21 @@
 					<h3>How much?</h3>			
 				</div>
 			</div>
-			<div class="row">
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-10 col-md-offset-1">
 					<hr class="grey-border">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
+					<h3 class="hidden-md hidden-lg">You'll need to pay only if you're late for payments &amp; how much?</h3>
+					<div class="space10 hidden-md hidden-lg"></div>
+
 					<h5 class="text-title">Subsequent annual fees until end of tenor</h5>
 					<p>If we do not receive your payment by the due date for any month <br> in the past 12 months</p>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>$50 per year</p>			
 				</div>
 			</div>
@@ -537,12 +551,16 @@
 					<hr class="grey-border">
 				</div>
 			</div>
+
+
+
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<h5 class="text-title">Revised EIR</h5>
 					<p>Applies if payment is not received by payment due date twice <br> within 6 consecutive months</p>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>4% p.a. will be added to the original EIR on your entire Dash Advance outstanding balance. Revised EIR will be reinstated to original EIR if payment due is made in full by the payment due date for 6 consecutive months.</p>			
 				</div>
 			</div>
@@ -557,6 +575,7 @@
 					<p>If we do not receive minimum payment by the due date</p>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>$60 will be charged if minimum payment is not received by the due date. If instalment amount is not received by the due date, and a balance is carried forward from the relevant statement, finance charges will be calculated on a daily basis at the EIR of 24.455% p.a. (minimum)</p>			
 				</div>
 			</div>
@@ -565,7 +584,11 @@
 					<hr class="grey-border">
 				</div>
 			</div>
-			<div class="row">
+
+
+
+
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-5 col-md-offset-1">
 					<h3>You'll need to pay only if you make changes</h3>
 					
@@ -574,17 +597,21 @@
 					<h3>How much?</h3>			
 				</div>
 			</div>
-			<div class="row">
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-10 col-md-offset-1">
 					<hr class="grey-border">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
+					<h3 class="hidden-md hidden-lg">You'll need to pay only if you make changes &amp; how much?</h3>
+					<div class="space10 hidden-md hidden-lg"></div>
+
 					<h5 class="text-title">Early redemption fee</h5>
 					<p>If you repay in full before your repayment period</p>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>$250 or 3% of outstanding principal, whichever is higher</p>			
 				</div>
 			</div>
@@ -599,10 +626,15 @@
 					<p>If you change your repayment period</p>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>$50 per change</p>			
 				</div>
 			</div>
 		</div>
+
+
+
+
 		<div class="image-text-content eligible container-fluid">
 			<div class="container">
 				<div class="row"> 
@@ -655,7 +687,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="text-content container">
+
+
+
+
+		<div class="text-content container please-note">
 			<div class="row"> 
 				<div class="col-md-12">
 					<h2>IF YOU HAVE ANY OF THE FOLLOWING PRODUCTS WITH STANDARD CHARTERED, PLEASE NOTE:</h2>
@@ -666,7 +702,7 @@
 					<hr>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row visible-lg-block visible-md-block">
 				<div class="col-md-5 col-md-offset-1">
 					<h3>Your Standard Chartered Product Type</h3>
 					
@@ -680,11 +716,15 @@
 					<hr class="grey-border">
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
+					<h3 class="hidden-md hidden-lg">Your Standard Chartered Product Type &amp; how your Standard Chartered Credit Card Account will be affected</h3>
+					<div class="space20 hidden-md hidden-lg"></div>
 					<h5 class="text-title">Credit Card with $500 limit</h5>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>If you earn a salary that ranges between $20,000 and $29,999, your existing credit card account will be closed upon approval of your Dash Advance Personal Loan</p>			
 				</div>
 			</div>
@@ -698,6 +738,7 @@
 					<h5 class="text-title">Any Credit Card other than the above</h5>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p>Your available credit card limit may be used for your Dash Advance Personal Loan</p>			
 				</div>
 			</div>
@@ -711,6 +752,7 @@
 					<h5 class="text-title">Personal Credit</h5>
 				</div>
 				<div class="col-md-5">
+					<div class="space10 hidden-md hidden-lg"></div>
 					<p class="title hidden-md hidden-xs hidden-sm">Your line of credit may be converted into a Dash Advance <br> Personal Loan</p>			
 					<p class="title visible-md visible-xs visible-sm">Your line of credit may be converted into a Dash Advance Personal Loan</p>			
 				</div>

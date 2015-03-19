@@ -39,10 +39,10 @@
 				</div>
 				<div class="col-md-3 col-sm-12 col-xs-12 header-buttons hidden-xs hidden-sm">
 					<div class="btn-menu">
-						<a href="https://my-mcash.dash.com.sg/index/login" class="cta-btn-3 login">LOG IN</a>
+						<a href="#" class="cta-btn-3">LOG IN</a>
 						<ul class="sub-menu">
-							<li><a href="#">mCash</a></li>
-							<li><a href="#">Online Banking</a></li>
+							<li><a href="https://my-mcash.dash.com.sg/index/login">mCash</a></li>
+							<li><a href="#login-alert"  class="login">Online Banking</a></li>
 						</ul>
 					</div>
 					<a href="https://apply.dash.com.sg/easy2/" target="_blank" class="cta-btn-3 apply">APPLY NOW</a>

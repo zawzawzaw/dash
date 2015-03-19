@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -19,9 +19,22 @@
 	
 	<!--#include virtual="inc/header.inc" -->
 
-	<div id="content-wrapper" class="dash-abroad">
-		<div class="banner container">
-			<div class="row">
+	<div id="fixed-ad-wrapper">
+		<div class="fixed-ad">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 fixed-ad-bg">
+						<i class="fa fa-laptop"></i><p>Travel insurance from as low as $20 per trip. Add-on for your digital devices or family services from just $2</p>
+					<a href="https://dashsg.acetravelinsurance.com/" target="_blank" class="cta-btn-3 apply">APPLY DASH ABROAD</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="content-wrapper" class="dash-abroad home">
+		<div class="banner-content container">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<h2>DASH ABROAD</h2>
 				</div>
@@ -30,17 +43,19 @@
 				<div class="col-md-12">
 					<hr>
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-7">
 					<div class="banner-text">
-				  		<h3>WHAT IS DASH ABROAD?</h3>
-						<h4>Forget about cumbersome travel insurance plans. Dash Abroad is a travel insurance plan that you can apply for and customise through your mobile phone.</h4>
+				  		<h1>DASH ABROAD</h1>
+						<h3 class="hidden-md hidden-xs hidden-sm">Dash Abroad is a travel insurance product, underwritten <br>by ACE Insurance Limited (ACE), which allows you to build <br> from the basics, up to your needs. Apply online for as low <br> as $20 with add-on coverage such as digital device <br> protection from $2.</h3>
 
-						<p class="title-text">In addition, you’ll enjoy:</p>
+						<h3 class="visible-md visible-xs visible-sm">Dash Abroad is a travel insurance product, underwritten by ACE Insurance Limited (ACE), which allows you to build from the basics, up to your needs. Apply online for as low as $20 with add-on coverage such as digital device protection from $2.</h3>
+
+						<!-- <p class="title-text">In addition, you’ll enjoy:</p> -->
 
 						<div class="row hidden-xs hidden-sm">
-							<div class="col-md-12">
+							<!-- <div class="col-md-12">
 								<div class="icon-container">
 									<img src="images/icons/cash.png" alt="small mobile">
 									<p>Premiums that start as low as $20</p>
@@ -52,13 +67,13 @@
 									<img src="images/icons/shield.png" alt="small mobile">
 									<p>Flexibility to pick and choose coverage options that best match your needs</p>
 								</div>
-							</div>
+							</div> -->
 							<div class="col-md-12">
-								<a href="https://dashsg.acetravelinsurance.com/" target="_blank"><button class="cta-btn-4 apply-now">Get Dash Abroad</button></a>
+								<a href="https://dashsg.acetravelinsurance.com/" target="_blank"><button class="cta-btn-3 apply-now">Apply Now</button></a>
 							</div>
 						</div>
 
-						<div class="row visible-xs visible-sm">
+						<!-- <div class="row visible-xs visible-sm">
 							<div class="col-xs-12 col-sm-12">
 								<div class="icon-container">
 									<img src="images/icons/cash.png" alt="small mobile">
@@ -76,10 +91,10 @@
 									<p>Flexibility to pick and choose coverage options that best match your needs</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 				 	</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-5">
 					<!-- <div class="img-friends"></div> -->
 					<img src="images/content/banner-7.png" class="img-responsive banner" alt="banner-7">
 				</div>
@@ -97,108 +112,208 @@
 						<hr>
 					</div>
 				</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
 					</div>
-				</div>
+				</div> -->
 				<div class="row">
-					<div class="col-md-4 col-md-offset-1">
-						<h3>BASIC PLAN OF ESSENTIALS</h3>
-						
-					</div>
-					<div class="col-md-7">
-						<ul>
-							<li><i class="fa fa-chevron-right"></i><span>As low as $20 per trip</span></li>
-							<li><i class="fa fa-chevron-right"></i>
-								<span>
+					<div class="col-md-6 feature-text">
+						<h4>BASIC PLAN OF ESSENTIALS</h4>
+						<img src="images/icons/abroad-icon-1.png" class="img-responsive" alt="abroad-icon-1">
+						<div class="center-list">
+							<ul>
+								<li><i class="fa fa-chevron-right"></i><span><b>As low as $20 per trip</b></span></li>
+								<li><i class="fa fa-chevron-right"></i>
 									<b>Includes coverage for:</b>
-									<br>Overseas Medical Expenses of up to $50,000
-									<br>Accidental Death & Disablement of up to $100,000
-									<br>Emergency Medical Evacuation of up to $100,000
-								</span>
+									<p>Overseas Medical Expenses of up to $50,000</p>
+									<p>Accidental Death & Disablement of up to $100,000</p>
+									<p>Emergency Medical Evacuation of up to $100,000</p>
+									<a href="http://www.dash.com.sg/assets/pdf/dash_abroad_infographic.pdf" target="_blank" class="click-here">Click here for what's covered and what's not</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 feature-text">
+						<h4>ADD BENEFITS YOU NEED</h4>
+						<img src="images/icons/abroad-icon-2.png" class="img-responsive" alt="abroad-icon-2">
+						<div class="center-list">
+							<ul>
+								<li><i class="fa fa-chevron-right"></i>
+									<b>Sports Equipment & Oversized Baggage <br> <a class="show-more" href="#sports">Show more</p></a></b>
+									<div id="sports" class="show-more-content">
+										<p>Covers loss of golf equipment, ski, snowboard, snorkel, musical
+										instruments, bicycles, strollers and prams due to robbery, theft or 
+										burglary (max $500 per article or a pair or a set of article)</p>
+									</div>
+								</li>
+								<li><i class="fa fa-chevron-right"></i>
+									<b>Digital Device Protection <br> <a class="show-more" href="#digital">Show more</p></a></b>
+									<div id="digital" class="show-more-content">
+										<p>Covers loss of mCash or mobile wallet as a result of loss of mobile phone
+										due to robbery, theft or burglary and/or loss of or damage
+										to mobile phone due to robbery, theft or burglary.</p>
+									</div>
+								</li>
+								<li><i class="fa fa-chevron-right"></i>
+									<b>Family Services <br> <a class="show-more" href="#family">Show more</p></a></b>
+									<div id="family" class="show-more-content">
+										<p>Covers child guard, pet care, parent care and home guard.</p>
+									</div>
+								</li>
+								<li><i class="fa fa-chevron-right"></i>
+									<b>Overseas Hospital Cash Benefit <br> (minimum 2 Days confinement) <br> <a class="show-more" href="#overseas">Show more</p></a></b>
+									<div id="overseas" class="show-more-content">
+										<p>Pays $100 per day of confinement in an Overseas Hospital.</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-								<a href="http://www.dash.com.sg/assets/pdf/dash_abroad_infographic.pdf" target="_blank" class="click-here">Click here for what's covered and what's not</a>
-							</li>
-						</ul>				
+		<div class="image-text-content what-you-get container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>What you get</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<hr class="grey-border">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-md-offset-1">
-						<h3>ADD BENEFITS YOU NEED</h3>
-						
-					</div>
-					<div class="col-md-7">
-						<ul>
-							<li><i class="fa fa-chevron-right"></i>
-								<span>
-									<b>Sports Equipment & Oversized Baggage</b>
-									<br>Covers loss of golf equipment, ski, snowboard, snorkel, musical 
-									<br>instruments, bicycles, strollers and prams due to robbery, theft or 
-									<br>burglary (max $500 per article or a pair or a set of article)
-								</span>
-							</li>
-							<li><i class="fa fa-chevron-right"></i>
-								<span class="head-text">
-									<b>Digital Device Protection</b>
-									<br>Covers loss of mCash or mobile wallet as a result of loss of mobile phone 
-									<br>due to robbery, theft or burglary and/or loss of or damage
-									<br>to mobile phone due to robbery, theft or burglary.
-								</span>
-							</li>
-							<li><i class="fa fa-chevron-right"></i>
-								<span>
-									<b>Family Services</b>
-									<br>Covers child guard, pet care, parent care and home guard.
-								</span>
-							</li>
-							<li><i class="fa fa-chevron-right"></i>
-								<span>
-									<b>Overseas Hospital Cash Benefit (minimum 2 Days confinement)</b>
-									<br>Pays $100 per day of confinement in an Overseas Hospital.
-								</span>
-							</li>
-						</ul>				
+					<div class="col-md-12">
+						<hr>
 					</div>
 				</div>
 				<!-- <div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-md-offset-1">
-						<h3>find out more</h3>
-					</div>
-					<div class="col-md-7">
-						<ul>
-							<li><i class="fa fa-chevron-right"></i><span class="link-to">Where can I travel and when am I covered?</span></li>
-							<li><i class="fa fa-chevron-right"></i><span class="link-to">Do I qualify for Dash Abroad?</span></li>
-							<li><i class="fa fa-chevron-right"></i><span class="link-to">Can I buy this plan for my spouse and children?</span></li>
-							<li><i class="fa fa-chevron-right"></i><span class="link-to">How do I make a claim?</span></li>
-							<li><i class="fa fa-chevron-right"></i><span class="link-to">How do I contact your customer servicing officers?</span></li>
-							<li><i class="fa fa-chevron-right"></i><span class="link-to">Other FAQs</span></li>
-						</ul>				
-					</div>
 				</div> -->
 				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<hr class="grey-border">
+					<div class="col-md-4 feature-text">
+						<div class="scroll-to-content">
+							<img src="images/content/asean.png" class="img-responsive" alt="asean">
+							<p class="hidden-md hidden-xs hidden-sm">Brunei, Cambodia, Indonesia, Laos, Malaysia, <br> Myanmar, Philippines, Vietnam, and Thailand</p>
+							<p class="visible-md visible-xs visible-sm">Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Vietnam, and Thailand</p>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="bottom-header">Dash Abroad Travel Insurance is presented by <br> Standard Chartered and underwritten by ACE</h4>
-						<a href="https://dashsg.acetravelinsurance.com/" target="_blank" class="center-btn"><button class="cta-btn-2 apply-now">Get Dash Abroad</button></a>
+					<div class="col-md-4 feature-text">
+						<div class="scroll-to-content">
+							<img src="images/content/asia.png" class="img-responsive" alt="asia">
+							<p class="hidden-md hidden-xs hidden-sm">Australia, Brunei, Cambodia, China, Hong Kong, <br> India, Indonesia, Japan, Korea, Laos, Macau, <br> Malaysia, Mongolia, Myanmar, New Zealand, <br> Philippines, Sri Lanka, Taiwan, Thailand, <br> Timor-Leste, and Vietnam</p>
+							<p class="visible-md visible-xs visible-sm">Australia, Brunei, Cambodia, China, Hong Kong, India, Indonesia, Japan, Korea, Laos, Macau, Malaysia, Mongolia, Myanmar, New Zealand, Philippines, Sri Lanka, Taiwan, Thailand, Timor-Leste, and Vietnam</p>
+						</div>
+					</div>
+					<div class="col-md-4 feature-text">
+						<div class="scroll-to-content">
+							<img src="images/content/worldwide.png" class="img-responsive" alt="worldwide">
+							<p class="hidden-md hidden-xs hidden-sm">You'll be fully insured in all countries <br> outside of Singapore, except Cuba.</p>
+							<p class="visible-md visible-xs visible-sm">You'll be fully insured in all countries outside of Singapore, except Cuba.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="image-text-content what-you-get container-fluid">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-12">
+						<h2>WHO IS COVERED?</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<hr>
+					</div>
+				</div>
+				<!-- <div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<hr class="grey-border">
+					</div>
+				</div> -->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-4 feature-text">
+								<a href="#payfriends" class="scroll-to-content">
+									<img src="images/content/who-cover-1.png" class="img-responsive" alt="who cover 1">
+								</a>
+							</div>
+							<div class="col-md-4 feature-text">
+								<a href="#paybusiness" class="scroll-to-content">
+									<img src="images/content/who-cover-2.png" class="img-responsive" alt="who cover 2">
+								</a>
+							</div>
+							<div class="col-md-4 feature-text">
+								<a href="#savemoney" class="scroll-to-content">
+									<img src="images/content/who-cover-3.png" class="img-responsive" alt="who cover 3">
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p class="highlight">Single Trip</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4 feature-text">
+								<h4>INSURED</h4>
+								<p>One adult aged 18 and travelling alone.</p>
+							</div>
+							<div class="col-md-4 feature-text">
+								<h4>FAMILY</h4>
+								<p class="hidden-md hidden-xs hidden-sm">Any one or two <br> adults aged 18 and <br> above travelling with any number of children.</p>
+								<p class="visible-md visible-xs visible-sm">Any one or two adults aged 18 and above travelling with any number of children.</p>
+							</div>
+							<div class="col-md-4 feature-text">
+								<h4>GROUP OF INDIVIDUALS</h4>
+								<p>More than one adult aged 18 and above travelling together.</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-md-offset-1">
+						<div class="row">
+							<div class="col-md-6 feature-text">
+								<a href="#payfriends" class="scroll-to-content">
+									<img src="images/content/who-cover-4.png" class="img-responsive" alt="who cover 1">
+								</a>
+							</div>
+							<div class="col-md-6 feature-text">
+								<a href="#paybusiness" class="scroll-to-content">
+									<img src="images/content/who-cover-5.png" class="img-responsive" alt="who cover 2">
+								</a>
+							</div>							
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<p class="highlight">Annual Plan</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 feature-text">
+								<h4>INSURED</h4>
+								<p class="hidden-md hidden-xs hidden-sm">One adult <br> aged 18 and above <br> travelling alone.</p>
+								<p class="visible-md visible-xs visible-sm">One adult aged 18 and above travelling alone.</p>
+							</div>
+							<div class="col-md-6 feature-text">
+								<h4>FAMILY</h4>
+								<p>Two adults aged 18 and above who are travelling with their legal children.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<a href="http://www.dash.com.sg/assets/pdf/dash_abroad_infographic.pdf" class="full-merchant-list">For more information, please visit Dash Abroad FAQ.<i class="fa fa-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="container extra-text-content">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">

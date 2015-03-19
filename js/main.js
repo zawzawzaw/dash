@@ -1,3 +1,26 @@
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
 $(document).ready(function(){
    
     function getUrlParameter(sParam)
@@ -18,10 +41,10 @@ $(document).ready(function(){
 
     if(banner) {
 
-
         var banner = parseInt(banner);
         
         $('.carousel').carousel({
+            auto: false,
             pause: true,
             interval: false           
         });
@@ -29,9 +52,13 @@ $(document).ready(function(){
         $('.carousel').carousel(banner);
         
      }else {
+
+        console.log('hi')
+
         $('.carousel').carousel({
+            auto: false,
             interval: 9000,
-            pause: "false"
+            pause: "hover"
         });
      }
 
@@ -63,15 +90,6 @@ $(document).ready(function(){
         height: 300,
         autoDimensions: false,
         closeBtn : false 
-    });
-
-    $(window).scroll(function() {
-    if ($(this).scrollTop() > 1){  
-        // $('#header-wrapper').addClass("sticky");
-      }
-      else{
-        // $('#header-wrapper').removeClass("sticky");
-      }
     });
 
     $(window).on('resize', function(){
@@ -110,5 +128,69 @@ $(document).ready(function(){
         // }
     });
 
-    
+    $('.scroll-to-content').on('click', function(e){
+        e.preventDefault();
+        var currentId = $(this).attr('href');
+        console.log(currentId)
+        $('html, body').animate({
+            scrollTop: $(currentId).offset().top - 63
+        }, 800);
+    });
+
+    $('.promo-tnc').on('click', function(e){
+        e.preventDefault();
+
+        $('#promo-tnc').slideToggle('slow', function(){
+            if($('#promo-tnc').css('display') !== 'none')
+                $('.promo-tnc').children('i').removeClass('fa-plus').addClass('fa-minus');
+            else
+                $('.promo-tnc').children('i').removeClass('fa-minus').addClass('fa-plus');    
+        });
+
+        
+    });
+
+
+    $('.show-more').on('click', function(e){
+        e.preventDefault();
+
+        var $showmore = $(this);
+        var link = $showmore.attr('href');
+        $(link).slideToggle('slow', function(){
+            if($(link).css('display') !== 'none')
+                $showmore.text('Show less')
+            else
+                $showmore.text('Show more');
+        });
+    })
+
+    var scrolled = false;
+    $(window).on('scroll resize', function() {
+        var scrollPos = $(window).scrollTop();
+        
+
+        if( ( scrollPos != 0 ) ) {
+            console.log('scrolling')
+            if(scrolled==false) {
+                scrolled = true;
+                $(".fixed-ad-bg").slideToggle();
+            }
+                
+        }       
+        else if( ( scrollPos === 0 ) ) {
+            if($(".fixed-ad-bg").css('display')!=='none') {
+                $(".fixed-ad-bg").slideToggle();
+                scrolled = false;
+            }
+        }
+    });
+
+    $('.rate_table').on('click', function(e){
+        e.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $("#rate_table").offset().top - 100
+        }, 800);
+
+    });
 });

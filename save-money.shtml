@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -19,9 +19,9 @@
 	
 	<!--#include virtual="inc/header.inc" -->
 
-	<div id="content-wrapper" class="dash-easy">
-		<div class="banner container">
-			<div class="row">
+	<div id="content-wrapper" class="dash-easy home">
+		<div class="banner-content container">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<h2>DASH EASY</h2>
 				</div>
@@ -30,30 +30,32 @@
 				<div class="col-md-12">
 					<hr>
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="col-md-6">
 					<div class="banner-text">
-				  		<h3>WHAT IS DASH EASY?</h3>
-						<h4>Offered by Standard Chartered Bank (Singapore) Limited, Dash Easy is a savings account that supplements your Dash app and lets you earn a higher interest so you get more bang for your buck. After signing up for a Dash App, you’ll receive a $5 Welcome Bonus immediately in your Dash Easy account!</h4>
+				  		<h1>SAVE & EARN ATTRACTIVE INTEREST RATES WITH DASH</h1>
+						<!-- <h3>Offered by Standard Chartered Bank (Singapore) Limited, Dash Easy is a savings account that supplements your Dash app and lets you earn a higher interest so you get more bang for your buck. After signing up for a Dash App, you’ll receive a $5 Welcome Bonus immediately in your Dash Easy account!</h3> -->
+						<h3>Offered by Standard Chartered Bank (Singapore) Limited, Dash Easy Savings Account supplements your Dash app and lets you earn attractive interest so you get more bang for your buck.</h3>
+						<h3>After signing up for Dash Easy, you’ll receive a $5 Welcome Bonus immediately in your Dash Easy account!</h3>
 						
 
 						<div class="row hidden-xs hidden-sm">
 							<div class="col-md-12">
 								<div class="icon-container">
 									<img src="images/icons/percentage.png" alt="small mobile">
-									<p>Enjoy greater savings of up to 2% interest per year!</p>
+									<p>Enjoy greater savings.</p> <!-- of up to 2% interest per year! -->
 								</div>
 								<div class="arrow-container">
 									<img src="images/icons/double-arrow.png" alt="double arrows">
 								</div>
 								<div class="icon-container">
-									<img src="images/icons/small-mobile-2.png" alt="small mobile">
+									<img src="images/icons/small-mobile-2.png" class="small-mobile" alt="small mobile">
 									<p>Make an instant and secure payment to shop and cab!</p>
 								</div>
 							</div>
 							<div class="col-md-12">
-								<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
+								<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-3 apply-now">Apply Now</button></a>
 							</div>
 						</div>
 						
@@ -61,7 +63,7 @@
 							<div class="col-xs-12 col-sm-12">
 								<div class="icon-container">
 									<img src="images/icons/percentage.png" alt="small mobile">
-									<p>Enjoy greater savings of up to 2% interest per year!</p>
+									<p>Enjoy greater savings.</p><!--  of up to 2% interest per year! -->
 								</div>
 							</div>
 							<div class="col-xs-12 col-sm-12">
@@ -79,9 +81,9 @@
 
 				 	</div>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<!-- <div class="img-friends"></div> -->
-					<img src="images/content/banner-3.png" class="img-responsive" alt="banner-3">
+					<img src="images/content/banner-3.png" class="banner-img img-responsive" alt="banner-3">
 				</div>
 			</div>
 		</div>
@@ -127,7 +129,7 @@
 						<div class="signup-text-button">
 							<p class="interested">I'm Interested </p>
 							<a href="https://apply.dash.com.sg/easy2/" target="_blank">
-								<button class="cta-btn-2 apply-now">Apply Now</button>
+								<button class="cta-btn-3 apply-now">Apply Now</button>
 							</a>
 						</div>
 					</div>
@@ -168,7 +170,7 @@
 
 					<div class="each-text">
 						<h5>Mobile Service Provider</h5>
-						<p>You can sign up for Dash regardless of your telco relationship, all SingTel, StarHub and M1 mobile customers are welcome.</p>
+						<p>You can sign up for Dash regardless of your telco relationship, all Singtel, StarHub and M1 mobile customers are welcome.</p>
 					</div>
 
 					<div class="each-text">
@@ -177,7 +179,7 @@
 					</div>
 
 					<div class="each-text">
-						<h5>For SingTel and Standard Chartered (Current or Savings Account) customers</h5>
+						<h5>For Singtel and Standard Chartered (Current or Savings Account) customers</h5>
 						<p>Your sign-up will be completed online.</p>
 					</div>
 
@@ -187,7 +189,7 @@
 					</div>
 
 					<div class="each-address">
-						<h5 class="address-title">SingTel shop (Comcentre) </h5>
+						<h5 class="address-title">Singtel shop (Comcentre) </h5>
 						<p>31 Exeter Road, Singapore 239732</p>
 					</div>
 
@@ -322,10 +324,10 @@
 		<div class="extra-text-content container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<p class="title">Payments services are provided by Telecom Equipment Pte Ltd (“SingTel”) and banking products are provided by Standard Chartered Bank (Singapore) 
+					<p class="title">Payments services are provided by Telecom Equipment Pte Ltd (“Singtel”) and banking products are provided by Standard Chartered Bank (Singapore) 
 					Limited (the “Bank”).</p>
 
-					<p>Dash mCash is governed by SingTel’s Dash Payment Service Terms, mCash Terms and mWallet Terms. Dash Easy Savings Account is governed by the Bank’s Customer Terms, Current/Cheque/Savings Account and Time Deposit Terms and Dash Easy Savings Account Product Terms. <a href="terms.shtml">Click here</a> to view the terms 
+					<p>Dash mCash is governed by Singtel’s Dash Payment Service Terms, mCash Terms and mWallet Terms. Dash Easy Savings Account is governed by the Bank’s Customer Terms, Current/Cheque/Savings Account and Time Deposit Terms and Dash Easy Savings Account Product Terms. <a href="terms.shtml">Click here</a> to view the terms 
 					and conditions.</p>
 					 
 					<p>#Dash Easy Savings Account Hashtag-for-Interest Promotion Terms and Conditions apply. <a href="terms.shtml">Click here</a> for full Terms and Conditions.</p>

@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -50,7 +50,7 @@
 			
 			<div class="row">
 				<div class="col-md-12">
-					<h3>SingTel's Terms & Conditions</h3>
+					<h3>Singtel's Terms & Conditions</h3>
 				</div>
 			</div>
 

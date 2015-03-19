@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -19,28 +19,43 @@
 	
 	<!--#include virtual="inc/header.inc" -->
 
-	<div id="content-wrapper" class="dash-advance">
-		<div class="banner container">
-			<div class="row">
+	<div id="fixed-ad-wrapper">
+		<div class="fixed-ad">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 fixed-ad-bg">
+						<i class="fa fa-laptop"></i><p>Get approval-in-principle within 60 seconds. Plus, get a great gift and a $100 voucher upon approval.</p>
+						<a href="https://apply.dash.com.sg/advance/" target="_blank" class="cta-btn-3 apply">APPLY DASH ADVANCE</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="content-wrapper" class="dash-advance home">
+		<div class="banner-content container">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<h2>DASH ADVANCE</h2>
 				</div>
-			</div>
-			<div class="row">
+			</div> -->
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<hr>
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-7">
 					<div class="banner-text">
-				  		<h3>WHAT IS DASH ADVANCE?</h3>
-						<h4>Need cash quickly? Dash Advance lets you apply for a personal loan entirely through your mobile phone. No fuss, no muss.</h4>
+				  		<h1>DASH ADVANCE</h1>
+						<h3 class="hidden-md hidden-xs hidden-sm">Dash Advance, offered by Standard Chartered Bank (Singapore) <br>Limited, is a seamless way to apply for a loan. In 15 mins, you can <br> apply online or via your mobile phone, which even lets you upload <br> your income documents by taking a photo and get approval-in- <br>principle <sup>#</sup> within 60 seconds.</h3>
 
-						<p class="title-text">In addition, you’ll enjoy:</p>
+						<h3 class="visible-md visible-xs visible-sm">Dash Advance, offered by Standard Chartered Bank (Singapore) Limited, is a seamless way to apply for a loan. In 15 mins, you can apply online or via your mobile phone, which even lets you upload your income documents by taking a photo and get approval-in-principle <sup>#</sup> within 60 seconds.</h3>
 
-						<div class="row hidden-xs hidden-sm">
-							<div class="col-md-12">
+						<!-- <p class="title-text">In addition, you’ll enjoy:</p> -->
+
+						<div class="row">
+							<!-- <div class="col-md-12">
 								<div class="icon-container">
 									<img src="images/icons/dial.png" alt="small mobile">
 									<p>Approval in principle in less than 60 seconds</p>
@@ -53,12 +68,12 @@
 									<p>An advance of up to 4x your monthly salary</p>
 									<p>Interest rates as low as 4.98% p.a.</p>
 								</div>
-							</div>
+							</div> -->
 							<div class="col-md-12">
-								<a href="https://apply.dash.com.sg/advance/" target="_blank"><button class="cta-btn-4 apply-now">Get Dash Advance</button></a>
+								<a href="https://apply.dash.com.sg/advance/" target="_blank"><button class="cta-btn-3 apply-now">Apply Now</button></a>
 							</div>
 						</div>
-						<div class="row visible-xs visible-sm">
+						<!-- <div class="row visible-xs visible-sm">
 							<div class="col-xs-12 col-sm-12">
 								<div class="icon-container">
 									<img src="images/icons/dial.png" class="" alt="small mobile">
@@ -77,20 +92,21 @@
 									<p>Interest rates as low as 4.98% p.a.</p>
 								</div>
 							</div>
-						</div>
+						</div> -->
 				 	</div>
 				</div>
-				<div class="col-md-3 col-md-offset-1">
+				<div class="col-md-4">
 					<!-- <div class="img-friends"></div> -->
-					<img src="images/content/banner-8.png" class="img-responsive banner" alt="banner-8">
+					<img src="images/content/Advance-banner.png" class="img-responsive banner" alt="banner-8">
+					<!-- <img src="images/content/banner-8.png" class="img-responsive banner" alt="banner-8"> -->
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content  container-fluid">
+		<div class="image-text-content container-fluid">
 			<div class="container">
 				<div class="row"> 
 					<div class="col-md-12">
-						<h2>What you get</h2>
+						<h2>FEATURES</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -98,15 +114,65 @@
 						<hr>
 					</div>
 				</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
 					</div>
-				</div>
+				</div> -->
 				<div class="row">
+					<div class="col-md-4 feature-text">
+						<div>
+							<h4>Advance Loan</h4>
+							<img src="images/icons/newAdvance-icon-2.png" class="img-responsive" alt="advance-icon-1">
+							<ul>
+								<li><i class="fa fa-chevron-right"></i>
+									<span>Up to 4X your monthly salary <br> (maximum $200,000*) <br>
+										If your annual income is $30,000 and above.
+									</span>
+								</li>
+								<li><i class="fa fa-chevron-right"></i>
+									<span>Up to 2X your monthly salary 
+										<br>If your annual income is $30,000 and above.
+									</span>
+
+									<a href="http://www.dash.com.sg/assets/pdf/dash-advance-tncs.pdf" target="_blank" class="click-here">Read the Dash Advance Terms and Conditions here</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 feature-text">
+						<div>
+							<h4>Low Interest Rates</h4>
+							<img src="images/icons/newAdvance-icon-3.png" class="img-responsive" alt="advance-icon-2">
+							<ul>
+								<li><i class="fa fa-chevron-right"></i>
+									<span>From as low as 4.98% p.a. (EIR 9.21% p.a.**) <br> depending on your approved loan amount <br> and tenor.
+									</span>
+
+									<a href="#rate_table" target="_blank" class="rate_table click-here">Rate Tables</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 feature-text">
+						<div>
+							<h4>Flexible Repayment Period</h4>
+							<img src="images/icons/newAdvance-icon-1.png" class="img-responsive" alt="advance-icon-3">
+							<ul>
+								<li><i class="fa fa-chevron-right"></i>
+									<span>1 to 5 years, it's your choice. We've built a <br> calculator in our online 
+										application form so <br> you can decide for yourself what's best for <br> you – 
+										choose the loan amount and tenor <br> you want and we'll tell you how 
+										much you <br> need to repay monthly.
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="row">
 					<div class="col-md-4 col-md-offset-1">
 						<h3>AN ADVANCE OF</h3>
-						
 					</div>
 					<div class="col-md-7">
 						<ul>
@@ -122,9 +188,9 @@
 
 								<a href="http://www.dash.com.sg/assets/pdf/dash-advance-tncs.pdf" target="_blank" class="click-here">Read the Dash Advance Terms and Conditions here</a>
 							</li>
-						</ul>				
+						</ul>
 					</div>
-				</div>
+				</div> 
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
@@ -171,8 +237,235 @@
 					<div class="col-md-10 col-md-offset-1">
 						<hr class="grey-border">
 					</div>
-				</div>
+				</div> -->
 			</div>	
+		</div>
+
+		<div class="table-text-content container">
+			<div class="row"> 
+				<div class="col-md-12">
+					<h2 id="rate_table">RATES TABLE</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p>Interest rates from as low as 4.98% p.a. (Effective Interest Rate of 9.21% p.a.**) depending on your loan amount and repayment period</p>
+
+					<div class="table-responsive">
+						<table class="table table-bordered">
+					      	<thead>
+					      		<tr>
+						          <th></th>
+						          <th colspan="8" class="table-head">Approved Loan Amount</th>
+						        </tr>
+						        <tr>
+						          <th></th>
+						          <th colspan="2" class="table-head">$75,000 and above</th>
+						          <th colspan="2" class="table-head">$74,999 - $15,000</th>
+						          <th colspan="2" class="table-head">$14,999 - $5000</th>
+						          <th colspan="2" class="table-head">$4999 and below</th>
+						        </tr>
+						        <tr>
+						          <th>Loan Tenor</th>
+						          <th>AR (% p.a.)</th>
+						          <th>EIR (% p.a.)</th>
+						          <th>AR (% p.a.)</th>
+						          <th>EIR <sup>2</sup> (% p.a.)</th>
+						          <th>AR (% p.a.)</th>
+						          <th>EIR <sup>3</sup> (% p.a.)</th>
+						          <th>AR (% p.a.)</th>
+						          <th>EIR <sup>4</sup> (% p.a.)</th>
+						        </tr>
+					      	</thead>
+					      	<tbody>
+						        <tr>
+						          <th scope="row">1-year</th>
+						          <td>4.98</td>
+						          <td>9.44</td>
+						          <td>7.8</td>
+						          <td>16.01</td>
+						          <td>8.58</td>
+						          <td>19.34</td>
+						          <td>9.8</td>
+						          <td>27.56</td>
+						        </tr>
+						        <tr>
+						          <th scope="row">2-year</th>
+						          <td>4.98</td>
+						          <td>9.49</td>
+						          <td>7.8</td>
+						          <td>15.35</td>
+						          <td>8.58</td>
+						          <td>17.76</td>
+						          <td>9.8</td>
+						          <td>23.14</td>
+						        </tr>
+						        <tr>
+						          <th scope="row">3-year</th>
+						          <td>4.98</td>
+						          <td>9.41</td>
+						          <td>7.5</td>
+						          <td>14.39</td>
+						          <td>8.38</td>
+						          <td>16.63</td>
+						          <td>10.8</td>
+						          <td>22.99</td>
+						        </tr>
+						        <tr>
+						          <th scope="row">4-year</th>
+						          <td>4.98</td>
+						          <td>9.31</td>
+						          <td>7.5</td>
+						          <td>14.06</td>
+						          <td>8.38</td>
+						          <td>16.08</td>
+						          <td>10.8</td>
+						          <td>21.80</td>
+						        </tr>
+						        <tr>
+						          <th scope="row">5-year</th>
+						          <td>4.98</td>
+						          <td>9.21</td>
+						          <td>6.88</td>
+						          <td>12.75</td>
+						          <td>8.08</td>
+						          <td>15.16</td>
+						          <td>10.8</td>
+						          <td>20.92</td>
+						        </tr>
+					      	</tbody>
+					    </table>
+					</div>
+
+				    <p class="small-bold">AR: Applied/Flat Interest Rate EIR: Effective Interest Rate</p>
+
+					<p class="small">1 is based on average loan amount of $100,000, 2 is based on average loan amount of $20,000, 3 is based on average loan amount of $10,000, 4 is based on average loan amount of $4,000.</p>
+
+					<p class="small">The Applied Rates of 4.98% p.a. and 6.88% p.a. are valid for Dash Advance applications submitted and approved by 31 August 2014 and 30 June 2015 respectively.</p>
+
+					<p class="small">** Interest rate applies for approved loan amount of $75,000 and above, the EIR is calculated taking into consideration the first year annual fee of $199 and is based on the average loan amount of $100,000 and loan tenor of 5 years.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="loan-calculator-content container">
+			<div class="row"> 
+				<div class="col-md-12">
+					<h2>LOAN CALCULATOR</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="images/content/loan-calculator.jpg" class="calculator-img img-responsive" alt="calculator">
+				</div>
+			</div>
+		</div> -->
+
+		<div class="image-text-content great-gifts container-fluid">
+			<div class="row"> 
+				<div class="col-md-12">
+					<h2>GREAT GIFTS</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<p class="hidden-md hidden-xs hidden-sm">Once your Dash Advance application is approved, you’ll receive a $100 Isetan Shopping Voucher <br> and depending on your personal loan amount and the length of your tenor,<br> one of these great gifts† (gifts available while stocks last).</p>
+					<p class="visible-md visible-xs visible-sm">Once your Dash Advance application is approved, you’ll receive a $100 Isetan Shopping Voucher and depending on your personal loan amount and the length of your tenor ,one of these great gifts<br>† (gifts available while stocks last).</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-2 feature-text">
+					<div>
+						<img src="images/content/isetan_voucher.jpg" class="img-responsive" alt="isetan voucher">
+						<p class="title hidden-md hidden-xs hidden-sm">Isetan voucher, worth $100</p>
+						<p class="title visible-md visible-xs visible-sm">Isetan voucher, <br> worth $100</p>
+						<p class="hidden-md hidden-xs hidden-sm">(as long as your Dash Advance <br> application is approved)</p>
+						<p class="visible-md visible-xs visible-sm">(as long as your <br> Dash Advance <br> application is approved)</p>
+					</div>
+				</div>
+				<div class="col-md-2 feature-text">
+					<div>
+						<img src="images/content/camera.jpg" class="img-responsive" alt="camera">
+						<p class="title hidden-md hidden-xs hidden-sm">Canon EOS 1100D Kit <br> (EF S18-55 IS II), worth $799 <br>(Also available in brown)</p> 
+						<p class="title visible-md visible-xs visible-sm">Canon EOS 1100D Kit (EF S18-55 IS II), <br> worth $799 <br> (Also available <br> in brown)</p>
+						<p class="hidden-md hidden-xs hidden-sm"> (with approved loan amount <br> of $30,000 and above)</p>
+						<p class="visible-md visible-xs visible-sm"> (with approved <br> loan amount <br> of $30,000 and above)</p>
+					</div>
+				</div>
+				<div class="col-md-2 feature-text">
+					<div>
+						<img src="images/content/galaxy_tab.jpg" class="img-responsive" alt="galaxy tab">
+						<p class="title hidden-md hidden-xs hidden-sm">Samsung GALAXY Tab 3 (7.0") <br> WiFi worth $298 </p> 
+						<p class="title visible-md visible-xs visible-sm">Samsung GALAXY <br> Tab 3 (7.0") WiFi <br> worth $298 </p> 
+						<p class="hidden-md hidden-xs hidden-sm">(with approved loan amount <br> of $13,000 to $29,999)</p>
+						<p class="visible-md visible-xs visible-sm">(with approved <br> loan amount <br> of $13,000 to $29,999)</p>
+					</div>
+				</div>
+				<div class="col-md-2 feature-text">
+					<div>
+						<img src="images/content/luggage.jpg" class="img-responsive" alt="luggage">
+						<p class="title hidden-md hidden-xs hidden-sm">American Tourister DC Superlite II Spinner 66cm Expandable, <br> worth $120 <br>(Also available in red and purple) </p>
+						<p class="title visible-md visible-xs visible-sm">American Tourister DC Superlite II Spinner 66cm Expandable, <br> worth $120 <br> (Also available in <br> red and purple)</p>
+						<p> (with approved loan amount <br> of $5,000 to $12,999)</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a href="#" class="promo-tnc">† Dash Advance Personal Loan Promotion Terms and Conditions apply <i class="fa fa-plus"></i></a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div id="promo-tnc">
+						<div class="col-md-5 col-md-offset-1">
+							<h5 class="text-title">$100 Isetan Shopping Vouchers</h5>
+							<ul>
+								<li>a. Offer is available from 1 August 2014 to 28 February 2015 ("Promotion Period") to applicants who submit an application for a Dash Advance Personal Loan.</li>
+								<li>b. Subject to the terms herein, an applicant will receive a $100 Isetan Shopping Voucher ("Voucher") if:<br>
+								i. he submits an application for a Dash Advance Personal Loan during the Promotion Period; and<br>
+								ii. such application is approved by us by 28 February 2015.</li>
+								<li>c. The Vouchers are issued on a while stocks last basis and are limited to one Voucher per applicant. Vouchers will be posted to the applicant’s mailing address within 60 days from the date of approval of the application. The Vouchers are non-transferable and cannot be exchanged for cash, credit or kind and will be subject to the terms and conditions of the merchant. We will not replace lost, stolen, torn or defaced Vouchers.</li>
+							</ul>
+							<h5 class="text-title">Free Gift</h5>
+							<ul>
+								<li>a. Offer is limited to one gift per customer and is valid for all Dash Advance Personal Loan applications approved between 1 August 2014 to&nbsp;28 February 2015&nbsp; ("Promotion Period"), while stocks last. A redemption letter will be mailed to eligible customers’ mailing address within 50 working days of the date of approval of the Dash Advance Personal Loan application. The customer’s Dash Advance Personal Loan account must remain valid, subsisting, and in good standing as determined by the Bank as at the date of redemption. The gift is not exchangeable for cash or any other items. No payment or compensation will be made for uncollected, lost or damaged gifts.</li>
+								<li>b. The following free gift is strictly for new Dash Advance Personal Loan account holders who meet the following conditions:<br>
+								i. Canon EOS 1100D Kit (EF S18-55 IS II) for approved Dash Advance Personal Loan amount of $30,000 and above, with loan tenor of 36, 48 or 60 months (collectively "Tenors").<br>
+								ii. Canon Selphy CP910 Compact Photo Printer for approved Dash Advance Personal Loan amount of $13,000 to $29,999, with the Tenors.<br>
+								iii. American Tourister DC Superlite II Spinner 66cm Expandable for approved Dash Advance Personal Loan amount of $5,000 to $12,999, with the Tenors.</li>
+							</ul>
+						</div>
+						<div class="col-md-5">
+							<h5 class="text-title">General</h5>
+							<ul>
+								<li>a. We reserve the right to determine at our discretion whether an applicant has (a) successfully submitted an application during the Promotion Period; and (b) met all other requirements of the Promotion.</li>
+								<li>b. We are not an agent of the merchant and assume no liability or responsibility for the acts or defaults of the merchant or defects in the goods or services offered in this Promotion. Any such dispute about the quality or service standard is to be resolved directly with the merchant. Vouchers and free gifts are subject to the merchant's terms and conditions.</li>
+								<li>c. We or the merchant may at any time vary, modify, add or delete any of the terms and conditions governing the Vouchers and free gifts or this Promotion, including terminating or withdrawing the Promotion and/or substituting the Vouchers and free gifts with any item of equivalent or similar value, without prior notice or reason.</li>
+								<li>d. Our decision in all matters arising out of or in connection with this Promotion is final and conclusive and no correspondence will be entertained.</li>
+								<li>e. We shall not at any time be responsible or held liable for any defect in or malfunction of the gift, and/or for any loss, injury, damage, or harm suffered or incurred by or in connection with the use of the gift by any person. Any dispute between a customer and the vendor in respect of any gift redeemed shall be resolved directly with the vendor.</li>
+								<li>f. All information is correct at the time of publishing.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="text-content container">
@@ -204,7 +497,7 @@
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<h5 class="text-title">First year's annual fee </h5>
-					<p>First year annual fee will be deducted from your approved loan amount</p>
+					<p>First year annual fee will be deducted from your approved <br> loan amount</p>
 				</div>
 				<div class="col-md-5">
 					<p>$199</p>			
@@ -218,7 +511,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
-					<h3>You'll need to pay only if you're late for payments</h3>
+					<h3>You'll need to pay only if you're late <br> for payments</h3>
 					
 				</div>
 				<div class="col-md-5">
@@ -233,7 +526,7 @@
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<h5 class="text-title">Subsequent annual fees until end of tenor</h5>
-					<p>If we do not receive your payment by the due date for any month in the past 12 months</p>
+					<p>If we do not receive your payment by the due date for any month <br> in the past 12 months</p>
 				</div>
 				<div class="col-md-5">
 					<p>$50 per year</p>			
@@ -247,7 +540,7 @@
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<h5 class="text-title">Revised EIR</h5>
-					<p>Applies if payment is not received by payment due date twice within 6 consecutive months</p>
+					<p>Applies if payment is not received by payment due date twice <br> within 6 consecutive months</p>
 				</div>
 				<div class="col-md-5">
 					<p>4% p.a. will be added to the original EIR on your entire Dash Advance outstanding balance. Revised EIR will be reinstated to original EIR if payment due is made in full by the payment due date for 6 consecutive months.</p>			
@@ -310,7 +603,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="image-text-content container-fluid">
+		<div class="image-text-content eligible container-fluid">
 			<div class="container">
 				<div class="row"> 
 					<div class="col-md-12">
@@ -348,7 +641,7 @@
 					<div class="col-md-10 col-md-offset-1">
 						<h5 class="text-title">Mobile Phone Carrier</h5>
 						<ul>
-							<li><i class="fa fa-chevron-right"></i><span>You can sign up for Dash Advance regardless of your telco relationship, all SingTel, Starhub and M1 mobile customers are welcome.</span></li>
+							<li><i class="fa fa-chevron-right"></i><span>You can sign up for Dash Advance regardless of your telco relationship, all Singtel, Starhub and M1 mobile customers <br> are welcome.</span></li>
 						</ul>
 					</div>
 				</div>
@@ -418,7 +711,8 @@
 					<h5 class="text-title">Personal Credit</h5>
 				</div>
 				<div class="col-md-5">
-					<p>Your line of credit may be converted into a Dash Advance Personal Loan</p>			
+					<p class="title hidden-md hidden-xs hidden-sm">Your line of credit may be converted into a Dash Advance <br> Personal Loan</p>			
+					<p class="title visible-md visible-xs visible-sm">Your line of credit may be converted into a Dash Advance Personal Loan</p>			
 				</div>
 			</div>
 			<div class="row">
@@ -431,7 +725,7 @@
 					<div class="signup-text-button">
 						<p class="interested">Need an advance? </p>
 						<a href="https://apply.dash.com.sg/advance/" target="_blank">
-							<button class="cta-btn-2 apply-now">Get Dash Advance</button>
+							<button class="cta-btn-3 apply-now">Apply Now</button>
 						</a>
 					</div>
 				</div>

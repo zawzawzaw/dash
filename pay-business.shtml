@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -19,10 +19,10 @@
 	
 	<!--#include virtual="inc/header.inc" -->
 
-	<div id="content-wrapper" class="pay-business">
-		<div class="banner container">
+	<div id="content-wrapper" class="pay-business home">
+		<div class="banner-content container">
 			<!-- <div class="space100"></div> -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<h2>Shop, Eat & Cab with Dash!</h2>
 				</div>
@@ -31,32 +31,35 @@
 				<div class="col-md-12">
 					<hr>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="row">
+			<div class="row greyline">
 				<div class="col-md-6">
 					<div class="banner-text">
-				  		<h3>Shop, Eat & Cab With Dash!</h3>
-						<h4 class="hidden-md hidden-xs hidden-sm">With just 3 simple steps, you can use Dash to make an instant <br> and secure payment at retail stores, F&B outlets, and even taxis.</h4>
-						<h4 class="visible-md visible-xs visible-sm">With just 3 simple steps, you can use Dash to make an instant and secure payment at retail stores, F&B outlets, and even taxis.</h4>
+				  		<h1 class="hidden-md hidden-xs hidden-sm">SHOP, EAT & CAB WITH DASH</h1>
+				  		<h1 class="visible-md visible-xs visible-sm">SHOP, EAT & CAB <br> WITH DASH</h1>
+						<h3 class="hidden-md hidden-xs hidden-sm">With just 3 simple steps, you can use Dash to make <br> an instant and secure payment at retail stores, <br> F&B outlets, and even taxis.</h3>
+						<h3 class="visible-md visible-xs visible-sm">With just 3 simple steps, you can use Dash to make an instant and secure payment at retail stores, F&B outlets, and even taxis.</h3>
 
 						<ul class="friends">
-							<li><i class="no">1</i>Slide coin to “Pay Businesses”</li>
-							<li><i class="no">2</i>Select shop or cab by entering unique code</li>
-							<li><i class="no">3</i>Enter amount, confirm, and pay</li>
+							<li><i class="no">1</i><span>Slide coin to “Pay Businesses”</span></li>
+							<li><i class="no">2</i><span>Select shop or cab by entering unique code</span></li>
+							<li><i class="no">3</i><span>Enter amount, confirm, and pay</span></li>
 						</ul>
 
-						<a href="http://www.dash.com.sg/promo.html">Click here to see promotions</a><br><br>
+						<a href="http://www.dash.com.sg/promo.html" class="click-here">Click here to see promotions</a><br><br>
 
-						<p>Love how easy it is? Click on the button below to apply</p>
+						<!-- <h3>Love how easy it is? Click on the button below to apply</h3> -->
+						<h3>Love how easy it is? Click on the button below to apply and get your $5 welcome bonus to spend at any Dash merchant today.</h3>
 
-						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
+						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-3 apply-now">Apply Now</button></a>
+						<a href="#video" class="watch"><button class="watch-video">Watch Video</button></a>
 				 	</div>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<!-- <div class="img"></div> -->
 					<img src="images/content/banner-1.png" class="img-responsive" alt="banner-1">
-					<a href="#video" class="watch"><button class="watch-video">Watch Video</button></a>
+					<!-- <a href="#video" class="watch"><button class="watch-video">Watch Video</button></a> -->
 				</div>
 			</div>
 		</div>
@@ -141,14 +144,14 @@
 							<div class="col-md-6">
 								<div class="logos">
 									<div class="logos-cell">
-										<a href="#"><i class="seveneleven"></i></a>		
+										<a href="http://www.dash.com.sg/where-to-dash.html#7-Eleven"><i class="seveneleven"></i></a>		
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="logos">
 									<div class="logos-cell">
-										<a href="#"><i class="watsons"></i></a>
+										<a href="http://www.dash.com.sg/where-to-dash.html#watsons"><i class="watsons"></i></a>
 									</div>
 								</div>
 							</div>
@@ -185,14 +188,14 @@
 							<div class="col-md-6">
 								<div class="logos">
 									<div class="logos-cell">
-										<a href="#"><i class="pizzahut"></i></a>
+										<a href="http://www.dash.com.sg/where-to-dash.html#pizza-hut"><i class="pizzahut"></i></a>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="logos">
 									<div class="logos-cell">
-										<a href="#"><i class="kfc"></i></a>
+										<a href="http://www.dash.com.sg/where-to-dash.html#KFC"><i class="kfc"></i></a>
 									</div>
 								</div>
 							</div>
@@ -208,7 +211,7 @@
 							<div class="col-md-6">
 								<div class="logos">
 									<div class="logos-cell">
-										<a href="#"><i class="koi"></i></a>
+										<a href="http://www.dash.com.sg/where-to-dash.html#koi"><i class="koi"></i></a>
 									</div>
 								</div>
 							</div>
@@ -253,7 +256,7 @@
 			<div class="space50"></div>
 			<div class="row">
 				<div class="col-md-12">
-					<a href="#" class="full-merchant-list">Click to see full merchant list <i class="fa fa-chevron-right"></i></a>
+					<a href="http://www.dash.com.sg/where-to-dash.html" class="full-merchant-list">Click to see full merchant list <i class="fa fa-chevron-right"></i></a>
 				</div>
 			</div>
 		</div>

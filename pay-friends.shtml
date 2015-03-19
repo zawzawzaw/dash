@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -19,10 +19,10 @@
 	
 	<!--#include virtual="inc/header.inc" -->
 
-	<div id="content-wrapper" class="pay-friends">
-		<div class="banner container">
+	<div id="content-wrapper" class="pay-friends home">
+		<div class="banner-content container">
 			<!-- <div class="space100"></div> -->
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-md-12">
 					<h2>how to pay friends</h2>
 				</div>
@@ -31,34 +31,35 @@
 				<div class="col-md-12">
 					<hr>
 				</div>
-			</div>
+			</div> -->
 
 			<div class="row">
 				<div class="col-md-6">
 					<div class="banner-text">
-				  		<h3>Pay Your Friends With Dash!</h3>
-						<h4 class="hidden-md hidden-xs hidden-sm">For an instant, secure way to transfer money to your <br> friends, look no further than Dash. Plus, it’s ridiculously <br> easy to use – all it takes is one swipe!</h4>
-						<h4 class="visible-md visible-xs visible-sm">For an instant, secure way to transfer money to your friends, look no further than Dash. Plus, it’s ridiculously easy to use – all it takes is one swipe!</h4>
+				  		<h1>PAY YOUR FRIENDS WITH DASH</h1>
+						<h3 class="hidden-md hidden-xs hidden-sm">For an instant, secure way to transfer money to your <br> friends, look no further than Dash. Plus, it’s ridiculously <br> easy to use – all it takes is one swipe!</h3>
+						<h3 class="visible-md visible-xs visible-sm">For an instant, secure way to transfer money to your friends, look no further than Dash. Plus, it’s ridiculously easy to use – all it takes is one swipe!</h3>
 
 						<ul>
-							<li><i class="no">1</i><span class="link-to">Slide coin to “Pay Friends”</span></li>
-							<li><i class="no">2</i><span class="link-to">Enter amount to pay</span></li>
+							<li><i class="no"><span>1</span></i><span class="link-to">Slide coin to “Pay Friends”</span></li>
+							<li><i class="no"><span>2</span></i><span class="link-to">Enter amount to pay</span></li>
 							<li>
-								<i class="no">3</i>
-								<span class="link-to hidden-md hidden-sm hidden-xs">Swipe the coin to your friend or simply send it <br> through your phone’s address book</span>
-								<!-- <span class="link-to visible-md visible-xs visible-sm">Swipe the coin to your friend or simply send it through your phone’s address book</span> -->
+								<i class="no"><span>3</span></i>
+								<span class="link-to hidden-lg hidden-md hidden-sm hidden-xs">Swipe the coin to your friend or simply send it <br> through your phone’s address book</span>
+								<span class="link-to visible-lg visible-md visible-xs visible-sm">Swipe the coin to your friend or simply send it through your phone’s address book</span>
 							</li>
 						</ul>
 
-						<p>Love how easy it is? Click on the button below to apply now, and get $5 credit instantly!</p>
+						<h3 class="hidden-md hidden-xs hidden-sm">Love how easy it is? Click on the button below to apply <br> and get your $5 welcome bonus now.</h3>
+						<h3 class="visible-md visible-xs visible-sm">Love how easy it is? Click on the button below to apply and get your $5 welcome bonus now.</h3>
 
-						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-2 apply-now">Apply Now</button></a>
+						<a href="https://apply.dash.com.sg/easy2/" target="_blank"><button class="cta-btn-3 apply-now">Apply Now</button></a>
+						<a href="#video" class="watch"><button class="cta-btn watch-video">Watch Video</button></a>
 				 	</div>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-6">
 					<!-- <div class="img-friends"></div> -->
 					<img src="images/content/banner-2.png" class="img-responsive" alt="banner-2">
-					<a href="#video" class="watch"><button class="cta-btn watch-video">Watch Video</button></a>
 				</div>
 			</div>
 		</div>
@@ -112,6 +113,7 @@
 			</div>
 		</div> -->
 		<div class="space100"></div>
+		<div class="space50"></div>
 	</div>
 
 	<div style="display:none">

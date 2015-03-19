@@ -119,7 +119,7 @@
 	<!--#include virtual="inc/slider.inc" -->
 
 	<div id="content-wrapper" class="home">
-		<div class="video-text-content">
+		<!-- <div class="video-text-content">
 			<div class="row">
 				<div class="col-md-12">
 					<h2>how dash can change your life</h2>
@@ -133,10 +133,10 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="video-wrapper">
-						<!-- <div class="video">
+						<div class="video">
 							<img src="images/content/iphone5.png" alt="iphone">
 							<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
-						</div> -->
+						</div>
 						<div class="video-mobile visible-sm visible-xs">
 							<iframe width="534" height="338" src="//www.youtube.com/embed/l-bTlb13RUU?modestbranding=0&;rel=0&;showinfo=0;autohide=1" frameborder="0" allowfullscreen></iframe>
 						</div>
@@ -146,7 +146,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<!-- <div class="image-text-content container">
 			<div class="row">
@@ -185,6 +185,131 @@
 			<div class="space50 hidden-sm hidden-xs"></div>
 		</div> -->
 
+		<div class="image-text-content container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Features</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 feature-text">
+					<a href="#payfriends" class="scroll-to-content">
+						<h4>Pay Friends</h4>
+						<img src="images/icons/newHome-icon-1.png" class="img-responsive" alt="home-icon-1">
+						<p>Transfer money to your friends instantly and securely. Simply swipe or select their contact.</p>
+					</a>
+				</div>
+				<div class="col-md-3 feature-text">
+					<a href="#paybusiness" class="scroll-to-content">
+						<h4>Pay Business</h4>
+						<img src="images/icons/newHome-icon-2.png" class="img-responsive" alt="home-icon-2">
+						<p>Pay with Dash at over 20,000 merchant points from retail shops, F&B outlets and convenience stores to taxis with no admin fee.</p>
+					</a>
+				</div>
+				<div class="col-md-3 feature-text">
+					<a href="#savemoney" class="scroll-to-content">
+						<h4>Save Money</h4>
+						<img src="images/icons/newHome-icon-3.png" class="img-responsive" alt="home-icon-3">
+						<p class="hidden-md hidden-xs hidden-sm">Get higher interest on your <br> money with a Dash Easy <br> Savings Account.</p>
+						<p class="visible-md visible-xs visible-sm">Get higher interest on your money with a Dash Easy Savings Account.</p>
+					</a>
+				</div>
+				<div class="col-md-3 feature-text">
+					<a href="#getdeals" class="scroll-to-content">
+						<h4>Get Deals</h4>
+						<img src="images/icons/newHome-icon-4.png" class="get-deals img-responsive" alt="home-icon-4">
+						<p>Save more when you pay with Dash. Get Dashing and enjoy exclusive promotions today.</p>
+					</a>
+				</div>
+			</div>
+			<div class="space50 hidden-sm hidden-xs"></div>
+		</div>
+
+	 	<div id="payfriends">
+			<div class="banner-content image-text-content container">
+				<div class="row">
+					<div class="col-md-5 col-sm-12 col-xs-12">
+						<h1>PAY FRIENDS</h1>
+						<img src="images/content/newSlider-3.png" class="mobile-img-first img-responsive slider-images hidden-md hidden-lg" alt="slider 3">
+						<h3 class="hidden-md hidden-xs hidden-sm">Do away with awkward run-out-of-cash moments, <br> skip the queues at the ATM and save the hassle of noting your friend’s account number. Pay your friends instantly and securely with Dash. Simply swipe or select their contacts from the phonebook, or pay anyone by entering their phone number.</h3>
+						<h3 class="visible-md visible-xs visible-sm">Do away with awkward run-out-of-cash moments, skip the queues at the ATM and save the hassle of noting your friend’s account number. Pay your friends instantly and securely with Dash. Simply swipe or select their contacts from the phonebook, or pay anyone by entering their phone number.</h3>
+
+						<a href="pay-friends.shtml" target="_blank"><button class="cta-btn-3 apply-now">Learn More</button></a>
+				  	</div> 
+				  	<div class="col-md-7 hidden-xs hidden-sm">
+				 		<img src="images/content/newSlider-3.png" class="img-responsive slider-images" alt="slider 3">
+				 	</div>					  	
+			  	</div>
+			</div>
+		</div>
+
+		<div id="paybusiness">
+			<div class="banner-content image-text-content container">
+				<div class="row">
+					<div class="col-md-7 hidden-xs hidden-sm">
+					 	<img src="images/content/newSlider-2.png" class="img-responsive slider-images" alt="slider 2">
+				 	</div>						  	
+					<div class="col-md-5 col-sm-12 col-xs-12">
+						<div class="caption-text">
+							<h1>PAY BUSINESSES</h1>
+							<img src="images/content/newSlider-2.png" class="img-responsive slider-images hidden-md hidden-lg" alt="slider 2">
+							<h3 class="hidden-md hidden-xs hidden-sm">You can pay with Dash conveniently with no admin fee <br> at over 20,000 merchant points islandwide, and this list <br> is always growing.</h3>
+							<h3 class="hidden-md hidden-xs hidden-sm">Sign up now and use your $5 welcome bonus <br> on your Comfort or SMRT taxi fare for your errand runs. <br> Or use it to treat yourself to a meal at Food Republic or <br> a pack of mint at Watsons to freshen up after!</h3>
+							<h3 class="visible-md visible-xs visible-sm">You can pay with Dash conveniently with no admin fee at over 20,000 merchant points islandwide, and this list is always growing.</h3>
+							<h3 class="visible-md visible-xs visible-sm">Sign up now and use your $5 welcome bonus on your Comfort or SMRT taxi fare for your errand runs. Or use it to treat yourself to a meal at Food Republic or a pack of mint at Watsons to freshen up after!</h3>
+
+							<a href="pay-business.shtml" target="_blank"><button class="cta-btn-3 apply-now">Learn More</button></a>
+						</div>
+				  	</div> 
+			  	</div>
+			</div>
+		</div>
+
+		<div id="savemoney">
+			<div class="banner-content image-text-content container">
+				<div class="row">
+					<div class="col-md-5 col-sm-12 col-xs-12">
+						<h1>SAVE MONEY</h1>
+						<img src="images/content/newSlider-4.png" class="img-responsive slider-images hidden-md hidden-lg" alt="slider 4">
+						<h3 class="hidden-md hidden-xs hidden-sm">You will get both a Dash mobile cash account (mCash) (offered by Telecom Equipment Pte Ltd ("Singtel")) <br> and a Dash Easy Savings Account (offered by Standard Chartered Bank (Singapore) Limited) upon sign up. <br> The Dash Easy Savings Account allows you to earn attractive interest rates, and top up your mCash account on-the-go.</h3>
+						<h3 class="visible-md visible-xs visible-sm">You will get both a Dash mobile cash account (mCash) (offered by Telecom Equipment Pte Ltd ("Singtel")) and a Dash Easy Savings Account (offered by Standard Chartered Bank (Singapore) Limited) upon sign up. The Dash Easy Savings Account allows you to earn attractive interest rates, and top up your mCash account on-the-go.</h3>
+
+						<a href="save-money.shtml" target="_blank">
+							<button class="cta-btn-3 apply-now">Learn More</button>
+						</a>
+				  	</div> 
+				  	<div class="col-md-7 hidden-xs hidden-sm">
+				 		<img src="images/content/newSlider-4.png" class="img-responsive slider-images" alt="slider 4">
+				 	</div>						  	
+			  	</div>
+			</div>
+		</div>
+
+		<div id="getdeals">
+			<div class="banner-content image-text-content container">
+				<div class="row">
+					<div class="col-md-7 hidden-xs hidden-sm">
+				 		<img src="images/content/newGet-deal.png" class="img-responsive slider-images" alt="slider 1">
+				 	</div>
+					<div class="col-md-5 col-sm-12 col-xs-12">
+						<div class="caption-text">
+							<h1>GET DEALS</h1>
+							<img src="images/content/newGet-deal.png" class="img-responsive slider-images hidden-md hidden-lg" alt="slider 1">
+							<h3 class="hidden-md hidden-xs hidden-sm">Whether it’s F&B outlets, retail, convenient stores, taxis, <br> or growing your savings, you can always look forward <br> to Dash exclusive deals and promotions . Check out <br> the latest promotions here.</h3>
+							<h3 class="visible-md visible-xs visible-sm">Whether it’s F&B outlets, retail, convenient stores, taxis, or growing your savings, you can always look forward to Dash exclusive deals and promotions . Check out the latest promotions here.</h3>
+
+							<a href="http://www.dash.com.sg/promo.html" target="_blank"><button class="cta-btn-3 apply-now">Learn More</button></a>
+						</div>
+				  	</div> 
+			  	</div>
+			</div>
+		</div>
+
 		<div class="video-text-content-2">
 			<div class="row">
 				<div class="col-md-12">
@@ -198,8 +323,12 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12 download-app-links hidden-sm hidden-xs">
+					<a href="#" class="dash-icon"></a>
 					<a href="https://itunes.apple.com/us/app/dash-singapore/id787113587?ls=1&mt=8" class="app-store"></a>
 					<a href="https://play.google.com/store/apps/details?id=com.scb.dash.android" class="google-play"></a>
+				</div>
+				<div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+					<a href="#" class="dash-icon dash-icon-mobile"></a>
 				</div>
 				<div class="col-sm-12 col-xs-12 visible-sm visible-xs">
 					<a href="https://itunes.apple.com/us/app/dash-singapore/id787113587?ls=1&mt=8" class="app-store app-store-mobile"></a>
@@ -217,7 +346,11 @@
 	<!-- <script type="text/javascript" src="js/plugins/jquery.dash_home_slider_animation.js"></script> -->
 	<script type="text/javascript" src="js/vendors/gsap/TweenLite.min.js"></script>
 	<script type="text/javascript" src="js/vendors/gsap/plugins/CSSPlugin.min.js"></script>
+	<script type="text/javascript" src="js/plugins/jquery.mobile.custom.min.js"></script>
 	<script type="text/javascript">
+		jQuery(document).on("mobileinit", function() {
+		    jQuery.mobile.autoInitializePage = false;
+		});
 		jQuery(document).ready(function($) {
 			//$('.animation-container').dash_home_slider_animation({});
 
@@ -264,6 +397,33 @@
 				item.data("index",i);
 			}
 
+		    function getUrlParameter(sParam)
+		    {
+		        var sPageURL = window.location.search.substring(1);
+		        var sURLVariables = sPageURL.split('&');
+		        for (var i = 0; i < sURLVariables.length; i++) 
+		        {
+		            var sParameterName = sURLVariables[i].split('=');
+		            if (sParameterName[0] == sParam) 
+		            {
+		                return sParameterName[1];
+		            }
+		        }
+		    }      
+
+    		var banner = getUrlParameter('b');
+
+    		if(banner) {
+    			temp_blink(banner);
+    		}
+
+    		$(".carousel").swiperight(function() {  
+		      $(".carousel").carousel('prev');  
+		    });  
+		    $(".carousel").swipeleft(function() {  
+		      $(".carousel").carousel('next');  
+		    });
+
 			$('.carousel').bind('slide.bs.carousel', function (event) {
 				console.log(event);
 				//console.log($('.carousel').find('.item.next, .item.prev'));
@@ -293,6 +453,75 @@
 			temp_blink(0);
 
 		});
+
+	</script>
+	<script>
+	  // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+	 //  // 3. This function creates an <iframe> (and YouTube player)
+  //     //    after the API code downloads.
+	 //  var player;
+	 //  function onYouTubePlayerAPIReady() {
+	 //    player = new YT.Player('ytplayer', {
+		// 	height: '338',
+		// 	width: '534',
+		// 	videoId: 'l-bTlb13RUU',
+		// 	playerVars: {
+		// 		autoplay: 0,
+		// 		enablejsapi: 1,
+		// 		loop: 1,
+		// 		origin: "http://dash.dev"
+		// 	},
+	 //      	events: {
+		//       'onReady': onPlayerReady,
+		//       'onStateChange': onPlayerStateChange
+		//     }
+	 //    });
+
+	 //    function onPlayerReady(event) {
+	 //    	console.log('ready!')
+		// 	var embedCode = event.target.getVideoEmbedCode();
+		// 		event.target.playVideo();
+		// 	if (document.getElementById('embed-code')) {
+		// 		document.getElementById('embed-code').innerHTML = embedCode;
+		// 	}
+		// }
+
+		// var done = false;
+		// function onPlayerStateChange(event) {
+		// 	if (event.data == YT.PlayerState.PLAYING && !done) {
+	 //          	setTimeout(stopVideo, 6000);
+	 //          	done = true;
+	 //        }
+		// }
+		// function stopVideo() {
+  //       	player.stopVideo();
+  //     	}
+	 //  }
+
+	 var player;
+	 function onYouTubeIframeAPIReady() {
+    	player = new YT.Player('player', {
+	        height: '338',
+	        width: '534',
+	        playerVars : {
+              'autoplay' : 0,
+              'rel' : 0,
+              'showinfo' : 0,
+              'showsearch' : 0,
+              'controls' : 1,
+              'loop' : 1,
+              'enablejsapi' : 1,
+              'playlist': 'l-bTlb13RUU'
+            },
+	        videoId: 'l-bTlb13RUU',
+       });
+	}
 	</script>
 
 	

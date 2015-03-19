@@ -10,8 +10,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Dash</title>
-	<meta name="description" content="Hong Leong Group">
-	<meta name="keywords" content="Hong Leong Group">
+	<meta name="description" content="DASH">
+	<meta name="keywords" content="DASH">
 	
 	<!--#include virtual="inc/head.inc" -->
 </head>
@@ -23,7 +23,7 @@
 		<div class="banner container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>WHO WE ARE</h2>
+					<h2>HELLO THERE, WE’RE DASH</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -33,10 +33,12 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 banner-title-wrapper">
 					<!-- <div class="row">
 						<div class="col-md-offset-2 col-md-7"> -->
-							<p class="banner-title">Dash is an easy way to manage your money through your mobile phone. With Dash, you don’t have to visit a bank, deal with troublesome paperwork or even go to an ATM. Dash is hassle-free money management at your fingertips.</p>		
+							<!-- <p class="banner-title">Dash is an easy way to manage your money through your mobile phone. With Dash, you don’t have to visit a bank, deal with troublesome paperwork or even go to an ATM. Dash is hassle-free money management at your fingertips.</p>		 -->
+							<img src="images/content/hello2.jpg" alt="hello 2" class="">
+							<p class="banner-title">We were created by Singtel and Standard Chartered to offer new mobile payments and banking products and services with a difference. With all Dash products, you don’t have to step into a branch or fill out paper forms; instead you can sign up on the go. We’ve done this for savings accounts with Dash Easy, personal loans with Dash Advance and for travel insurance with Dash Abroad. So don’t go to the ATM, go to your phone. Don’t go the bank for a loan, go to your phone. Don’t fill out long paper forms for insurance, go to your phone. We make all money and all money matters more accessible and more personal. Dash is money, updated.</p>
 						<!-- </div>
 					</div> -->
 				</div>
@@ -47,7 +49,8 @@
 					<div class="col-md-5 col-md-offset-1">
 						<div class="banner-text">
 							<h3>DASH EASY</h3>
-							<p>Dash Easy is a mobile wallet that makes everyday transactions convenient. Pay friends, cab drivers, or shopkeepers … all through your phone!</p>
+							<!-- <p>Dash Easy is a mobile wallet that makes everyday transactions convenient. Pay friends, cab drivers, or shopkeepers … all through your phone!</p> -->
+							<p>Dash Easy is the first solution of its kind in Singapore that allows you to pay friends and businesses directly from your mobile phones. Plus, earn attractive interest rates with a linked Dash Easy Savings Account.</p>
 
 							<a href="save-money.shtml" target="blank"><button class="cta-btn-2 learn-more">Learn More</button></a>
 					 	</div>
@@ -68,7 +71,8 @@
 					<div class="col-md-4">
 						<div class="banner-text">
 							<h3>DASH ADVANCE</h3>
-							<p>Dash Advance is a personal loan facility, which you can apply for through your phone. Simply upload photos of supporting documents and receive approval in principle in under 60 seconds.</p>
+							<!-- <p>Dash Advance is a personal loan facility, which you can apply for through your phone. Simply upload photos of supporting documents and receive approval in principle in under 60 seconds.</p> -->
+							<p>Dash Advance, offered by Standard Chartered Bank (Singapore) Limited, is a seamless way to apply for a loan. In 15 mins, you can apply online or via your mobile phone, which even lets you upload your income documents by taking a photo and get approval-in-principle # within 60 seconds.</p>
 
 							<a href="dash-advance.shtml" target="blank"><button class="cta-btn-2 learn-more">Learn More</button></a>
 					 	</div>
@@ -81,7 +85,7 @@
 					<div class="col-md-4 col-md-offset-1">
 						<div class="banner-text">
 							<h3>DASH ABROAD</h3>
-							<p>Dash Abroad is a travel insurance plan, which allows you to pick and choose coverage options that best match your needs.</p>
+							<p>Dash Abroad is a travel insurance product, underwritten by ACE Insurance Limited (ACE), which allows you to build from the basics, up to your needs. Apply online for as low as $20 with add-on coverage such as digital device protection from $2.</p>
 
 							<a href="dash-abroad.shtml" target="blank"><button class="cta-btn-2 learn-more">Learn More</button></a>
 					 	</div>
